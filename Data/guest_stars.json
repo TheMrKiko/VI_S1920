@@ -1,0 +1,1530 @@
+[
+    {
+        "season": 1,
+        "episode": 1,
+        "date": "1999-09-20",
+        "guest_stars": [
+            {
+                "id": 15441,
+                "name": "Mili Avital",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 163695,
+                "name": "Leslie Hendrix",
+                "character": "Dr. Elizabeth Rodgers",
+                "gender": 1
+            },
+            {
+                "id": 1212244,
+                "name": "Daniel Bess",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 52929,
+                "name": "Angie Harmon",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 44845,
+                "name": "Elizabeth Ashley",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 155573,
+                "name": "Irma St. Paule",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 1218215,
+                "name": "Judy Del Giudice",
+                "character": "Judge",
+                "gender": 1
+            },
+            {
+                "id": 47085,
+                "name": "Ronald Guttman",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 171649,
+                "name": "Rebecca Creskoff",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 137529,
+                "name": "Ned Eisenberg",
+                "character": "Jerry Kleinert",
+                "gender": 2
+            },
+            {
+                "id": 1224492,
+                "name": "Steven Zirnkilton",
+                "character": "Opening Announcer (voice, uncredited)",
+                "gender": 2
+            },
+            {
+                "id": 1218080,
+                "name": "Isabel Gillies",
+                "character": "Kathy Stabler",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 2,
+        "date": "1999-09-27",
+        "guest_stars": [
+            {
+                "id": 164003,
+                "name": "Matthew Arkin",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 163695,
+                "name": "Leslie Hendrix",
+                "character": "Dr. Elizabeth Rodgers",
+                "gender": 1
+            },
+            {
+                "id": 27260,
+                "name": "Laila Robins",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 8699,
+                "name": "Michael Nouri",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 170953,
+                "name": "Paul Hecht",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 52929,
+                "name": "Angie Harmon",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 118937,
+                "name": "Dennis Boutsikaris",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 33241,
+                "name": "Michael Gaston",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1041923,
+                "name": "Jeffrey Scaperrotta",
+                "character": "Dickie Stabler",
+                "gender": 2
+            },
+            {
+                "id": 1218080,
+                "name": "Isabel Gillies",
+                "character": "Kathy Stabler",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 3,
+        "date": "1999-10-04",
+        "guest_stars": [
+            {
+                "id": 19277,
+                "name": "Todd Stashwick",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 84422,
+                "name": "Carolyn McCormick",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 65797,
+                "name": "Catherine Dent",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 13939,
+                "name": "Ritchie Coster",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 19392,
+                "name": "Jesse L. Martin",
+                "character": "Ed Green",
+                "gender": 2
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 725,
+                "name": "Jerry Orbach",
+                "character": "Lennie Briscoe",
+                "gender": 2
+            },
+            {
+                "id": 10739,
+                "name": "Bebe Neuwirth",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 1215617,
+                "name": "Felix Solis",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 171672,
+                "name": "Rica Martens",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 109144,
+                "name": "Damian Young",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1041923,
+                "name": "Jeffrey Scaperrotta",
+                "character": "Dickie Stabler",
+                "gender": 2
+            },
+            {
+                "id": 1218080,
+                "name": "Isabel Gillies",
+                "character": "Kathy Stabler",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 4,
+        "date": "1999-10-11",
+        "guest_stars": [
+            {
+                "id": 163695,
+                "name": "Leslie Hendrix",
+                "character": "Dr. Elizabeth Rodgers",
+                "gender": 1
+            },
+            {
+                "id": 1217553,
+                "name": "Joe Lisi",
+                "character": "Officer Sal D'Angelo",
+                "gender": 2
+            },
+            {
+                "id": 19227,
+                "name": "Brad Beyer",
+                "character": "Dennis Caufield",
+                "gender": 2
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232529,
+                "name": "Tom Gerard",
+                "character": "Fredo Valenti",
+                "gender": 0
+            },
+            {
+                "id": 725,
+                "name": "Jerry Orbach",
+                "character": "Lennie Briscoe",
+                "gender": 2
+            },
+            {
+                "id": 1218215,
+                "name": "Judy Del Giudice",
+                "character": "Judge",
+                "gender": 1
+            },
+            {
+                "id": 27492,
+                "name": "Garrett M. Brown",
+                "character": "Officer Peter Ridley",
+                "gender": 2
+            },
+            {
+                "id": 101398,
+                "name": "Erin Broderick",
+                "character": "Maureen Stabler",
+                "gender": 1
+            },
+            {
+                "id": 2117328,
+                "name": "Holiday Segal",
+                "character": "Kathleen Stabler",
+                "gender": 0
+            },
+            {
+                "id": 2117329,
+                "name": "Patricia Cook",
+                "character": "Elizabeth Stabler",
+                "gender": 0
+            },
+            {
+                "id": 1041923,
+                "name": "Jeffrey Scaperrotta",
+                "character": "Dickie Stabler",
+                "gender": 2
+            },
+            {
+                "id": 2284684,
+                "name": "Grenfell Katy",
+                "character": "Mrs. Lynde",
+                "gender": 0
+            },
+            {
+                "id": 1218080,
+                "name": "Isabel Gillies",
+                "character": "Kathy Stabler",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 5,
+        "date": "1999-10-18",
+        "guest_stars": [
+            {
+                "id": 21044,
+                "name": "Lynn Collins",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 51998,
+                "name": "Liza Lapira",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 134178,
+                "name": "Patricia Richardson",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 123557,
+                "name": "John Dossett",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1041923,
+                "name": "Jeffrey Scaperrotta",
+                "character": "Dickie Stabler",
+                "gender": 2
+            },
+            {
+                "id": 1218080,
+                "name": "Isabel Gillies",
+                "character": "Kathy Stabler",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 6,
+        "date": "1999-10-25",
+        "guest_stars": [
+            {
+                "id": 163695,
+                "name": "Leslie Hendrix",
+                "character": "Dr. Elizabeth Rodgers",
+                "gender": 1
+            },
+            {
+                "id": 38524,
+                "name": "Lothaire Bluteau",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 181934,
+                "name": "Al Sharpton",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 110463,
+                "name": "Lauren Stamile",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 52929,
+                "name": "Angie Harmon",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232501,
+                "name": "Tom O'Rourke",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 92276,
+                "name": "Kohl Sudduth",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 171886,
+                "name": "Frank Deal",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 10214,
+                "name": "George Martin",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1041923,
+                "name": "Jeffrey Scaperrotta",
+                "character": "Dickie Stabler",
+                "gender": 2
+            },
+            {
+                "id": 1218080,
+                "name": "Isabel Gillies",
+                "character": "Kathy Stabler",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 7,
+        "date": "1999-11-15",
+        "guest_stars": [
+            {
+                "id": 1214061,
+                "name": "Stephen Bogardus",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 1216182,
+                "name": "Steve Ryan",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 14984,
+                "name": "Jessica Hecht",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232530,
+                "name": "Torquil Campbell",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 133591,
+                "name": "Ian Reed Kesler",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1041923,
+                "name": "Jeffrey Scaperrotta",
+                "character": "Dickie Stabler",
+                "gender": 2
+            },
+            {
+                "id": 1218080,
+                "name": "Isabel Gillies",
+                "character": "Kathy Stabler",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 8,
+        "date": "1999-11-22",
+        "guest_stars": [
+            {
+                "id": 1218028,
+                "name": "Charles Brown",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 1086222,
+                "name": "Bruno Gunn",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 1217615,
+                "name": "Bruce Kirkpatrick",
+                "character": "Malcolm Wolinsky",
+                "gender": 2
+            },
+            {
+                "id": 21143,
+                "name": "Allison Mackie",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 154784,
+                "name": "Dominic Fumusa",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1217281,
+                "name": "Jack Hallett",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1007,
+                "name": "Don Creech",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232531,
+                "name": "Steve Routman",
+                "character": "",
+                "gender": 2
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 9,
+        "date": "1999-11-29",
+        "guest_stars": [
+            {
+                "id": 163695,
+                "name": "Leslie Hendrix",
+                "character": "Dr. Elizabeth Rodgers",
+                "gender": 1
+            },
+            {
+                "id": 88598,
+                "name": "Lourdes Benedicto",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 163670,
+                "name": "Gordon Joseph Weiss",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1217646,
+                "name": "Maria Tucci",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 212797,
+                "name": "Geoffrey Nauffts",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 171733,
+                "name": "Francesca Faridany",
+                "character": "Amy Tanner",
+                "gender": 1
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 10,
+        "date": "2000-01-07",
+        "guest_stars": [
+            {
+                "id": 1229230,
+                "name": "Rob Bartlett",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 45566,
+                "name": "Roger Bart",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 177443,
+                "name": "Tracy Pollan",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 52929,
+                "name": "Angie Harmon",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 2257,
+                "name": "Terry Serpico",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 59118,
+                "name": "Christopher James Baker",
+                "character": "",
+                "gender": 2
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 11,
+        "date": "2000-01-14",
+        "guest_stars": [
+            {
+                "id": 163695,
+                "name": "Leslie Hendrix",
+                "character": "Dr. Elizabeth Rodgers",
+                "gender": 1
+            },
+            {
+                "id": 39388,
+                "name": "Amy Ryan",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 155173,
+                "name": "James McCaffrey",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 52929,
+                "name": "Angie Harmon",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 69750,
+                "name": "Stephen Barker Turner",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 77585,
+                "name": "Anthony Mangano",
+                "character": "Security Officer Kubiak",
+                "gender": 2
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 12,
+        "date": "2000-01-21",
+        "guest_stars": [
+            {
+                "id": 44830,
+                "name": "Deborah Rush",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 41555,
+                "name": "Melissa Sagemiller",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 154769,
+                "name": "Allison Munn",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 53573,
+                "name": "Olek Krupa",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232534,
+                "name": "Spiro Malas",
+                "character": "",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 13,
+        "date": "2000-02-04",
+        "guest_stars": [
+            {
+                "id": 59739,
+                "name": "Otto Sanchez",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 163695,
+                "name": "Leslie Hendrix",
+                "character": "Dr. Elizabeth Rodgers",
+                "gender": 1
+            },
+            {
+                "id": 58312,
+                "name": "Angie Everhart",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 18287,
+                "name": "Ken Garito",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 91461,
+                "name": "Michelle Hurd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 68763,
+                "name": "Dean Winters",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 99035,
+                "name": "Kathryn Meisle",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 159850,
+                "name": "Jack Gwaltney",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 171886,
+                "name": "Frank Deal",
+                "character": "",
+                "gender": 2
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 14,
+        "date": "2000-02-11",
+        "guest_stars": [
+            {
+                "id": 45390,
+                "name": "Michael Ornstein",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 22820,
+                "name": "Jenna Stern",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 17490,
+                "name": "Isiah Whitlock Jr.",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 4735,
+                "name": "John Doman",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1217601,
+                "name": "Seana Kofoed",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 164283,
+                "name": "Nicholas J. Giangiulio",
+                "character": "Mort (as Nick Giangiulio)",
+                "gender": 0
+            },
+            {
+                "id": 161547,
+                "name": "Sam Freed",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1218020,
+                "name": "John Driver",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 108890,
+                "name": "Harvey Atkin",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 113230,
+                "name": "Peter Francis James",
+                "character": "Judge Kevin Beck",
+                "gender": 2
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 15,
+        "date": "2000-02-18",
+        "guest_stars": [
+            {
+                "id": 1232535,
+                "name": "Steve Richard Harris",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 163695,
+                "name": "Leslie Hendrix",
+                "character": "Dr. Elizabeth Rodgers",
+                "gender": 1
+            },
+            {
+                "id": 13724,
+                "name": "Jane Alexander",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 21521,
+                "name": "Steven Hill",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 163928,
+                "name": "Noelle Beck",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 14792,
+                "name": "Josef Sommer",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 19392,
+                "name": "Jesse L. Martin",
+                "character": "Ed Green",
+                "gender": 2
+            },
+            {
+                "id": 8975,
+                "name": "Sam Waterston",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 52929,
+                "name": "Angie Harmon",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 162683,
+                "name": "Katy Selverstone",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 725,
+                "name": "Jerry Orbach",
+                "character": "Lennie Briscoe",
+                "gender": 2
+            },
+            {
+                "id": 1192390,
+                "name": "Jordan Lage",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1216884,
+                "name": "Patrick Tovatt",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 6174,
+                "name": "Jesse Doran",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 104196,
+                "name": "Sean Cullen",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 133047,
+                "name": "Betsy Aidem",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 164149,
+                "name": "Samantha Buck",
+                "character": "",
+                "gender": 1
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 16,
+        "date": "2000-02-25",
+        "guest_stars": [
+            {
+                "id": 53184,
+                "name": "Rick Gonzalez",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 81681,
+                "name": "Denis O'Hare",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 342,
+                "name": "Eugene Byrd",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 92558,
+                "name": "Peggy Pope",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 18999,
+                "name": "J.K. Simmons",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 171379,
+                "name": "Katherine Borowitz",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 129101,
+                "name": "Lance Reddick",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1218097,
+                "name": "David Adkins",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 1217641,
+                "name": "Liz Larsen",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 97068,
+                "name": "Vincent Guastaferro",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232538,
+                "name": "Teddy Coluca",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 1223758,
+                "name": "Cynthia Darlow",
+                "character": "",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 17,
+        "date": "2000-03-31",
+        "guest_stars": [
+            {
+                "id": 52020,
+                "name": "Norbert Leo Butz",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 163695,
+                "name": "Leslie Hendrix",
+                "character": "Dr. Elizabeth Rodgers",
+                "gender": 1
+            },
+            {
+                "id": 110434,
+                "name": "Anne Twomey",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 171600,
+                "name": "Harry Goz",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 21179,
+                "name": "John Benjamin Hickey",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 2962,
+                "name": "Robert Foxworth",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232540,
+                "name": "Al Thompson",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232541,
+                "name": "Richard Thompson",
+                "character": "",
+                "gender": 2
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 18,
+        "date": "2000-04-14",
+        "guest_stars": [
+            {
+                "id": 6751,
+                "name": "Siobhan Fallon Hogan",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 22820,
+                "name": "Jenna Stern",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 1218072,
+                "name": "Ellen Muth",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 61607,
+                "name": "Adam LeFevre",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 59882,
+                "name": "Paz de la Huerta",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 6437,
+                "name": "Ben Shenkman",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232543,
+                "name": "Rita Gardner",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 1232544,
+                "name": "Mark Matkevich",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 163774,
+                "name": "Reed Birney",
+                "character": "Harry Waters",
+                "gender": 2
+            },
+            {
+                "id": 1218080,
+                "name": "Isabel Gillies",
+                "character": "Kathy Stabler",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 19,
+        "date": "2000-04-28",
+        "guest_stars": [
+            {
+                "id": 19136,
+                "name": "Sal Viscuso",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 177022,
+                "name": "Rosalyn Coleman",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 25869,
+                "name": "Reiko Aylesworth",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 187565,
+                "name": "Audra McDonald",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 16845,
+                "name": "Nicole Sullivan",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 1213572,
+                "name": "Leonora Pitts",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 1218146,
+                "name": "Tricia Paoluccio",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 113230,
+                "name": "Peter Francis James",
+                "character": "Judge Kevin Beck",
+                "gender": 2
+            },
+            {
+                "id": 1005,
+                "name": "Peter Appel",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 20189,
+                "name": "Amy Smart",
+                "character": "Karla Wyatt",
+                "gender": 1
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 20,
+        "date": "2000-05-05",
+        "guest_stars": [
+            {
+                "id": 21130,
+                "name": "Jayce Bartok",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 18285,
+                "name": "Jennifer Esposito",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 25869,
+                "name": "Reiko Aylesworth",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 60021,
+                "name": "Christopher Evan Welch",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 10582,
+                "name": "Daniel Sunjata",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232545,
+                "name": "Patrick Fitzgerald",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 6181,
+                "name": "Josh Pais",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 113230,
+                "name": "Peter Francis James",
+                "character": "Judge Kevin Beck",
+                "gender": 2
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 21,
+        "date": "2000-05-12",
+        "guest_stars": [
+            {
+                "id": 19393,
+                "name": "Wilson Jermaine Heredia",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 62646,
+                "name": "Marc John Jefferies",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 21179,
+                "name": "John Benjamin Hickey",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 20914,
+                "name": "Kent Broadhurst",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1192389,
+                "name": "Tibor Feldman",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 113230,
+                "name": "Peter Francis James",
+                "character": "Judge Kevin Beck",
+                "gender": 2
+            },
+            {
+                "id": 1041923,
+                "name": "Jeffrey Scaperrotta",
+                "character": "Dickie Stabler",
+                "gender": 2
+            },
+            {
+                "id": 1218080,
+                "name": "Isabel Gillies",
+                "character": "Kathy Stabler",
+                "gender": 0
+            }
+        ]
+    },
+    {
+        "season": 1,
+        "episode": 22,
+        "date": "2000-05-21",
+        "guest_stars": [
+            {
+                "id": 39730,
+                "name": "Susan Floyd",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 25869,
+                "name": "Reiko Aylesworth",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 58966,
+                "name": "Deirdre Lovejoy",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 187565,
+                "name": "Audra McDonald",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 37041,
+                "name": "Andrew McCarthy",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 50217,
+                "name": "Michael Kelly",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 129101,
+                "name": "Lance Reddick",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 728,
+                "name": "Kelly Bishop",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 1232546,
+                "name": "Dyanne Iandoli",
+                "character": "",
+                "gender": 0
+            },
+            {
+                "id": 108890,
+                "name": "Harvey Atkin",
+                "character": "",
+                "gender": 2
+            },
+            {
+                "id": 1232547,
+                "name": "Mary Lou Rosato",
+                "character": "",
+                "gender": 1
+            },
+            {
+                "id": 112268,
+                "name": "Peter Giles",
+                "character": "",
+                "gender": 2
+            }
+        ]
+    }
+]
