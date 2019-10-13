@@ -6,28 +6,41 @@ import time
 def thread_function(name, chunk, ids):
     print("Thread %s: starting", name)
     i = int(name)
-    shows = open("shows_raw_"+str(i)+".json", "w")
+    shows = open("shows_raw__"+str(i)+".json", "w")
     final = []
 
     for j in range(chunk*i, chunk*(i+1)):
-        if not i:
+        if i == 2:
             print("---- ", (j*100)//chunk, "%")
         notdone = True
         id, type = ids[j]
-        print(id, type)
         while notdone:
             try:
                 response = requests.get('https://api.themoviedb.org/3/'+ type +'/' + str(id) + '/external_ids?api_key=470dbfcc682e70e8776e0f88623ac88a')
                 info = {}
-                info["imdb_id"] = response.json()["imdb_id"]
+                respjson = response.json()
+                print(i," ", id)
+                print(i, " ---- ", respjson)
+                if "status_code" in respjson:
+                    if int(respjson["status_code"]) == 34:
+                        notdone=False
+                        continue
+                    else:
+                        raise Exception("Gotta wait")
+                
+                info["imdb_id"] = respjson["imdb_id"] if "imdb_id" in respjson else "null"
                 info["id"] = id
                 final.append(info)
                 notdone = False
             except:
-                time.sleep(2)
+                time.sleep(1)
                 continue
 
+    print("Thread %s: writ", name)
+
     json.dump(final,shows, indent=4)
+    print("Thread %s: end", name)
+
 
     shows.close()
 
@@ -45,8 +58,8 @@ for show in table:
         val = (id, show["media_type"])
         ids.append(val)
 
-lenids = len(idsUniq)
-n = 4 #7
+lenids = len(ids)
+n = 4
 chunk = lenids//n
 print("len ", lenids)
 threads = list()
@@ -54,8 +67,3 @@ for index in range(n):
     x = threading.Thread(target=thread_function, args=(index,chunk,ids,))
     threads.append(x)
     x.start()
-
-for index, thread in enumerate(threads):
-    thread.join()
-
-f.close()
