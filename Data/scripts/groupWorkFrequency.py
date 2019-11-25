@@ -1,7 +1,7 @@
 import json
 
-f=open("person_work_frequency.json")
-s=open("yearOfAppearance.json")
+f=open("../person_work_frequency.json")
+s=open("../yearOfAppearance.json")
 table = json.load(f)
 appearance_table = json.load(s)
 final = {k:[] for k in range(-10,11)}
