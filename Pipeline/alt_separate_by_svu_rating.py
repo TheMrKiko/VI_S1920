@@ -1,7 +1,7 @@
 def separate_by_svu_rating(person_details_table, svu_rating):
     temp = []
     
-    if (svu_rating == "all"):
+    if (svu_rating == "rating_all"):
         temp = person_details_table
         return temp
     

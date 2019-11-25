@@ -24,7 +24,7 @@ def freq_and_rating_by_group(person_details_table):
                     if key != 0 and -10 <= key <= 10: #works on year of svu dont count
                         freq = frequency_table[person][year_working]
                         rating = rating_table[person][year_working]
-                        if freq == 0:
+                        #if freq == 0:
                             #print("oi", person)
                         final[key].append({"freq": freq, "rating" : rating})
 

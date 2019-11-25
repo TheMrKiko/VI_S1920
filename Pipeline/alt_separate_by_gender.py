@@ -2,7 +2,7 @@ def separate_by_gender(person_details_table, gender):
     
     temp = []
     
-    if (gender == "/all/"):
+    if (gender == "/gender_all/"):
         temp = person_details_table 
     
     else:

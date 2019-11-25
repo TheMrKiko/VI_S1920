@@ -7,7 +7,7 @@ def separate_by_age(person_details_table, age):
     prior_25 = datetime.datetime(1994, 11, 25)
     posterior_55 = datetime.datetime(1964, 11, 25)
     
-    if (age == "all/"):
+    if (age == "age_all/"):
         temp = person_details_table 
 
     else:
