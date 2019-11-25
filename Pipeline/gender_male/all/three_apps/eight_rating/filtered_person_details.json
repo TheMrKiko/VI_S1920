@@ -1,0 +1,124 @@
+[
+ {
+  "birthday": "1964-12-10",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 59222,
+  "name": "George Newbern",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "From Wikipedia, the free encyclopedia.\n\nGeorge Young Newbern (born December 10, 1964) is an American television and film actor best known for his roles as Bryan MacKenzie in Father of the Bride (1991) and its sequel Father of the Bride Part II as well as Danny (The Yeti) in Friends. He is also well known for his role as Superman from the Justice League and Justice League Unlimited animated series as well as Sephiroth from the Final Fantasy series and the Kingdom Hearts series. Also, he is known for appearing in the recent Saw VI. He married actress Marietta DePrima in 1990, and together have three children - Emma, Mae, and Ben.",
+  "popularity": 3.503,
+  "place_of_birth": "Little Rock, Arkansas, USA",
+  "profile_path": "/kUFci5BzhMyx3ZNQEvpauRmpMyT.jpg",
+  "adult": false,
+  "imdb_id": "nm0627624",
+  "homepage": null,
+  "year_of_appearance": "2018",
+  "number_of_appearances": 3,
+  "episodes": [
+   {
+    "tt8395466": 8.6
+   },
+   {
+    "tt8794144": 8.2
+   },
+   {
+    "tt8917878": 8.7
+   }
+  ],
+  "mean_rating": 8
+ },
+ {
+  "birthday": "1982-01-23",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 12263,
+  "name": "Geoffrey Wigdor",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "",
+  "popularity": 0.6,
+  "place_of_birth": null,
+  "profile_path": "/jXoKqE67lxsCx2q3TGSi0jdv5wQ.jpg",
+  "adult": false,
+  "imdb_id": "nm0927727",
+  "homepage": null,
+  "year_of_appearance": "2001",
+  "number_of_appearances": 3,
+  "episodes": [
+   {
+    "tt0629746": 9.2
+   },
+   {
+    "tt1248639": 9.2
+   },
+   {
+    "tt3409880": 4.8
+   }
+  ],
+  "mean_rating": 8
+ },
+ {
+  "birthday": "1956-11-22",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 21125,
+  "name": "Richard Kind",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "Richard John Kind is an American actor known for his roles in the sitcoms MAD ABOUT YOU (as Dr. Mark Devanow) and SPIN CITY (as Paul Thomas Lassiter).",
+  "popularity": 2.929,
+  "place_of_birth": "North Trenton, New Jersey, USA",
+  "profile_path": "/xpLufPiiFgoCEdIMqD4RY79PKGb.jpg",
+  "adult": false,
+  "imdb_id": "nm0454236",
+  "homepage": null,
+  "year_of_appearance": "2012",
+  "number_of_appearances": 3,
+  "episodes": [
+   {
+    "tt2388722": 9.1
+   },
+   {
+    "tt7195378": 9.5
+   },
+   {
+    "tt9628210": 6.6
+   }
+  ],
+  "mean_rating": 8
+ },
+ {
+  "birthday": "1963-11-05",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 32287,
+  "name": "Scott Sowers",
+  "also_known_as": [
+   "Scott Nicolai Sowers"
+  ],
+  "gender": 2,
+  "biography": "Scott Sowers is an actor and director.",
+  "popularity": 1.38,
+  "place_of_birth": "Arlington County - Virginia - USA",
+  "profile_path": "/5La5xtIg32vkQQfUD0AsdLcF8OD.jpg",
+  "adult": false,
+  "imdb_id": "nm0816375",
+  "homepage": null,
+  "year_of_appearance": "2001",
+  "number_of_appearances": 3,
+  "episodes": [
+   {
+    "tt0629697": 9.2
+   },
+   {
+    "tt0629724": 9.1
+   },
+   {
+    "tt0629723": 7.2
+   }
+  ],
+  "mean_rating": 8
+ }
+]

@@ -1,0 +1,25 @@
+[
+ {
+  "birthday": "1968-04-10",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 18270,
+  "name": "Orlando Jones",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "From Wikipedia, the free encyclopedia.\n\nOrlando Jones (born April 10, 1968) is an American comedian and film and television actor. He is notable for being one of the original cast members of the sketch comedy series MADtv and for his role as the 7 Up spokesman from 1999-2002.\n\nDescription above from the Wikipedia article Orlando Jones, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+  "popularity": 4.449,
+  "place_of_birth": "Mobile, Alabama, USA",
+  "profile_path": "/7QOW3bgYjPxnjwrZDclmnJenhPH.jpg",
+  "adult": false,
+  "imdb_id": "nm0428963",
+  "homepage": null,
+  "year_of_appearance": "2019",
+  "episodes": [
+   {
+    "tt9122678": 7.3
+   }
+  ],
+  "mean_rating": 7
+ }
+]

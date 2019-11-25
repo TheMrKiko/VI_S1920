@@ -2,6 +2,8 @@ from alt_separate_by_gender import separate_by_gender
 from alt_separate_by_age import separate_by_age
 from alt_separate_by_svu_rating import separate_by_svu_rating
 from alt_separate_by_num_apps import separate_by_num_apps
+from groupWorkFreqRating import freq_and_rating_by_group
+from people_by_numapps import prepare_for_pie
 import json
 import os, shutil, glob
 
@@ -17,9 +19,9 @@ person_details_table = json.load(person_details)
 
 original_path = os.getcwd()
 folder_names = {"gender" : ["/gender_male/", "/gender_female/", "/all/"], 
-"age" : ["age_under_25/", "age_between_25_and_55/", "age_over_55/", "all/"],
+"age" : ["age_under_21/", "age_between_21_and_50/", "age_over_50/", "all/"],
 "num_apps" : ["two_apps/","three_apps/", "four_apps/", "five_apps/", "six_apps/", "all/"], 
-"svu_rating" : ["one_rating", "two_rating","three_rating", "four_rating", "five_rating", "all"]}
+"svu_rating" : ["one_rating", "two_rating","three_rating", "four_rating", "five_rating", "six_rating", "seven_rating","eight_rating", "nine_rating", "ten_rating", "all"]}
 
 dividers = { 1 : "gender", 
 2 : "age",
@@ -53,17 +55,33 @@ def divider():
                     filtered_table = separate_by_gender(person_details_table, gender)
                     filtered_table = separate_by_age(filtered_table, age)
                     filtered_table = separate_by_num_apps(filtered_table, num_apps)
-                    #filtered_table = separate_by_svu_rating(person_details_table, svu_rating)
-                    
-                    out = open("filtered_person_details.json", "w")
-                    json.dump(filtered_table, out, indent=1) 
+                    filtered_table = separate_by_svu_rating(filtered_table, svu_rating)
 
+                    pie_chart = prepare_for_pie(filtered_table)
+                    
+                    out = open(destined_path+"/filtered_person_details.json", "w")
+                    json.dump(filtered_table, out, indent=1) 
+                    out.close()
+
+                    pie = open(destined_path+"/pie_chart_persondetails.json", "w")
+                    json.dump(pie_chart, pie, indent=1) 
+                    pie.close()
+
+                    if len(filtered_table) != 0:
+                        stats = freq_and_rating_by_group(filtered_table)
+                    else:
+                        stats = []
+                    stats_file = open(destined_path +"/stats_freq_rating.json", "w")
+                    json.dump(stats, stats_file, indent=1)
+
+                    stats_file.close()
+""" 
                     files = glob.iglob(os.path.join(original_path, "*ered_person_details.json"))
-                    for file in files:
-                        if os.path.isfile(file):
-                            shutil.copy2(file, destined_path)
-                        print(destined_path)
-                    """  if os.path.isfile("filtered_person_details.json"):
+                    for filee in files:
+                        
+                        shutil.copy(filee, destined_path)
+                        print(destined_path) """
+"""  if os.path.isfile("filtered_person_details.json"):
                         shutil.copy(out, destined_path)         
                     
                     if os.path.exists("filtered_person_details.json"):

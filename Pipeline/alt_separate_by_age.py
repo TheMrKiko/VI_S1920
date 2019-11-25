@@ -12,21 +12,25 @@ def separate_by_age(person_details_table, age):
 
     else:
         for actor in person_details_table:
+            year_of_appearance = int(actor["year_of_appearance"])
             if (actor["birthday"] != None):
                 date_time_str = actor["birthday"] + ' 00:00:00'
                 date = datetime.datetime.strptime(date_time_str, '%Y-%m-%d %H:%M:%S')
+                year_of_birth = date.year
                 
-                if (age == "age_under_25/"):
+                age_at_svu = year_of_appearance - year_of_birth
+
+                if (age == "age_under_21/"):
                     #print((date - ts) + "\n\n\n")
-                    if (date > prior_25):
+                    if (age_at_svu < 21):
                         temp.append(actor)
                             
-                if (age == "age_between_25_and_55/"):
-                    if ((date <= prior_25 ) & (date >= posterior_55)):
+                if (age == "age_between_21_and_50/"):
+                    if age_at_svu >= 21 and age_at_svu < 50 :
                         temp.append(actor) 
                             
-                if (age == "age_over_55/"):
-                    if (date < posterior_55 ):
+                if (age == "age_over_50/"):
+                    if (age_at_svu > 50 ):
                         temp.append(actor)       
 
     return temp

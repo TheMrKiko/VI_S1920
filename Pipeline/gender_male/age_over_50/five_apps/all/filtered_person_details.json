@@ -1,0 +1,112 @@
+[
+ {
+  "birthday": "1947-04-11",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 20899,
+  "name": "Peter Riegert",
+  "also_known_as": [
+   "Peter Riegart"
+  ],
+  "gender": 2,
+  "biography": "Peter Riegert is an American stage and screen actor, writer, and director, best known for his portrayal of crooked New Jersey State Assemblyman Ronald Zellman on the HBO television series \"The Sopranos\".",
+  "popularity": 1.963,
+  "place_of_birth": "New York City, New York, USA",
+  "profile_path": "/yPgaRZBMVy9eoNNuiPIm0wzG9sD.jpg",
+  "adult": false,
+  "imdb_id": "nm0726200",
+  "homepage": null,
+  "year_of_appearance": "2004",
+  "number_of_appearances": 5,
+  "episodes": [
+   {
+    "tt0629679": 8.7
+   },
+   {
+    "tt0629630": 9.4
+   },
+   {
+    "tt0629643": 9.3
+   },
+   {
+    "tt0807685": 9.1
+   },
+   {
+    "tt1015447": 9.4
+   }
+  ],
+  "mean_rating": 9
+ },
+ {
+  "birthday": "1945-02-24",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 13473,
+  "name": "Barry Bostwick",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "Barry Knapp Bostwick (born February 24, 1945) is an American actor and singer. He is known for playing Brad Majors in the 1975 cult classic The Rocky Horror Picture Show, replacing Peter Scolari as Mr. Tyler in the sitcom What I Like About You, and playing Mayor Randall Winston in the sitcom Spin City. He has also had considerable fame in musical theater.",
+  "popularity": 2.875,
+  "place_of_birth": "San Mateo, California, USA",
+  "profile_path": "/z2jlL5g5PMxelSHMXFF03fTSsLl.jpg",
+  "adult": false,
+  "imdb_id": "nm0000960",
+  "homepage": null,
+  "year_of_appearance": "2004",
+  "number_of_appearances": 5,
+  "episodes": [
+   {
+    "tt0629663": 8.7
+   },
+   {
+    "tt0629704": 9.3
+   },
+   {
+    "tt0629657": 8.7
+   },
+   {
+    "tt0760910": 9.3
+   },
+   {
+    "tt0966157": 9.3
+   }
+  ],
+  "mean_rating": 9
+ },
+ {
+  "birthday": "1930-09-26",
+  "known_for_department": "Acting",
+  "deathday": "2018-12-03",
+  "id": 6541,
+  "name": "Philip Bosco",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "From Wikipedia, the free encyclopedia.\n\nPhilip Michael Bosco (September 26, 1930 - December 3, 2018) was an American actor.\n\nDescription above from the Wikipedia article Philip Bosco, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+  "popularity": 3.332,
+  "place_of_birth": "Jersey City, New Jersey, USA",
+  "profile_path": "/8B8EQk868fQF8fGZ1w33XDV5Z1S.jpg",
+  "adult": false,
+  "imdb_id": "nm0097842",
+  "homepage": null,
+  "year_of_appearance": "2002",
+  "number_of_appearances": 5,
+  "episodes": [
+   {
+    "tt0629754": 9.2
+   },
+   {
+    "tt0629618": 9.2
+   },
+   {
+    "tt0629692": 8.7
+   },
+   {
+    "tt0629694": 8.7
+   },
+   {
+    "tt0897711": 9.2
+   }
+  ],
+  "mean_rating": 9
+ }
+]

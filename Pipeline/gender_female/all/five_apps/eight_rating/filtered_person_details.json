@@ -1,0 +1,40 @@
+[
+ {
+  "birthday": null,
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 1473125,
+  "name": "Thedra Porter",
+  "also_known_as": [
+   "Rene\u00e9 Porter"
+  ],
+  "gender": 1,
+  "biography": "",
+  "popularity": 0.6,
+  "place_of_birth": null,
+  "profile_path": "/rdPlMFO4WuRk9x73ojHXvdrfS3h.jpg",
+  "adult": false,
+  "imdb_id": "nm1801099",
+  "homepage": null,
+  "year_of_appearance": "2014",
+  "number_of_appearances": 5,
+  "episodes": [
+   {
+    "tt3599556": 9.2
+   },
+   {
+    "tt3696034": 9.2
+   },
+   {
+    "tt4067010": 9.1
+   },
+   {
+    "tt4197164": 4.6
+   },
+   {
+    "tt4653920": 9.0
+   }
+  ],
+  "mean_rating": 8
+ }
+]

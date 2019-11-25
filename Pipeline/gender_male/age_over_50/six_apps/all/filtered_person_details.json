@@ -1,0 +1,83 @@
+[
+ {
+  "birthday": "1942-12-18",
+  "known_for_department": "Acting",
+  "deathday": "2017-07-17",
+  "id": 108890,
+  "name": "Harvey Atkin",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "",
+  "popularity": 1.38,
+  "place_of_birth": " Toronto, Ontario, Canada ",
+  "profile_path": "/nH8qRU3GHTsTzOZnokPDpY5ko2B.jpg",
+  "adult": false,
+  "imdb_id": "nm0040539",
+  "homepage": null,
+  "year_of_appearance": "2000",
+  "number_of_appearances": 6,
+  "episodes": [
+   {
+    "tt0629677": 8.4
+   },
+   {
+    "tt0629734": 9.2
+   },
+   {
+    "tt0629666": 8.7
+   },
+   {
+    "tt0760910": 9.3
+   },
+   {
+    "tt1644792": 8.7
+   },
+   {
+    "tt1875495": 9.3
+   }
+  ],
+  "mean_rating": 9
+ },
+ {
+  "birthday": "1940-02-04",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 24046,
+  "name": "John Schuck",
+  "also_known_as": [
+   "Conrad John Schuck",
+   "John Shuck"
+  ],
+  "gender": 2,
+  "biography": "From Wikipedia, the free encyclopedia.\n\nConrad John Schuck Jr. (born February 4, 1940) is an American actor, primarily in stage, movies and television. He is best-known for his roles as police commissioner Rock Hudson's mildly slow-witted assistant, Sgt. Charles Enright in the 1970s crime drama McMillan & Wife, and as Lee Meriwether's husband, Herman Munster in the 1980s sitcom, The Munsters Today. Schuck is also known for his work on Star Trek movies and television series, often playing a Klingon character, as well as his recurring roles as Draal on Babylon 5 and as Chief of Detectives Muldrew of the New York City Police Department in the Law & Order programs, especially Law & Order: Special Victims Unit.\n\nDescription above from the Wikipedia article John Schuck, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+  "popularity": 1.176,
+  "place_of_birth": "Boston, Massachusetts, USA",
+  "profile_path": "/8HJXSRTewFRic6wYmgJTMPNatUf.jpg",
+  "adult": false,
+  "imdb_id": "nm0775870",
+  "homepage": null,
+  "year_of_appearance": "2004",
+  "number_of_appearances": 6,
+  "episodes": [
+   {
+    "tt0629694": 8.7
+   },
+   {
+    "tt0629664": 8.8
+   },
+   {
+    "tt0629741": 8.7
+   },
+   {
+    "tt1017770": 9.4
+   },
+   {
+    "tt1015434": 9.4
+   },
+   {
+    "tt1015436": 8.2
+   }
+  ],
+  "mean_rating": 9
+ }
+]

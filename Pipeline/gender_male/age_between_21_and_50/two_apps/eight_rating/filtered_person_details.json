@@ -1,0 +1,29 @@
+[
+ {
+  "birthday": "1982-01-24",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 1652371,
+  "name": "Daveed Diggs",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "Daveed Daniele Diggs is an American actor and rapper. He is the vocalist of the hip-hop group clipping. and originated the role of Marquis de Lafayette/Thomas Jefferson in the 2015 musical Hamilton, for which he won a Grammy Award and a Tony Award in 2016.",
+  "popularity": 6.56,
+  "place_of_birth": "Oakland, California",
+  "profile_path": "/codalhZzB4LvJTSGOnOyrTEsqsF.jpg",
+  "adult": false,
+  "imdb_id": "nm4377526",
+  "homepage": "http://www.daveeddiggs.com/",
+  "year_of_appearance": "2015",
+  "number_of_appearances": 2,
+  "episodes": [
+   {
+    "tt5044786": 8.7
+   },
+   {
+    "tt5317574": 8.2
+   }
+  ],
+  "mean_rating": 8
+ }
+]

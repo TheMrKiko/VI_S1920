@@ -1,0 +1,34 @@
+[
+ {
+  "birthday": "1963-11-05",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 32287,
+  "name": "Scott Sowers",
+  "also_known_as": [
+   "Scott Nicolai Sowers"
+  ],
+  "gender": 2,
+  "biography": "Scott Sowers is an actor and director.",
+  "popularity": 1.38,
+  "place_of_birth": "Arlington County - Virginia - USA",
+  "profile_path": "/5La5xtIg32vkQQfUD0AsdLcF8OD.jpg",
+  "adult": false,
+  "imdb_id": "nm0816375",
+  "homepage": null,
+  "year_of_appearance": "2001",
+  "number_of_appearances": 3,
+  "episodes": [
+   {
+    "tt0629697": 9.2
+   },
+   {
+    "tt0629724": 9.1
+   },
+   {
+    "tt0629723": 7.2
+   }
+  ],
+  "mean_rating": 8
+ }
+]

@@ -1,0 +1,59 @@
+[
+ {
+  "birthday": "1953-09-16",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 29685,
+  "name": "Kurt Fuller",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "From Wikipedia, the free encyclopedia\n\nKurt Fuller (born September 16, 1953) is an American character actor. He has appeared in a number of television, film, and stage projects.\n\nDescription above from the Wikipedia article Kurt Fuller, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+  "popularity": 4.791,
+  "place_of_birth": "San Francisco, California, USA",
+  "profile_path": "/rZUUgDoYTfYwbh87V7E4VVWUPlh.jpg",
+  "adult": false,
+  "imdb_id": "nm0298281",
+  "homepage": null,
+  "year_of_appearance": "2018",
+  "number_of_appearances": 2,
+  "episodes": [
+   {
+    "tt7195358": 7.5
+   },
+   {
+    "tt8395466": 8.6
+   }
+  ],
+  "mean_rating": 8
+ },
+ {
+  "birthday": "1958-01-06",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 1218088,
+  "name": "Scott Bryce",
+  "also_known_as": [
+   "Scott M. Bryce ",
+   "Scott Macalister Bryce "
+  ],
+  "gender": 2,
+  "biography": "Scott Bryce  is an American writer, producer, stage, film and television actor.",
+  "popularity": 2.741,
+  "place_of_birth": " New York City, New York, U.S.",
+  "profile_path": "/5lWkYB3OYIKxZDRi7boYjUlL0O1.jpg",
+  "adult": false,
+  "imdb_id": "nm0117302",
+  "homepage": "http://www.bretadamsltd.net/content/client/male-actors/scott-bryce/",
+  "year_of_appearance": "2009",
+  "number_of_appearances": 2,
+  "episodes": [
+   {
+    "tt1248633": 8.8
+   },
+   {
+    "tt8917872": 8.2
+   }
+  ],
+  "mean_rating": 8
+ }
+]

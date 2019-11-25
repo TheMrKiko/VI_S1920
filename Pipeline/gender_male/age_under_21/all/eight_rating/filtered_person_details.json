@@ -1,0 +1,128 @@
+[
+ {
+  "birthday": "1990-02-14",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 133980,
+  "name": "Jake Weary",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "\u200bFrom Wikipedia, the free encyclopedia.\n\nJake Weary \u00a0(born February 14, 1990) is an American actor.",
+  "popularity": 2.065,
+  "place_of_birth": "U.S.A",
+  "profile_path": "/1ucqwNVnEFCMz5IBqvxrUAU2zEf.jpg",
+  "adult": false,
+  "imdb_id": "nm1621032",
+  "homepage": null,
+  "year_of_appearance": "2004",
+  "episodes": [
+   {
+    "tt0629665": 8.2
+   }
+  ],
+  "mean_rating": 8
+ },
+ {
+  "birthday": "1997-03-16",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 1437571,
+  "name": "Ted Sutherland",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "",
+  "popularity": 1.022,
+  "place_of_birth": "USA",
+  "profile_path": "/luyGfKOmiJ2r9wk8FwWlPmpDJHJ.jpg",
+  "adult": false,
+  "imdb_id": "nm4360792",
+  "homepage": null,
+  "year_of_appearance": "2016",
+  "episodes": [
+   {
+    "tt5171644": 8.2
+   }
+  ],
+  "mean_rating": 8
+ },
+ {
+  "birthday": "1982-01-23",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 12263,
+  "name": "Geoffrey Wigdor",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "",
+  "popularity": 0.6,
+  "place_of_birth": null,
+  "profile_path": "/jXoKqE67lxsCx2q3TGSi0jdv5wQ.jpg",
+  "adult": false,
+  "imdb_id": "nm0927727",
+  "homepage": null,
+  "year_of_appearance": "2001",
+  "number_of_appearances": 3,
+  "episodes": [
+   {
+    "tt0629746": 9.2
+   },
+   {
+    "tt1248639": 9.2
+   },
+   {
+    "tt3409880": 4.8
+   }
+  ],
+  "mean_rating": 8
+ },
+ {
+  "birthday": "1995-01-13",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 2095414,
+  "name": "Moise Morancy",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "Moise Morancy is an actor and rapper.",
+  "popularity": 0.6,
+  "place_of_birth": "Brooklyn, New York, USA",
+  "profile_path": null,
+  "adult": false,
+  "imdb_id": "nm5990090",
+  "homepage": null,
+  "year_of_appearance": "2013",
+  "episodes": [
+   {
+    "tt3186484": 8.5
+   }
+  ],
+  "mean_rating": 8
+ },
+ {
+  "birthday": "1984-04-16",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 57286,
+  "name": "Noah Fleiss",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "\u200bFrom Wikipedia, the free encyclopedia.\n\nNoah Fleiss \u00a0(born April 16, 1984) is an American film and television actor. He was born in White Plains, New York. Fleiss made his screen debut as a young runaway (Sam Whitney) who drives cross-country with his brother in Josh and S.A.M. (1993), perhaps his best-known film. He also has appeared in films such as Joe the King (1999), The Laramie Project (2002) (very briefly), and Brick (2005), in which he portrayed the intimidating Tug. Television appearances include Touched by an Angel, Law &amp; Order, Law &amp; Order: Special Victims Unit, and Fringe. In 1996, Fleiss was awarded the Hollywood Reporter YoungStar Award for Best Performance by a Young Actor in a TV Movie or Miniseries for his performance in A Mother's Prayer opposite Linda Hamilton. He was named Jane magazine's \"Star of Tomorrow\" in 2002 and Nylon magazine's \"Next Ed Norton\". Fleiss's great uncle is Professor Joseph L. Fleiss, and he is a distant relation of Dr. Paul Fleiss, Mike Fleiss, and Heidi Fleiss.",
+  "popularity": 0.98,
+  "place_of_birth": "White Plains - New York - USA",
+  "profile_path": "/jWCEjHjDdAE1zYEInbraXCen9Mm.jpg",
+  "adult": false,
+  "imdb_id": "nm0281575",
+  "homepage": null,
+  "year_of_appearance": "2004",
+  "number_of_appearances": 2,
+  "episodes": [
+   {
+    "tt0629619": 8.7
+   },
+   {
+    "tt5171644": 8.2
+   }
+  ],
+  "mean_rating": 8
+ }
+]

@@ -1,0 +1,70 @@
+[
+ {
+  "birthday": "1977-11-02",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 60432,
+  "name": "Jason Cerbone",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "\u200bFrom Wikipedia, the free encyclopedia.\n\nJason Cerbone (born November 2, 1977) is an actor from Yonkers, New York. He got his start acting at age 4, appearing on a commercial for Sesame Street. He signed with the Ford Modeling Agency in New York City at age 7. Jason later appeared in Bon Jovi's \"Silent Night\" music video, as well as the title character in Suzanne Vega's video for the song \"Luka\". He attended Sacred Heart High School and Concordia College in New York and received a degree in biology. After graduating college, he resumed his acting career. He is most notable for the role of Jackie Aprile, Jr. on the hit HBO series, The Sopranos. Cerbone also had a cameo appearance in the movie Cloverfield, in which he played a New York police officer.",
+  "popularity": 1.128,
+  "place_of_birth": "New York City - New York - USA",
+  "profile_path": "/6JDSTbmt33EPgGpjkURWSaF7x8T.jpg",
+  "adult": false,
+  "imdb_id": "nm0148466",
+  "homepage": null,
+  "year_of_appearance": "2012",
+  "number_of_appearances": 4,
+  "episodes": [
+   {
+    "tt2357100": 9.4
+   },
+   {
+    "tt3250412": 8.7
+   },
+   {
+    "tt3508744": 4.6
+   },
+   {
+    "tt3696034": 9.2
+   }
+  ],
+  "mean_rating": 8
+ },
+ {
+  "birthday": "1961-03-12",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 39389,
+  "name": "Titus Welliver",
+  "also_known_as": [
+   "Titus B. Welliver"
+  ],
+  "gender": 2,
+  "biography": "Titus Welliver is an American painter, stage and screen actor, best known for his leading role as Harry Bosch in the Amazon series \"Bosch\".",
+  "popularity": 1.544,
+  "place_of_birth": "New Haven, Connecticut, USA",
+  "profile_path": "/4CPGRpTuy6naurhkvRgsuae1qKR.jpg",
+  "adult": false,
+  "imdb_id": "nm0920038",
+  "homepage": null,
+  "year_of_appearance": "2002",
+  "number_of_appearances": 4,
+  "episodes": [
+   {
+    "tt0629716": 9.3
+   },
+   {
+    "tt9122652": 8.5
+   },
+   {
+    "tt9501784": 6.9
+   },
+   {
+    "tt9628210": 6.6
+   }
+  ],
+  "mean_rating": 8
+ }
+]
