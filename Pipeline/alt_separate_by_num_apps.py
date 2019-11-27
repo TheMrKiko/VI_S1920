@@ -1,7 +1,7 @@
 def separate_by_num_apps(person_details_table, num_apps):
     temp = []
     
-    if (num_apps == "apps_all/"):
+    if (num_apps == "all_apps/"):
         temp = person_details_table 
 
     else:

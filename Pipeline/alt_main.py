@@ -20,8 +20,8 @@ person_details_table = json.load(person_details)
 original_path = os.getcwd()
 folder_names = {"gender" : ["/gender_male/", "/gender_female/", "/gender_all/"], 
 "age" : ["age_under_21/", "age_between_21_and_50/", "age_over_50/", "age_all/"],
-"num_apps" : ["two_apps/","three_apps/", "four_apps/", "five_apps/", "six_apps/", "apps_all/"], 
-"svu_rating" : ["one_rating", "two_rating","three_rating", "four_rating", "five_rating", "six_rating", "seven_rating","eight_rating", "nine_rating", "ten_rating", "rating_all"]}
+"num_apps" : ["two_apps/","three_apps/", "four_apps/", "five_apps/", "six_apps/", "all_apps/"], 
+"svu_rating" : ["one_rating", "two_rating","three_rating", "four_rating", "five_rating", "six_rating", "seven_rating","eight_rating", "nine_rating", "ten_rating", "all_rating"]}
 
 dividers = { 1 : "gender", 
 2 : "age",
