@@ -6,42 +6,46 @@ def separate_by_svu_rating(person_details_table, svu_rating):
         return temp
     
   
-    for actor in person_details_table:       
-        if (svu_rating == "two_rating"):
+    for actor in person_details_table:
+        if (svu_rating == "1_rating"):
+            if  (actor["mean_rating"]  == 1):
+                temp.append(actor)
+
+        elif (svu_rating == "2_rating"):
             if  (actor["mean_rating"]  == 2):
                 temp.append(actor)
                     
-        elif (svu_rating == "three_rating"):
+        elif (svu_rating == "3_rating"):
             if (actor["mean_rating"]  == 3):
                 print("fodasSSe")
                 temp.append(actor)      
 
-        elif (svu_rating == "four_rating"):
+        elif (svu_rating == "4_rating"):
             if (actor["mean_rating"]  == 4):
                 print("fodase")
                 temp.append(actor)
                     
-        elif (svu_rating =="five_rating"):
+        elif (svu_rating =="5_rating"):
             if (actor["mean_rating"]  == 5):
                 temp.append(actor)
                     
-        elif (svu_rating == "six_rating"):
+        elif (svu_rating == "6_rating"):
             if (actor["mean_rating"]  == 6):
                 temp.append(actor)
         
-        elif (svu_rating == "seven_rating"):
+        elif (svu_rating == "7_rating"):
             if (actor["mean_rating"]  == 7):
                 temp.append(actor)      
 
-        elif (svu_rating == "eight_rating"):
+        elif (svu_rating == "8_rating"):
             if (actor["mean_rating"]  == 8):
                 temp.append(actor)
                     
-        elif (svu_rating =="nine_rating"):
+        elif (svu_rating =="9_rating"):
             if (actor["mean_rating"]  == 9):
                 temp.append(actor)
                     
-        elif (svu_rating == "ten_rating"):
+        elif (svu_rating == "10_rating"):
             if (actor["mean_rating"]  == 10):
                 temp.append(actor)
 
