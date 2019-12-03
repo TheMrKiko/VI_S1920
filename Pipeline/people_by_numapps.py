@@ -1,7 +1,7 @@
 import json
 
 def prepare_for_pie(table):
-    final = {}
+    final = {i:0 for i in range(2,7)}
     for person in table:
         if "number_of_appearances" in person:
             apps = person["number_of_appearances"]
