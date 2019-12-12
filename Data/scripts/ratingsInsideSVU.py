@@ -33,7 +33,7 @@ for actor in final:
     mean = total / len(final[actor]["episodes"])
 
     #rating from 1 to 5
-    mean = round(mean / 2)
+    mean = round(mean)
 
     final[actor]["mean_rating"] = mean
 

@@ -2685,7 +2685,7 @@
   "season": 20,
   "episode": 14,
   "imdb_id": "tt9122616",
-  "imdb_rating": null
+  "imdb_rating": 4.8
  },
  {
   "season": 20,
@@ -2745,6 +2745,6 @@
   "season": 20,
   "episode": 24,
   "imdb_id": "tt9628210",
-  "imdb_rating": null
+  "imdb_rating": 6.6
  }
 ]

@@ -1,6 +1,6 @@
 import requests
 import json
-f=open("../cast_1.json")
+f=open("../../cast_raw.json")
 out = open("moreThanOnce.json", "w")
 table = json.load(f)
 
@@ -13,7 +13,7 @@ for actor in table:
         if role["id"] == 2734:
             apearances += role["episode_count"]
 	
-    if apearances > 1:
+    if apearances > 0 and apearances <= 10:
         info = {}
         info[actor["idActor"]] = apearances
         final.append(info)
