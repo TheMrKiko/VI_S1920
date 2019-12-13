@@ -34,9 +34,9 @@ function setFilter(className, newV, currV) {
     return value;
 }
 
-var pieChart, groupYear;
+var pieChart, groupYear, meanRatings;
 
-var dispatch = d3.dispatch("upTimeline", "upPie");
+var dispatch = d3.dispatch("upTimeline", "upPie", "upTreemap");
 
 /* LOAD DATA */
 async function loadTimeline() {
@@ -139,7 +139,7 @@ async function loadAppearances() {
 
 function appearancesPie() {
     // set the dimensions and margins of the graph
-    var width = 350
+    var width = 500
     var height = 200
     var margin = 10
 
@@ -277,18 +277,28 @@ function appearancesPie() {
 
 
 
-async function loadLollipop() {
-    pieChart = await d3.json(`${currpath()}/pie_chart_persondetails.json`);
-    dispatch.call("upPie");
+async function loadTreeMap() {
+    //pieChart = await d3.json(`${currpath()}/pie_chart_persondetails.json`);
+    meanRatings = {
+        "name": "cluster",
+        "children": [
+            { "name": "AgglomerativeCluster", "size": 19 },
+            { "name": "CommunityStructure", "size": 1 },
+            { "name": "HierarchicalCluster", "size": 7 },
+            { "name": "MergeEdge", "size": 5 }
+        ]
+    }
+    dispatch.call("upTreemap");
 }
 
-function lollipop() {
-    var margin = { top: 30, right: 30, bottom: 70, left: 60 },
-        width = 460 - margin.left - margin.right,
-        height = 400 - margin.top - margin.bottom;
+function treemap() {
+    const margin = { top: 40, right: 10, bottom: 10, left: 10 },
+        width = 300 - margin.left - margin.right,
+        height = window.innerHeight * (2 / 3) - margin.top - margin.bottom,
+        color = d3.scaleOrdinal()
+            .range(d3.schemeDark2);
 
-    // append the svg object to the body of the page
-    var svg = d3.select("#lolli")
+    var svg = d3.select("#treemap")
         .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
@@ -296,62 +306,78 @@ function lollipop() {
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-    // Initialize the X axis
-    var x = d3.scaleBand()
-        .range([0, width])
-        .padding(1);
-    var xAxis = svg.append("g")
-        .attr("transform", "translate(0," + height + ")")
+    var root = d3.hierarchy(meanRatings).sum(function (d) { return d.size }) // Here the size of each leave is given in the 'value' field in input data
 
-    // Initialize the Y axis
-    var y = d3.scaleLinear()
-        .range([height, 0]);
-    var yAxis = svg.append("g")
-        .attr("class", "myYaxis")
+    // Then d3.treemap computes the position of each element of the hierarchy
+    d3.treemap()
+        .size([width, height])
+        .padding(2)
+        (root)
 
+    // use this information to add rectangles:
+    svg.selectAll("rect")
+        .data(root.leaves())
+        .enter()
+        .append("rect")
+        .attr('x', function (d) { return d.x0; })
+        .attr('y', function (d) { return d.y0; })
+        .attr('width', function (d) { return d.x1 - d.x0; })
+        .attr('height', function (d) { return d.y1 - d.y0; })
+        .style("stroke", "black")
+        .style("fill", d => color(d.data.name))
+
+    // and to add the text labels
+    svg.selectAll("text")
+        .data(root.leaves())
+        .enter()
+        .append("text")
+        .attr("x", function (d) { return d.x0 + 5 })    // +10 to adjust position (more right)
+        .attr("y", function (d) { return d.y0 + 20 })    // +20 to adjust position (lower)
+        .text(function (d) { return d.data.name })
+        .attr("font-size", "15px")
+        .attr("fill", "white")
 
     // A function that create / update the plot for a given variable:
-    dispatch.on("upLolli", (d) => { // click event
+    dispatch.on("upTreemap", (d) => { // click event
 
-        // X axis
-        x.domain(data.map(function (d) { return d.group; }))
-        xAxis.transition().duration(1000).call(d3.axisBottom(x))
+        meanRatings = {
+            "name": "cluster",
+            "children": [
+                { "name": "AgglomerativeCluster", "size": 1 },
+                { "name": "CommunityStructure", "size": 7 },
+                { "name": "HierarchicalCluster", "size": 17 },
+                { "name": "MergeEdge", "size": 20 }
+            ]
+        }
+        root = d3.hierarchy(meanRatings).sum(function (d) { return d.size }) // Here the size of each leave is given in the 'value' field in input data
 
-        // Add Y axis
-        y.domain([0, d3.max(data, function (d) { return +d[selectedVar] })]);
-        yAxis.transition().duration(1000).call(d3.axisLeft(y));
+        // Then d3.treemap computes the position of each element of the hierarchy
+        d3.treemap()
+            .size([width, height])
+            .padding(2)
+            (root);
 
-        // variable u: map data to existing circle
-        var j = svg.selectAll(".myLine")
-            .data(data)
-        // update lines
-        j
-            .enter()
-            .append("line")
-            .attr("class", "myLine")
-            .merge(j)
+        svg.selectAll("rect")
+            .data(root.leaves())
             .transition()
-            .duration(1000)
-            .attr("x1", function (d) { console.log(x(d.group)); return x(d.group); })
-            .attr("x2", function (d) { return x(d.group); })
-            .attr("y1", y(0))
-            .attr("y2", function (d) { return y(d[selectedVar]); })
-            .attr("stroke", "grey")
+            .duration(1500)
+            .attr('x', function (d) { return d.x0; })
+            .attr('y', function (d) { return d.y0; })
+            .attr('width', function (d) { return d.x1 - d.x0; })
+            .attr('height', function (d) { return d.y1 - d.y0; })
+            .style("stroke", "black")
+            .style("fill", d => color(d.data.name))
 
-
-        // variable u: map data to existing circle
-        var u = svg.selectAll("circle")
-            .data(data)
-        // update bars
-        u.enter()
-            .append("circle")
-            .merge(u)
+        // and to add the text labels
+        svg.selectAll("text")
+            .data(root.leaves())
             .transition()
-            .duration(1000)
-            .attr("cx", function (d) { return x(d.group); })
-            .attr("cy", function (d) { return y(d[selectedVar]); })
-            .attr("r", 8)
-            .attr("fill", "#69b3a2");
+            .duration(1500)
+            .attr("x", function (d) { return d.x0 + 5 })    // +10 to adjust position (more right)
+            .attr("y", function (d) { return d.y0 + 20 })    // +20 to adjust position (lower)
+            .text(function (d) { return d.data.name })
+            .attr("font-size", "15px")
+            .attr("fill", "white")
     })
 }
 
@@ -553,8 +579,10 @@ d3.json("miserables.json").then(function (graph) {
 
 loadTimeline().then(timeline)
 loadAppearances().then(appearancesPie)
+loadTreeMap().then(treemap)
 
 function updateVis() {
     loadTimeline()
     loadAppearances()
+    loadTreeMap()
 }
