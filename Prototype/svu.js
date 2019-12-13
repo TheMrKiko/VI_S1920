@@ -75,7 +75,14 @@ function timeline() {
     svg.append("g") // we are creating a 'g' element to match our yaxis
         .attr("transform", "translate(30,0)") // 30 is the padding
         .attr("class", "yaxis") // we are giving it a css style
-        .call(yaxis);
+        .call(yaxis)
+        .append("text")
+        .attr("transform", "rotate(-90)")
+        .style("text-anchor", "end")
+        .style("fill", "black")
+        .attr("y", -20)
+        .attr("x", -5)
+        .text("Work Frequency");
 
     var xaxis = d3.axisBottom() // we are creating a d3 axis
         .scale(d3.scaleLinear()
@@ -125,6 +132,7 @@ svg.selectAll("myline")
     .attr("y1", d => hscale(d.freq))
     .attr("y2", hscale(0))
     .attr("stroke", "grey")
+    .attr("class", "lolilines")
 
 // Circles
 radius = 10
@@ -137,6 +145,7 @@ svg.selectAll("mycircle")
     .attr("r", radius)
     .style("fill", "#69b3a2")
     .attr("stroke", "black")
+    .attr("class", "lolicircles")
 
     svg.selectAll(".chartLineText")
     .data(groupYear)
@@ -156,21 +165,41 @@ svg.selectAll("mycircle")
             d3.min(groupYear, d => d.freq),
             d3.max(groupYear, d => d.freq)
         ])
-        svg.selectAll("myline") // same code, but now we only change values
+        svg.selectAll(".lolilines") // same code, but now we only change values
+        .data(groupYear)
+        .transition() // add a smooth transition
+        .duration(1000)
+        .attr("x1", (d, i) => {console.log("hereee"); return xscale(i)})
+        .attr("x2", (d, i) => xscale(i))
+        .attr("y1", d => hscale(d.freq))
+        .attr("y2", hscale(0))
+        .attr("stroke", "grey");
+        console.log("heree")
+
+        svg.selectAll(".lolicircles") // same code, but now we only change values
             .data(groupYear)
             .transition() // add a smooth transition
             .duration(1000)
-            .attr("x1", (d, i) => xscale(i))
-            .attr("x2", (d, i) => xscale(i))
-            .attr("y1", d => hscale(d.freq))
-            .attr("y2", hscale(0))
-            .attr("stroke", "grey");
-        xaxis.scale(d3.scaleLinear()
+            .attr("cx", (d, i) => xscale(i))
+            .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
+            .attr("r", radius)
+            .style("fill", "#69b3a2")
+            .attr("stroke", "black")
+
+            svg.selectAll(".chartLineText")
+            .data(groupYear)
+            .transition()
+            .duration(1000)
+            .attr("x", (d, i) => xscale(i))
+            .text(function (d) { return Math.round(d.freq)/10 })
+            .attr("y", function (d) { return hscale(d.freq)+radius/2; })
+            .style("font-size", radius*1.2+"px");
+      /*  xaxis.scale(d3.scaleLinear()
             .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
             // values from movies' years
             .range([padding + barwidth / 2, w - padding - barwidth / 2])) // we are adding our padding
         d3.select(".xaxis")
-            .call(xaxis);
+            .call(xaxis);*/
     });
 }
 
