@@ -1,5 +1,5 @@
-h1 {
-	font-size: 18pt;
+body {
+	margin: 0;
 	font-family: calibri, arial, sans serif;
 }
 
@@ -18,10 +18,107 @@ h1 {
 	font-size: 10pt;
 }
 
-.btn {
+.appearances-css:not(.active) {
+	opacity: 0.7;
+}
+
+#footer {
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	background-color: lightblue;
+}
+
+.window {
+	display: flex;
+	flex-direction: column;
+	border: black solid 2px;
+	background-color: white;
+}
+
+.windowbar {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	height: 30px;
+	border-bottom: black solid 2px;
+	padding: 0 2px;
+}
+
+.windowbartext {
+	margin-left: 8px;
+	flex: 1;
+}
+
+.windowbaricon {
+	display: flex;
+	margin: 1px;
+	flex: 0 0 20px;
+	justify-content: center;
+	align-items: center;
+	border: black solid 2px;
+}
+
+#wind-net {
+	position: absolute;
+	width: -webkit-fill-available;
+	bottom: 40px;
+	top: 0;
+}
+
+#wind-timeline {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 10px;
+}
+
+#timeline {
+	width: 600px;
+	height: 200px;
+}
+
+#wind-pie {
+	position: absolute;
+	bottom: 0;
+	left: 47%;
+	margin: 10px;
+}
+
+#pie {
+	width: 350px;
+	height: 200px;
+}
+
+#wind-inside {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 10px;
+	top: 30px;
+	width: 300px;
+}
+
+#filters {
+	display: flex;
+	flex-direction: column;
+}
+
+.filtersgroup {
+	display: flex;
+	flex-direction: row;
+}
+
+.filter {
+	flex: 1;
 	width: 100px;
-	font-family: calibri, sans serif;
+	margin: 6px;
+}
+
+.btn {
 	padding: 10px;
+	font-family: calibri, sans serif;
 	border: solid 1px black;
 	color: white;
 	background-color: blue
@@ -29,8 +126,4 @@ h1 {
 
 .btn.active {
 	background-color: red;
-}
-
-.appearances-css:not(.active) {
-	opacity: 0.7;
 }
