@@ -4,25 +4,64 @@
   <title>How Law and Order: SVU affects its guest stars' careers?</title>
   <link rel="stylesheet" href="svu.css">
   <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
-  
+  <!-- <script src="https://unpkg.com/netclustering@0.0.4/dist/netClustering.js"></script> -->
 </head>
 
 <body>
-  <h1>How Law and Order: Special Victims Unit (SVU) affects its guest stars' careers? </h1>
-  <button class="btn gender" id="male" onclick="setGender('male');">Male</button>
-  <button class="btn gender" id="female" onclick="setGender('female');">Female</button>
-  <button class="btn age" id="under_21" onclick="setAge('under_21')">Under 21</button>
-  <button class="btn age" id="between_21_and_50" onclick="setAge('between_21_and_50');">21 to 50</button>
-  <button class="btn age" id="over_50" onclick="setAge('over_50');">Over 50</button>
-  <input type="text">
-  <div class="vis">
-    <div id="the_chart"></div>
-    <div id="second_chart"></div>
+  <div class="window" id="wind-net">
+    <div class="windowbar">
+      <p class="windowbartext">Relations betweet actors</p>
+      <p class="windowbaricon">?</p>
+      <p class="windowbaricon">X</p>
+    </div>
     <div id="third_chart">
       <svg id="network"></svg>
     </div>
+
+    <div class="window" id="wind-timeline">
+      <div class="windowbar">
+        <p class="windowbartext">Career Timeline: Rating information</p>
+        <p class="windowbaricon">?</p>
+        <p class="windowbaricon">X</p>
+      </div>
+      <div id="timeline"></div>
+    </div>
+
+    <div class="window" id="wind-pie">
+      <div class="windowbar">
+        <p class="windowbartext">Number of appearances</p>
+        <p class="windowbaricon">?</p>
+        <p class="windowbaricon">X</p>
+      </div>
+      <div id="pie"></div>
+    </div>
+
+    <div class="window" id="wind-inside">
+      <div class="windowbar">
+        <p class="windowbartext">Inside SVU: Ep Rating</p>
+        <p class="windowbaricon">?</p>
+        <p class="windowbaricon">X</p>
+      </div>
+      <div id="filters">
+        <input class="filter" type="text">
+        <div class="filtersgroup">
+          <button class="btn filter gender" id="male" onclick="setGender('male');">Male</button>
+          <button class="btn filter gender" id="female" onclick="setGender('female');">Female</button>
+        </div>
+        <div class="filtersgroup">
+          <button class="btn filter age" id="under_21" onclick="setAge('under_21')">Under 21</button>
+          <button class="btn filter age" id="between_21_and_50" onclick="setAge('between_21_and_50');">21 to 50</button>
+          <button class="btn filter age" id="over_50" onclick="setAge('over_50');">Over 50</button>
+        </div>
+      </div>
+      <div id="lolli"></div>
+    </div>
   </div>
+
+  <div id="footer"></div>
+
   <script src="svu.js"></script>
+
 </body>
 
 </html>
