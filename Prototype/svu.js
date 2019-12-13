@@ -105,6 +105,55 @@ function genTimeline(props) {
         .data(groupYear)
         .text(d => d.title);
 
+
+
+
+        var y = d3.scaleLinear()
+        .domain([0, 100])
+        .range([ maxheight - 0, maxheight - maxheight]);
+svg.append("g")
+  .call(d3.axisRight(y))
+  .attr("transform", "translate(" + (w - padding) + ",0)")
+  .append("text")
+  .attr("transform", "rotate(-90)")
+  .style("text-anchor", "end")
+  .style("fill", "black")
+  .text("Work Frequency");
+    // Lines
+svg.selectAll("myline")
+  .data(groupYear)
+  .enter()
+  .append("line")
+    .attr("x1", (d, i) => xscale(i))
+    .attr("x2", (d, i) => xscale(i))
+    .attr("y1", d => y(d.freq))
+    .attr("y2", y(0))
+    .attr("stroke", "grey")
+
+// Circles
+radius = 8
+svg.selectAll("mycircle")
+  .data(groupYear)
+  .enter()
+  .append("circle")
+    .attr("cx", (d, i) => xscale(i))
+    .attr("cy", d =>{console.log( y(0)); return y(d.freq);})
+    .attr("r", radius)
+    .style("fill", "#69b3a2")
+    .attr("stroke", "black")
+
+    svg.selectAll(".chartLineText")
+    .data(groupYear)
+    .enter()
+    .append('text')
+    .attr("class", "chartLineText")
+    .style("color", "#000")
+    .style("text-anchor", "middle")
+    //.attr("transform", "translate(" + 30 + ",-2)")
+    .attr("x", (d, i) => xscale(i))
+    .text(function (d) { return Math.round(d.freq) })
+    .attr("y", function (d) { return y(d.freq)+radius/2; })
+    .style("font-size", radius*1.5+"px");
     return props
 }
 
