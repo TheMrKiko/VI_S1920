@@ -5,7 +5,7 @@ def prepare_for_pie(table):
     for person in table:
         if "number_of_appearances" in person:
             apps = person["number_of_appearances"]
-            if apps <= 6:
+            if 1 < apps <= 6:
                 if apps in final:
                     final[apps] += 1
                 else:
