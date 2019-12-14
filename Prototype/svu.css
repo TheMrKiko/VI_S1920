@@ -30,8 +30,16 @@ body {
 	border: 1px solid #fff;
 	border-right-color: #848484;
 	border-bottom-color: #848484;
-	background: white;
+	background: silver;
 	padding: 2px;
+}
+
+.graph {
+	background: #fff;
+    border: 1px solid #000;
+    border-bottom-color: #a3a3a3;
+    border-right-color: #a3a3a3;
+    padding: 1px;
 }
 
 .windowbar {
@@ -73,6 +81,10 @@ body {
 #network {
 	bottom: 0;
 	position: absolute;
+}
+
+#net-container {
+	height: -webkit-fill-available;
 }
 
 #wind-timeline {
@@ -122,6 +134,10 @@ body {
 	flex: 1;
 	width: 100px;
 	margin: 6px;
+}
+
+#searchbox {
+	
 }
 
 .btn {

@@ -165,7 +165,7 @@ svg.selectAll("mycircle")
         svg.selectAll(".lolilines") // same code, but now we only change values
         .data(groupYear)
         .transition() // add a smooth transition
-        .duration(1000)
+        .duration(1500)
         .attr("x1", (d, i) => {console.log("hereee"); return xscale(d.year)})
         .attr("x2", (d, i) => xscale(d.year))
         .attr("y1", d => hscale(d.freq))
@@ -176,7 +176,7 @@ svg.selectAll("mycircle")
         svg.selectAll(".lolicircles") // same code, but now we only change values
             .data(groupYear)
             .transition() // add a smooth transition
-            .duration(1000)
+            .duration(1500)
             .attr("cx", (d, i) => xscale(d.year))
             .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
             .attr("r", radius)
@@ -186,7 +186,7 @@ svg.selectAll("mycircle")
             svg.selectAll(".chartLineText")
             .data(groupYear)
             .transition()
-            .duration(1000)
+            .duration(1500)
             .attr("x", (d, i) => xscale(d.year))
             .text(function (d) { return Math.round(d.freq)/10 })
             .attr("y", function (d) { return hscale(d.freq)+radius/2; })
@@ -314,14 +314,14 @@ function appearancesPie() {
         svg.selectAll('path')
             .data(dataReady)
             .transition()
-            .duration(1000)
+            .duration(1500)
             .attrTween('d', arcTween); // redraw the arcs
 
         // Add the polylines between chart and labels:
         svg.selectAll('polyline')
             .data(dataReady)
             .transition()
-            .duration(1000)
+            .duration(1500)
             .attr('points', d => {
                 var posA = arc.centroid(d) // line insertion in the slice
                 var posB = outerArc.centroid(d) // line break: we use the other arc generator that has been built only for that
@@ -335,7 +335,7 @@ function appearancesPie() {
         svg.selectAll('text')
             .data(dataReady)
             .transition() // add a smooth transition
-            .duration(1000)
+            .duration(1500)
             .attr('transform', d => {
                 var pos = outerArc.centroid(d);
                 var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2
@@ -398,7 +398,8 @@ function treemap() {
         .attr('y', function (d) { return d.y0; })
         .attr('width', function (d) { return d.x1 - d.x0; })
         .attr('height', function (d) { return d.y1 - d.y0; })
-        .style("stroke", "black")
+        .attr("stroke", "white")
+        .style("stroke-width", "1px")
         .style("fill", d => color(d.data.name))
 
     // and to add the text labels
@@ -440,7 +441,8 @@ function treemap() {
             .attr('y', function (d) { return d.y0; })
             .attr('width', function (d) { return d.x1 - d.x0; })
             .attr('height', function (d) { return d.y1 - d.y0; })
-            .style("stroke", "black")
+            .attr("stroke", "white")
+            .style("stroke-width", "1px")
             .style("fill", d => color(d.data.name))
 
         // and to add the text labels
