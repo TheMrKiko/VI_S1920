@@ -17,7 +17,6 @@
   "imdb_id": "nm0861361",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629625": 8.7
@@ -38,7 +37,8 @@
     "tt9628210": 6.6
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1959-09-19",
@@ -56,7 +56,6 @@
   "imdb_id": "nm0566509",
   "homepage": "http://www.carolynmccormick.com/",
   "year_of_appearance": "1999",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629693": 8.7
@@ -74,7 +73,8 @@
     "tt7195354": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1955-01-09",
@@ -102,7 +102,6 @@
   "imdb_id": "nm0799777",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629747": 9.3
@@ -123,7 +122,8 @@
     "tt0629655": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1966-02-27",
@@ -143,7 +143,6 @@
   "imdb_id": "nm0006610",
   "homepage": null,
   "year_of_appearance": "2014",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt3508746": 8.8
@@ -164,7 +163,8 @@
     "tt3696034": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1965-08-11",
@@ -185,7 +185,6 @@
   "imdb_id": "nm0205626",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629684": 9.3
@@ -206,7 +205,8 @@
     "tt1015441": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1972-08-10",
@@ -224,7 +224,6 @@
   "imdb_id": "nm0004990",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629700": 9.2
@@ -245,7 +244,8 @@
     "tt0629650": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1969-12-31",
@@ -263,7 +263,6 @@
   "imdb_id": "nm0714698",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629747": 9.3
@@ -284,6 +283,7 @@
     "tt0629672": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  }
 ]

@@ -17,7 +17,6 @@
   "imdb_id": "nm0068187",
   "homepage": "http://www.emmabell.net",
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629694": 8.7
@@ -26,7 +25,8 @@
     "tt3599558": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1997-01-01",
@@ -44,7 +44,6 @@
   "imdb_id": "nm2253071",
   "homepage": null,
   "year_of_appearance": "2010",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt1750610": 9.2
@@ -53,7 +52,8 @@
     "tt1750609": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1989-08-21",
@@ -74,7 +74,6 @@
   "imdb_id": "nm0659363",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629608": 8.7
@@ -83,7 +82,8 @@
     "tt0629668": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1982-07-23",
@@ -104,7 +104,6 @@
   "imdb_id": "nm0913587",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629757": 9.1
@@ -113,7 +112,8 @@
     "tt0629718": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1990-11-24",
@@ -135,7 +135,6 @@
   "imdb_id": "nm0405103",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629715": 9.2
@@ -144,7 +143,8 @@
     "tt1248624": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1986-10-22",
@@ -162,7 +162,6 @@
   "imdb_id": "nm0973177",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629675": 8.7
@@ -171,7 +170,8 @@
     "tt1015446": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1990-03-11",
@@ -191,13 +191,13 @@
   "imdb_id": "nm0565823",
   "homepage": null,
   "year_of_appearance": "2005",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629670": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1997-02-07",
@@ -215,7 +215,6 @@
   "imdb_id": "nm1974736",
   "homepage": null,
   "year_of_appearance": "2006",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0897711": 9.2
@@ -224,7 +223,8 @@
     "tt1697001": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1998-12-29",
@@ -246,7 +246,6 @@
   "imdb_id": "nm2089090",
   "homepage": null,
   "year_of_appearance": "2007",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0963576": 8.8
@@ -255,7 +254,8 @@
     "tt2872940": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1987-09-24",
@@ -273,7 +273,6 @@
   "imdb_id": "nm0004829",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629654": 9.3
@@ -282,7 +281,8 @@
     "tt1825389": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1985-04-23",
@@ -300,7 +300,6 @@
   "imdb_id": "nm0041752",
   "homepage": "http://www.blytheauffarth.com/",
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629703": 8.9
@@ -309,7 +308,8 @@
     "tt0629715": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1990-07-11",
@@ -327,7 +327,6 @@
   "imdb_id": "nm1269733",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629675": 8.7
@@ -336,7 +335,8 @@
     "tt0799656": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1986-03-19",
@@ -354,7 +354,6 @@
   "imdb_id": "nm1826988",
   "homepage": null,
   "year_of_appearance": "2005",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629668": 8.8
@@ -363,7 +362,8 @@
     "tt0887553": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1990-05-16",
@@ -383,7 +383,6 @@
   "imdb_id": "nm0420384",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629690": 9.3
@@ -392,7 +391,8 @@
     "tt2384186": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1992-03-08",
@@ -412,7 +412,6 @@
   "imdb_id": "nm1659579",
   "homepage": null,
   "year_of_appearance": "2006",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0887553": 9.1
@@ -421,7 +420,8 @@
     "tt5219196": 8.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "2000-04-15",
@@ -439,7 +439,6 @@
   "imdb_id": "nm1425780",
   "homepage": null,
   "year_of_appearance": "2014",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt3599560": 9.2
@@ -448,7 +447,8 @@
     "tt3599562": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1993-10-23",
@@ -466,7 +466,6 @@
   "imdb_id": "nm1837588",
   "homepage": "http://www.taylorspreitler.com/",
   "year_of_appearance": "2005",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629709": 9.3
@@ -475,7 +474,8 @@
     "tt2452938": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1986-08-08",
@@ -496,7 +496,6 @@
   "imdb_id": "nm0514228",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629703": 8.9
@@ -505,6 +504,7 @@
     "tt0629736": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  }
 ]

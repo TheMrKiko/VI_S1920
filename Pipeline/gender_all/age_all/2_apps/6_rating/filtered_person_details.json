@@ -20,7 +20,6 @@
   "imdb_id": "nm0465670",
   "homepage": null,
   "year_of_appearance": "2016",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt5734502": 8.8
@@ -29,6 +28,7 @@
     "tt7195376": 4.2
    }
   ],
-  "mean_rating": 6
+  "mean_rating": 6,
+  "number_of_appearances": 2
  }
 ]

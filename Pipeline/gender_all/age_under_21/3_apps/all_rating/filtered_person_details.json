@@ -15,7 +15,6 @@
   "imdb_id": "nm0927727",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629746": 9.2
@@ -27,6 +26,7 @@
     "tt3409880": 4.8
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 3
  }
 ]

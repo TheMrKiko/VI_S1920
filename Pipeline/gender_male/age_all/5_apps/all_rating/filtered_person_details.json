@@ -17,7 +17,6 @@
   "imdb_id": "nm0090225",
   "homepage": "http://www.michaelboatman.us/",
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629607": 8.7
@@ -35,7 +34,8 @@
     "tt0760910": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": null,
@@ -53,7 +53,6 @@
   "imdb_id": "nm0861513",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629683": 9.3
@@ -71,7 +70,8 @@
     "tt1248627": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": null,
@@ -89,7 +89,6 @@
   "imdb_id": "nm0102915",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt2384186": 9.4
@@ -107,7 +106,8 @@
     "tt5372770": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1947-04-11",
@@ -127,7 +127,6 @@
   "imdb_id": "nm0726200",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629679": 8.7
@@ -145,7 +144,8 @@
     "tt1015447": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1969-01-01",
@@ -166,7 +166,6 @@
   "imdb_id": "nm0995946",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629625": 8.7
@@ -184,7 +183,8 @@
     "tt0946364": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1945-02-24",
@@ -202,7 +202,6 @@
   "imdb_id": "nm0000960",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629663": 8.7
@@ -220,7 +219,8 @@
     "tt0966157": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1930-09-26",
@@ -238,7 +238,6 @@
   "imdb_id": "nm0097842",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629754": 9.2
@@ -256,7 +255,8 @@
     "tt0897711": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1956-09-16",
@@ -274,7 +274,6 @@
   "imdb_id": "nm0416838",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629677": 8.4
@@ -292,6 +291,7 @@
     "tt0629612": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  }
 ]

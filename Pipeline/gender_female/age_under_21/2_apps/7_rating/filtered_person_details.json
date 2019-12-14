@@ -15,7 +15,6 @@
   "imdb_id": "nm2640887",
   "homepage": "http://stefaniescottofficialsite.com/",
   "year_of_appearance": "2014",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt3409880": 4.8
@@ -24,6 +23,7 @@
     "tt3508746": 8.8
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 2
  }
 ]

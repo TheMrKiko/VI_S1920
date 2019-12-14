@@ -23,7 +23,8 @@
     "tt7195378": 9.5
    }
   ],
-  "mean_rating": 10
+  "mean_rating": 10,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-10-03",
@@ -49,6 +50,7 @@
     "tt7195372": 9.5
    }
   ],
-  "mean_rating": 10
+  "mean_rating": 10,
+  "number_of_appearances": 1
  }
 ]

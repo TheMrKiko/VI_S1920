@@ -15,7 +15,6 @@
   "imdb_id": "nm0281575",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629619": 8.7
@@ -24,6 +23,7 @@
     "tt5171644": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  }
 ]

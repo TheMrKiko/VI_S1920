@@ -15,7 +15,6 @@
   "imdb_id": "nm0878152",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt2587590": 9.0
@@ -30,7 +29,8 @@
     "tt9628210": 6.6
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1977-11-02",
@@ -48,7 +48,6 @@
   "imdb_id": "nm0148466",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt2357100": 9.4
@@ -63,7 +62,8 @@
     "tt3696034": 9.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1961-03-12",
@@ -83,7 +83,6 @@
   "imdb_id": "nm0920038",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt0629716": 9.3
@@ -98,6 +97,7 @@
     "tt9628210": 6.6
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 4
  }
 ]

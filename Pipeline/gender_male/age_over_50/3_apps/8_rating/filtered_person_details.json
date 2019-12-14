@@ -15,7 +15,6 @@
   "imdb_id": "nm0627624",
   "homepage": null,
   "year_of_appearance": "2018",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt8395466": 8.6
@@ -27,7 +26,8 @@
     "tt8917878": 8.7
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1956-11-22",
@@ -45,7 +45,6 @@
   "imdb_id": "nm0454236",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt2388722": 9.1
@@ -57,6 +56,7 @@
     "tt9628210": 6.6
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 3
  }
 ]

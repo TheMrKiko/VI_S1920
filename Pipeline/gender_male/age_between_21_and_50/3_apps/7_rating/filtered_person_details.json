@@ -18,7 +18,6 @@
   "imdb_id": "nm0223561",
   "homepage": "http://roxanevacca.co.uk/clients/hari-dhillon",
   "year_of_appearance": "2015",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt4540826": 4.0
@@ -30,6 +29,7 @@
     "tt5566126": 8.7
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 3
  }
 ]

@@ -15,7 +15,6 @@
   "imdb_id": "nm0487594",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629753": 8.9
@@ -36,6 +35,7 @@
     "tt1015432": 8.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  }
 ]

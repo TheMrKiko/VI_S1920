@@ -54,7 +54,7 @@ function timeline() {
         .domain([0, 100])
         .range([maxheight - 0, maxheight - maxheight]);
     var xscale = d3.scaleLinear()
-        .domain([0, groupYear.length])
+        .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
         .range([padding, w - padding]); // we are adding our padding to our width scale
 
     var cscale = d3.scaleLinear() // let us create a new scale for color
@@ -80,15 +80,12 @@ function timeline() {
         .attr("transform", "rotate(-90)")
         .style("text-anchor", "end")
         .style("fill", "black")
-        .attr("y", -20)
+        .attr("y", -23)
         .attr("x", -5)
         .text("Work Frequency");
 
     var xaxis = d3.axisBottom() // we are creating a d3 axis
-        .scale(d3.scaleLinear()
-            .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
-            // values from movies' years
-            .range([padding + barwidth / 2, w - padding - barwidth / 2])) // we are adding our padding
+        .scale(xscale) // we are adding our padding
         .ticks(groupYear.length);
     svg.append("g") // we are creating a 'g' element to match our x axis
         .attr("transform", "translate(0," + maxheight + ")")
@@ -127,8 +124,8 @@ svg.selectAll("myline")
   .data(groupYear)
   .enter()
   .append("line")
-    .attr("x1", (d, i) => xscale(i))
-    .attr("x2", (d, i) => xscale(i))
+    .attr("x1", (d, i) => xscale(d.year))
+    .attr("x2", (d, i) => xscale(d.year))
     .attr("y1", d => hscale(d.freq))
     .attr("y2", hscale(0))
     .attr("stroke", "grey")
@@ -140,7 +137,7 @@ svg.selectAll("mycircle")
   .data(groupYear)
   .enter()
   .append("circle")
-    .attr("cx", (d, i) => xscale(i))
+    .attr("cx", (d, i) => xscale(d.year))
     .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
     .attr("r", radius)
     .style("fill", "#69b3a2")
@@ -155,7 +152,7 @@ svg.selectAll("mycircle")
     .style("color", "#000")
     .style("text-anchor", "middle")
     //.attr("transform", "translate(" + 30 + ",-2)")
-    .attr("x", (d, i) => xscale(i))
+    .attr("x", (d, i) => xscale(d.year))
     .text(function (d) { return Math.round(d.freq)/10 })
     .attr("y", function (d) { return hscale(d.freq)+radius/2; })
     .style("font-size", radius*1.2+"px");
@@ -169,8 +166,8 @@ svg.selectAll("mycircle")
         .data(groupYear)
         .transition() // add a smooth transition
         .duration(1000)
-        .attr("x1", (d, i) => {console.log("hereee"); return xscale(i)})
-        .attr("x2", (d, i) => xscale(i))
+        .attr("x1", (d, i) => {console.log("hereee"); return xscale(d.year)})
+        .attr("x2", (d, i) => xscale(d.year))
         .attr("y1", d => hscale(d.freq))
         .attr("y2", hscale(0))
         .attr("stroke", "grey");
@@ -180,7 +177,7 @@ svg.selectAll("mycircle")
             .data(groupYear)
             .transition() // add a smooth transition
             .duration(1000)
-            .attr("cx", (d, i) => xscale(i))
+            .attr("cx", (d, i) => xscale(d.year))
             .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
             .attr("r", radius)
             .style("fill", "#69b3a2")
@@ -190,7 +187,7 @@ svg.selectAll("mycircle")
             .data(groupYear)
             .transition()
             .duration(1000)
-            .attr("x", (d, i) => xscale(i))
+            .attr("x", (d, i) => xscale(d.year))
             .text(function (d) { return Math.round(d.freq)/10 })
             .attr("y", function (d) { return hscale(d.freq)+radius/2; })
             .style("font-size", radius*1.2+"px");
@@ -664,3 +661,15 @@ function updateVis() {
     loadAppearances()
     loadTreeMap()
 }
+
+function prepareSearch() {
+    var actor_names = []
+    d3.json("../Pipeline/person_details.json").then(function (person_details) {
+        person_details.forEach(function(actor) {
+            actor_names.push(actor["name"]);
+        });
+    })
+    actor_names.sort((a, b) => a> b)
+    console.log(actor_names)
+}
+prepareSearch()

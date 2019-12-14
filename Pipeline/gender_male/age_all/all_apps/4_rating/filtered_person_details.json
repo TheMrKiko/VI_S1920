@@ -20,7 +20,8 @@
     "tt5902050": 4.2
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -43,7 +44,8 @@
     "tt4540826": 4.0
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -66,6 +68,7 @@
     "tt5902050": 4.2
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  }
 ]
