@@ -15,7 +15,6 @@
   "imdb_id": "nm0000350",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629628": 9.4
@@ -33,7 +32,8 @@
     "tt1015438": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1940-06-21",
@@ -51,7 +51,6 @@
   "imdb_id": "nm0366866",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629706": 9.3
@@ -69,6 +68,7 @@
     "tt1248627": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  }
 ]

@@ -50,6 +50,11 @@
   "rating": 0
  },
  {
+  "year": 0,
+  "freq": 0,
+  "rating": 0
+ },
+ {
   "year": 1,
   "freq": 33.0,
   "rating": 67.0

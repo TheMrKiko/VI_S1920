@@ -15,7 +15,6 @@
   "imdb_id": "nm0084105",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629734": 9.2
@@ -27,7 +26,8 @@
     "tt1248635": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1947-07-03",
@@ -47,7 +47,6 @@
   "imdb_id": "nm0000990",
   "homepage": "http://www.bettybuckley.com/",
   "year_of_appearance": "2006",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0760911": 9.2
@@ -59,7 +58,8 @@
     "tt1248637": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1958-03-10",
@@ -80,7 +80,6 @@
   "imdb_id": "nm0000232",
   "homepage": null,
   "year_of_appearance": "2010",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt1607136": 8.8
@@ -92,7 +91,8 @@
     "tt1644792": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1962-09-24",
@@ -112,7 +112,6 @@
   "imdb_id": "nm0889522",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt2628024": 9.0
@@ -124,6 +123,7 @@
     "tt3673434": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  }
 ]

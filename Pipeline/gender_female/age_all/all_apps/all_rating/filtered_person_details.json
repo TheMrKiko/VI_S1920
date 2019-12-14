@@ -20,7 +20,8 @@
     "tt0629732": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-11-12",
@@ -46,7 +47,8 @@
     "tt0946364": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1981-06-07",
@@ -69,7 +71,8 @@
     "tt5566130": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1973-06-09",
@@ -95,7 +98,8 @@
     "tt0629702": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-10-13",
@@ -118,7 +122,8 @@
     "tt0629707": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1967-04-18",
@@ -145,7 +150,8 @@
     "tt1750610": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-10-24",
@@ -168,7 +174,8 @@
     "tt5902020": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-05-12",
@@ -193,7 +200,8 @@
     "tt1569097": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1975-10-10",
@@ -211,7 +219,6 @@
   "imdb_id": "nm1283919",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629663": 8.7
@@ -220,7 +227,8 @@
     "tt1015448": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1958-04-29",
@@ -243,7 +251,8 @@
     "tt2658680": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-12-14",
@@ -261,7 +270,6 @@
   "imdb_id": "nm0065248",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629650": 8.9
@@ -270,7 +278,8 @@
     "tt1863819": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": null,
@@ -293,7 +302,8 @@
     "tt2741872": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1957-03-23",
@@ -316,7 +326,8 @@
     "tt0629755": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1975-11-17",
@@ -334,7 +345,6 @@
   "imdb_id": "nm1011812",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 114,
   "episodes": [
    {
     "tt0629717": 9.4
@@ -366,7 +376,8 @@
     "tt0629757": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-01-01",
@@ -384,7 +395,6 @@
   "imdb_id": "nm0400625",
   "homepage": null,
   "year_of_appearance": "2007",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt1015447": 9.4
@@ -393,7 +403,8 @@
     "tt7195314": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -411,7 +422,6 @@
   "imdb_id": "nm1864742",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt3219646": 9.1
@@ -423,7 +433,8 @@
     "tt4596276": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1995-03-07",
@@ -449,7 +460,8 @@
     "tt4328658": 4.6
    }
   ],
-  "mean_rating": 5
+  "mean_rating": 5,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -467,7 +479,6 @@
   "imdb_id": "nm0611087",
   "homepage": null,
   "year_of_appearance": "2007",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0925451": 9.2
@@ -476,7 +487,8 @@
     "tt7195352": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1972-11-04",
@@ -499,7 +511,8 @@
     "tt5196638": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -522,7 +535,8 @@
     "tt2760466": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1966-03-23",
@@ -545,7 +559,8 @@
     "tt0629712": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-10-12",
@@ -563,7 +578,6 @@
   "imdb_id": "nm0614684",
   "homepage": null,
   "year_of_appearance": "2018",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt8395466": 8.6
@@ -572,7 +586,8 @@
     "tt8585606": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1947-08-22",
@@ -595,7 +610,8 @@
     "tt0629732": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1944-12-11",
@@ -622,7 +638,8 @@
     "tt0629738": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -645,7 +662,8 @@
     "tt0629616": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-04-14",
@@ -670,7 +688,8 @@
     "tt0629693": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1941-01-31",
@@ -693,7 +712,8 @@
     "tt1507723": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1971-03-13",
@@ -718,7 +738,8 @@
     "tt6930594": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1988-02-11",
@@ -744,7 +765,8 @@
     "tt0629621": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-12-20",
@@ -769,7 +791,8 @@
     "tt0629650": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -794,7 +817,8 @@
     "tt3717668": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1928-08-23",
@@ -817,7 +841,8 @@
     "tt0946364": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-02-17",
@@ -842,7 +867,8 @@
     "tt0629710": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-08-26",
@@ -869,7 +895,8 @@
     "tt1015436": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1996-01-17",
@@ -892,7 +919,8 @@
     "tt0853818": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -915,7 +943,8 @@
     "tt5902032": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-07-18",
@@ -938,7 +967,8 @@
     "tt0897711": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-04-21",
@@ -961,7 +991,8 @@
     "tt0629632": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1957-09-04",
@@ -984,7 +1015,8 @@
     "tt3409878": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-12-14",
@@ -1007,7 +1039,8 @@
     "tt0629631": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1941-01-20",
@@ -1032,7 +1065,8 @@
     "tt0629730": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1929-04-01",
@@ -1057,7 +1091,8 @@
     "tt0629752": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-06-19",
@@ -1091,7 +1126,8 @@
     "tt0629637": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1953-09-07",
@@ -1114,7 +1150,8 @@
     "tt0629724": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -1139,7 +1176,8 @@
     "tt2741872": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1979-02-25",
@@ -1162,7 +1200,8 @@
     "tt1475914": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-03-23",
@@ -1185,7 +1224,8 @@
     "tt1015452": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -1212,7 +1252,8 @@
     "tt0629644": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1994-11-17",
@@ -1235,7 +1276,8 @@
     "tt0629609": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-05-06",
@@ -1253,7 +1295,6 @@
   "imdb_id": "nm1272826",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2452938": 8.7
@@ -1262,7 +1303,8 @@
     "tt2672002": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1969-11-20",
@@ -1282,7 +1324,6 @@
   "imdb_id": "nm0861361",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629625": 8.7
@@ -1303,7 +1344,8 @@
     "tt9628210": 6.6
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1951-10-19",
@@ -1326,7 +1368,8 @@
     "tt0629744": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1990-03-04",
@@ -1349,7 +1392,8 @@
     "tt0629635": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-06-01",
@@ -1367,7 +1411,6 @@
   "imdb_id": "nm0756089",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629725": 8.8
@@ -1379,7 +1422,8 @@
     "tt1750609": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1933-08-10",
@@ -1404,7 +1448,8 @@
     "tt0629749": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -1422,7 +1467,6 @@
   "imdb_id": "nm0763640",
   "homepage": null,
   "year_of_appearance": "2011",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt2016572": 9.2
@@ -1437,7 +1481,8 @@
     "tt3599556": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1995-04-09",
@@ -1460,7 +1505,8 @@
     "tt7195376": 4.2
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-10-05",
@@ -1485,7 +1531,8 @@
     "tt0629728": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-11-08",
@@ -1508,7 +1555,8 @@
     "tt7195370": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-07-05",
@@ -1526,7 +1574,6 @@
   "imdb_id": "nm0002062",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2388722": 9.1
@@ -1535,7 +1582,8 @@
     "tt2855090": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1952-10-28",
@@ -1556,7 +1604,6 @@
   "imdb_id": "nm0001633",
   "homepage": null,
   "year_of_appearance": "2005",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt0629721": 8.7
@@ -1571,7 +1618,8 @@
     "tt1248631": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1964-10-28",
@@ -1594,7 +1642,8 @@
     "tt2401380": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-07-13",
@@ -1612,7 +1661,6 @@
   "imdb_id": "nm0174883",
   "homepage": null,
   "year_of_appearance": "2008",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt1015439": 9.3
@@ -1621,7 +1669,8 @@
     "tt1248641": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1963-12-15",
@@ -1644,7 +1693,8 @@
     "tt0629654": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1941-12-10",
@@ -1670,7 +1720,8 @@
     "tt0629651": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1944-02-28",
@@ -1688,7 +1739,6 @@
   "imdb_id": "nm0084105",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629734": 9.2
@@ -1700,7 +1750,8 @@
     "tt1248635": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1956-07-12",
@@ -1718,7 +1769,6 @@
   "imdb_id": "nm0004995",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt3305432": 9.0
@@ -1727,7 +1777,8 @@
     "tt3409878": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -1750,7 +1801,8 @@
     "tt0629646": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-03-08",
@@ -1775,7 +1827,8 @@
     "tt0629744": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1984-12-17",
@@ -1801,7 +1854,8 @@
     "tt1015449": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1986-12-17",
@@ -1821,7 +1875,6 @@
   "imdb_id": "nm0068187",
   "homepage": "http://www.emmabell.net",
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629694": 8.7
@@ -1830,7 +1883,8 @@
     "tt3599558": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1996-04-14",
@@ -1860,7 +1914,8 @@
     "tt0629615": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-08-26",
@@ -1883,7 +1938,8 @@
     "tt9501784": 6.9
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1958-05-26",
@@ -1906,7 +1962,8 @@
     "tt0629748": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -1929,7 +1986,8 @@
     "tt3696034": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1944-01-01",
@@ -1954,7 +2012,8 @@
     "tt0629751": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -1972,7 +2031,6 @@
   "imdb_id": "nm0564902",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2672002": 8.7
@@ -1981,7 +2039,8 @@
     "tt3409878": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1967-01-10",
@@ -2004,7 +2063,8 @@
     "tt0629720": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-06-21",
@@ -2029,7 +2089,8 @@
     "tt0760910": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-11-15",
@@ -2047,7 +2108,6 @@
   "imdb_id": "nm0000350",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629628": 9.4
@@ -2065,7 +2125,8 @@
     "tt1015438": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1979-02-01",
@@ -2092,7 +2153,8 @@
     "tt6352474": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1989-08-21",
@@ -2113,7 +2175,6 @@
   "imdb_id": "nm0659363",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629608": 8.7
@@ -2122,7 +2183,8 @@
     "tt0629668": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -2147,7 +2209,8 @@
     "tt0629648": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1975-12-03",
@@ -2170,7 +2233,8 @@
     "tt0629621": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-11-19",
@@ -2193,7 +2257,8 @@
     "tt0629720": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-03-24",
@@ -2216,7 +2281,8 @@
     "tt1017770": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1988-09-19",
@@ -2239,7 +2305,8 @@
     "tt0760910": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "2002-10-29",
@@ -2262,7 +2329,8 @@
     "tt1532110": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -2287,7 +2355,8 @@
     "tt0629738": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1953-12-29",
@@ -2310,7 +2379,6 @@
   "imdb_id": "nm0940128",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 7,
   "episodes": [
    {
     "tt0629733": 9.2
@@ -2334,7 +2402,8 @@
     "tt0887553": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 7
  },
  {
   "birthday": "1965-07-03",
@@ -2355,7 +2424,6 @@
   "imdb_id": "nm0001567",
   "homepage": null,
   "year_of_appearance": "2006",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0860059": 9.0
@@ -2364,7 +2432,8 @@
     "tt0897711": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1989-11-14",
@@ -2387,7 +2456,8 @@
     "tt4596276": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1993-08-26",
@@ -2410,7 +2480,8 @@
     "tt0629741": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-09-01",
@@ -2436,7 +2507,8 @@
     "tt1015435": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-09-07",
@@ -2459,7 +2531,8 @@
     "tt0629646": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-05-15",
@@ -2485,7 +2558,8 @@
     "tt8917878": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -2508,7 +2582,8 @@
     "tt0629617": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1950-02-18",
@@ -2533,7 +2608,8 @@
     "tt3186484": 8.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1953-06-16",
@@ -2556,7 +2632,8 @@
     "tt0629674": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1984-04-11",
@@ -2582,7 +2659,8 @@
     "tt0629683": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1961-05-31",
@@ -2608,7 +2686,8 @@
     "tt0629615": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-02-10",
@@ -2637,7 +2716,8 @@
     "tt0629726": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1961-04-16",
@@ -2660,7 +2740,8 @@
     "tt0629708": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-11-16",
@@ -2685,7 +2766,8 @@
     "tt0629642": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -2710,7 +2792,8 @@
     "tt3599558": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -2733,7 +2816,8 @@
     "tt3255192": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1936-08-20",
@@ -2760,7 +2844,8 @@
     "tt1248631": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1975-11-04",
@@ -2783,7 +2868,8 @@
     "tt0629695": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1958-04-04",
@@ -2806,7 +2892,8 @@
     "tt3436112": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1979-08-25",
@@ -2831,7 +2918,8 @@
     "tt0629749": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-12-07",
@@ -2851,7 +2939,6 @@
   "imdb_id": "nm0032375",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt3272042": 9.2
@@ -2860,7 +2947,8 @@
     "tt9122658": 8.5
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1968-02-22",
@@ -2887,7 +2975,8 @@
     "tt1248630": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1954-07-12",
@@ -2910,7 +2999,8 @@
     "tt0629754": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1998-07-22",
@@ -2933,7 +3023,8 @@
     "tt7195314": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-05-17",
@@ -2959,7 +3050,8 @@
     "tt0629717": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1953-03-04",
@@ -2982,7 +3074,8 @@
     "tt0629662": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1990-11-24",
@@ -3004,7 +3097,6 @@
   "imdb_id": "nm0405103",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629715": 9.2
@@ -3013,7 +3105,8 @@
     "tt1248624": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1971-02-08",
@@ -3038,7 +3131,8 @@
     "tt0629647": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-02-16",
@@ -3063,7 +3157,8 @@
     "tt5902020": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1981-11-11",
@@ -3086,7 +3181,8 @@
     "tt9122616": 4.8
    }
   ],
-  "mean_rating": 5
+  "mean_rating": 5,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-12-09",
@@ -3104,7 +3200,6 @@
   "imdb_id": "nm0043855",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629632": 8.7
@@ -3116,7 +3211,8 @@
     "tt0629734": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1959-05-22",
@@ -3136,7 +3232,6 @@
   "imdb_id": "nm0256599",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629663": 8.7
@@ -3154,7 +3249,8 @@
     "tt2787898": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1995-04-18",
@@ -3180,7 +3276,8 @@
     "tt5566126": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -3203,7 +3300,8 @@
     "tt0629655": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1966-12-21",
@@ -3221,7 +3319,6 @@
   "imdb_id": "nm0403335",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 35,
   "episodes": [
    {
     "tt0629700": 9.2
@@ -3286,7 +3383,8 @@
     "tt1248633": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-10-11",
@@ -3311,7 +3409,8 @@
     "tt0629743": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1932-12-07",
@@ -3334,7 +3433,8 @@
     "tt1248636": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -3357,7 +3457,8 @@
     "tt6882956": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-06-29",
@@ -3380,7 +3481,8 @@
     "tt0629620": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -3406,7 +3508,8 @@
     "tt7195378": 9.5
    }
   ],
-  "mean_rating": 10
+  "mean_rating": 10,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-02-14",
@@ -3429,7 +3532,8 @@
     "tt0915390": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1963-01-23",
@@ -3452,7 +3556,8 @@
     "tt1248631": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "2011-04-22",
@@ -3477,7 +3582,8 @@
     "tt9122646": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-10-02",
@@ -3502,7 +3608,8 @@
     "tt1508810": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1991-08-02",
@@ -3520,7 +3627,6 @@
   "imdb_id": "nm1384666",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2787898": 9.1
@@ -3529,7 +3635,8 @@
     "tt3494020": 6.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1960-10-09",
@@ -3552,7 +3659,8 @@
     "tt4006502": 5.1
    }
   ],
-  "mean_rating": 5
+  "mean_rating": 5,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1990-10-18",
@@ -3575,7 +3683,8 @@
     "tt1248633": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-07-04",
@@ -3600,7 +3709,8 @@
     "tt0629755": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -3623,7 +3733,8 @@
     "tt7195366": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-01-28",
@@ -3646,7 +3757,8 @@
     "tt0629656": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -3669,7 +3781,8 @@
     "tt5372770": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -3687,7 +3800,6 @@
   "imdb_id": "nm0565619",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629740": 8.7
@@ -3696,7 +3808,8 @@
     "tt0629673": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1962-06-30",
@@ -3717,7 +3830,6 @@
   "imdb_id": "nm0522479",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629734": 9.2
@@ -3729,7 +3841,8 @@
     "tt1015441": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": null,
@@ -3752,7 +3865,8 @@
     "tt5566138": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-10-23",
@@ -3775,7 +3889,8 @@
     "tt0629746": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -3798,7 +3913,8 @@
     "tt3250412": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1998-04-09",
@@ -3833,7 +3949,8 @@
     "tt0897711": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-06-12",
@@ -3856,7 +3973,8 @@
     "tt0629615": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1984-03-13",
@@ -3879,7 +3997,8 @@
     "tt0629716": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-03-14",
@@ -3900,7 +4019,6 @@
   "imdb_id": "nm0876645",
   "homepage": "http://tamaratunie.com",
   "year_of_appearance": "2000",
-  "number_of_appearances": 77,
   "episodes": [
    {
     "tt0629691": 8.7
@@ -4156,7 +4274,8 @@
     "tt0629621": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1963-03-11",
@@ -4177,7 +4296,6 @@
   "imdb_id": "nm0005094",
   "homepage": null,
   "year_of_appearance": "2009",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt1248626": 8.7
@@ -4192,7 +4310,8 @@
     "tt1750610": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1964-02-01",
@@ -4215,7 +4334,8 @@
     "tt0629616": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-07-23",
@@ -4233,7 +4353,6 @@
   "imdb_id": "nm0545335",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 78,
   "episodes": [
    {
     "tt0629757": 9.1
@@ -4281,7 +4400,6 @@
   "imdb_id": "nm1002960",
   "homepage": null,
   "year_of_appearance": "2014",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt3673434": 9.0
@@ -4290,7 +4408,8 @@
     "tt3696034": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1980-04-13",
@@ -4308,7 +4427,6 @@
   "imdb_id": "nm1534207",
   "homepage": null,
   "year_of_appearance": "2007",
-  "number_of_appearances": 192,
   "episodes": [
    {
     "tt0915390": 9.1
@@ -4337,7 +4455,8 @@
     "tt2401380": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -4360,7 +4479,8 @@
     "tt3409878": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -4378,7 +4498,6 @@
   "imdb_id": "nm0256318",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629675": 8.7
@@ -4387,7 +4506,8 @@
     "tt0629688": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1953-02-17",
@@ -4413,7 +4533,8 @@
     "tt0629675": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1933-12-19",
@@ -4436,7 +4557,8 @@
     "tt1248629": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-02-18",
@@ -4459,7 +4581,8 @@
     "tt1015447": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1957-11-06",
@@ -4482,7 +4605,8 @@
     "tt1863819": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1948-12-06",
@@ -4505,7 +4629,8 @@
     "tt0629754": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-07-16",
@@ -4528,7 +4653,8 @@
     "tt7195366": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1973-04-11",
@@ -4546,7 +4672,6 @@
   "imdb_id": "nm0261170",
   "homepage": "http://livingfreejennifer.com/",
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629714": 9.2
@@ -4555,7 +4680,8 @@
     "tt9122624": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1948-03-28",
@@ -4575,7 +4701,6 @@
   "imdb_id": "nm0001848",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629717": 9.4
@@ -4584,7 +4709,8 @@
     "tt0629622": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1950-06-08",
@@ -4610,7 +4736,8 @@
     "tt0976643": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1947-10-13",
@@ -4636,7 +4763,8 @@
     "tt0629720": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1975-10-30",
@@ -4661,7 +4789,8 @@
     "tt0883172": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1989-06-27",
@@ -4684,7 +4813,8 @@
     "tt3673434": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1993-04-13",
@@ -4709,7 +4839,8 @@
     "tt4086130": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1983-02-27",
@@ -4735,7 +4866,8 @@
     "tt0629703": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1991-01-01",
@@ -4763,7 +4895,8 @@
     "tt2835036": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -4786,7 +4919,8 @@
     "tt0629647": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -4806,7 +4940,6 @@
   "imdb_id": "nm1560437",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629639": 9.2
@@ -4824,7 +4957,8 @@
     "tt3599562": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1957-10-28",
@@ -4842,7 +4976,6 @@
   "imdb_id": "nm0014483",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629650": 8.9
@@ -4851,7 +4984,8 @@
     "tt0629742": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1938-05-19",
@@ -4874,7 +5008,8 @@
     "tt0897711": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-12-14",
@@ -4899,7 +5034,8 @@
     "tt0629740": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-02-15",
@@ -4922,7 +5058,8 @@
     "tt0629654": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -4945,7 +5082,8 @@
     "tt4596276": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1946-08-14",
@@ -4968,7 +5106,8 @@
     "tt0760910": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "2001-11-27",
@@ -4993,7 +5132,8 @@
     "tt9122606": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-10-05",
@@ -5016,7 +5156,8 @@
     "tt0629625": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -5039,7 +5180,8 @@
     "tt5902004": 4.4
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-08-10",
@@ -5065,7 +5207,8 @@
     "tt3436112": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1999-11-15",
@@ -5090,7 +5233,8 @@
     "tt2452938": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1984-01-26",
@@ -5113,7 +5257,8 @@
     "tt5171644": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1930-11-03",
@@ -5138,7 +5283,8 @@
     "tt0629629": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-06-01",
@@ -5161,7 +5307,8 @@
     "tt1248632": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1971-12-05",
@@ -5184,7 +5331,8 @@
     "tt0946364": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-06-03",
@@ -5207,7 +5355,8 @@
     "tt0629683": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-01-31",
@@ -5230,7 +5379,8 @@
     "tt2787898": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1949-05-26",
@@ -5251,7 +5401,6 @@
   "imdb_id": "nm0000427",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629645": 8.7
@@ -5260,7 +5409,8 @@
     "tt0629696": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1998-03-25",
@@ -5283,7 +5433,8 @@
     "tt0629732": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1979-06-05",
@@ -5311,7 +5462,8 @@
     "tt2855090": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1966-12-08",
@@ -5329,7 +5481,6 @@
   "imdb_id": "nm0353238",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629686": 9.3
@@ -5338,7 +5489,8 @@
     "tt0629709": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1963-07-22",
@@ -5361,7 +5513,8 @@
     "tt7195348": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1980-10-01",
@@ -5384,7 +5537,8 @@
     "tt0940158": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1986-05-12",
@@ -5409,7 +5563,8 @@
     "tt0963576": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -5436,7 +5591,8 @@
     "tt0629630": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1984-08-27",
@@ -5459,7 +5615,8 @@
     "tt1727032": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-10-08",
@@ -5482,7 +5639,8 @@
     "tt0629686": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-11-02",
@@ -5503,7 +5661,6 @@
   "imdb_id": "nm0904967",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629666": 8.7
@@ -5512,7 +5669,8 @@
     "tt0629692": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1981-01-14",
@@ -5535,7 +5693,8 @@
     "tt0756929": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1952-06-18",
@@ -5556,7 +5715,6 @@
   "imdb_id": "nm0001406",
   "homepage": null,
   "year_of_appearance": "2009",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt1248635": 9.4
@@ -5565,7 +5723,8 @@
     "tt3219646": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1982-07-13",
@@ -5590,7 +5749,8 @@
     "tt1248624": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -5613,7 +5773,8 @@
     "tt7195350": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-05-16",
@@ -5638,7 +5799,8 @@
     "tt0629682": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1955-11-13",
@@ -5666,7 +5828,8 @@
     "tt5046480": 8.4
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1979-05-10",
@@ -5686,13 +5849,13 @@
   "imdb_id": "nm0494845",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629731": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1956-01-30",
@@ -5710,7 +5873,6 @@
   "imdb_id": "nm0235652",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629751": 8.7
@@ -5722,7 +5884,8 @@
     "tt1248627": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1965-03-04",
@@ -5745,7 +5908,8 @@
     "tt0629665": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-10-05",
@@ -5768,7 +5932,8 @@
     "tt7195346": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-12-06",
@@ -5791,7 +5956,8 @@
     "tt1015436": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1929-05-15",
@@ -5814,7 +5980,8 @@
     "tt0629747": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1953-02-08",
@@ -5840,7 +6007,8 @@
     "tt0629642": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-04-13",
@@ -5863,7 +6031,8 @@
     "tt3436112": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1939-05-25",
@@ -5886,7 +6055,8 @@
     "tt0629666": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -5904,7 +6074,6 @@
   "imdb_id": "nm0913531",
   "homepage": "http://www.sharonwashington.com/",
   "year_of_appearance": "2012",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt2384186": 9.4
@@ -5916,7 +6085,8 @@
     "tt5734502": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": null,
@@ -5939,7 +6109,8 @@
     "tt0784441": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-09-19",
@@ -5957,7 +6128,6 @@
   "imdb_id": "nm0566509",
   "homepage": "http://www.carolynmccormick.com/",
   "year_of_appearance": "1999",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629693": 8.7
@@ -5975,7 +6145,8 @@
     "tt7195354": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": null,
@@ -5998,7 +6169,8 @@
     "tt3272042": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1956-06-25",
@@ -6021,7 +6193,8 @@
     "tt9122646": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1958-08-07",
@@ -6044,7 +6217,8 @@
     "tt0629623": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-03-12",
@@ -6067,7 +6241,8 @@
     "tt4524654": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1973-11-02",
@@ -6090,7 +6265,8 @@
     "tt0629687": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1984-09-02",
@@ -6115,7 +6291,8 @@
     "tt0629624": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-12-24",
@@ -6138,7 +6315,8 @@
     "tt0629672": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1958-12-31",
@@ -6156,7 +6334,6 @@
   "imdb_id": "nm0001564",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629693": 8.7
@@ -6165,7 +6342,8 @@
     "tt0629689": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1955-04-29",
@@ -6188,7 +6366,8 @@
     "tt0799656": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1992-05-04",
@@ -6211,7 +6390,8 @@
     "tt0629703": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1980-07-07",
@@ -6236,7 +6416,8 @@
     "tt0629631": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1955-02-25",
@@ -6259,7 +6440,8 @@
     "tt1480092": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1990-05-17",
@@ -6284,7 +6466,8 @@
     "tt0940158": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -6307,7 +6490,8 @@
     "tt0629670": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-01-27",
@@ -6327,7 +6511,6 @@
   "imdb_id": "nm0362955",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629682": 9.2
@@ -6336,7 +6519,8 @@
     "tt2357100": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1956-11-19",
@@ -6359,7 +6543,8 @@
     "tt0629638": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -6382,7 +6567,8 @@
     "tt0629730": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-07-19",
@@ -6405,7 +6591,8 @@
     "tt1015440": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1961-03-07",
@@ -6428,7 +6615,8 @@
     "tt1236460": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-03-14",
@@ -6453,7 +6641,8 @@
     "tt0629606": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1979-07-15",
@@ -6471,7 +6660,6 @@
   "imdb_id": "nm1128574",
   "homepage": "http://laurabenanti.com/",
   "year_of_appearance": "2012",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt2357100": 9.4
@@ -6483,7 +6671,8 @@
     "tt3673434": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1978-08-19",
@@ -6506,7 +6695,8 @@
     "tt1015440": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-05-11",
@@ -6529,7 +6719,8 @@
     "tt0629655": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1957-01-01",
@@ -6552,7 +6743,8 @@
     "tt1248630": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1934-03-31",
@@ -6575,7 +6767,8 @@
     "tt0629625": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1957-01-07",
@@ -6598,7 +6791,8 @@
     "tt3508748": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1984-04-30",
@@ -6618,7 +6812,6 @@
   "imdb_id": "nm2313758",
   "homepage": "http://marinasquerciati.com/",
   "year_of_appearance": "2011",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt1875495": 9.3
@@ -6627,7 +6820,8 @@
     "tt4596276": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1968-02-13",
@@ -6650,7 +6844,8 @@
     "tt1248622": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1954-07-29",
@@ -6675,7 +6870,8 @@
     "tt0629664": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1981-12-03",
@@ -6693,7 +6889,6 @@
   "imdb_id": "nm0487594",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629753": 8.9
@@ -6714,7 +6909,8 @@
     "tt1015432": 8.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1969-12-16",
@@ -6737,7 +6933,8 @@
     "tt1015442": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1945-01-14",
@@ -6757,7 +6954,6 @@
   "imdb_id": "nm0149910",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629691": 8.7
@@ -6766,7 +6962,8 @@
     "tt0946364": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1951-09-04",
@@ -6784,7 +6981,6 @@
   "imdb_id": "nm0412382",
   "homepage": null,
   "year_of_appearance": "2005",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629617": 8.2
@@ -6793,7 +6989,8 @@
     "tt2894568": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1990-04-18",
@@ -6820,7 +7017,8 @@
     "tt1248639": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "2001-09-04",
@@ -6845,7 +7043,8 @@
     "tt9122606": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1957-09-04",
@@ -6870,7 +7069,8 @@
     "tt0629697": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1992-06-26",
@@ -6893,7 +7093,8 @@
     "tt0629633": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1984-11-16",
@@ -6918,7 +7119,8 @@
     "tt0629701": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-04-10",
@@ -6941,7 +7143,8 @@
     "tt0629631": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1955-08-27",
@@ -6964,7 +7167,8 @@
     "tt0629665": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1953-09-10",
@@ -6987,7 +7191,8 @@
     "tt0629715": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1987-02-17",
@@ -7012,7 +7217,8 @@
     "tt5196638": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-03-06",
@@ -7035,7 +7241,8 @@
     "tt0629609": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-11-20",
@@ -7058,7 +7265,8 @@
     "tt0629749": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -7083,7 +7291,8 @@
     "tt1833175": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -7106,7 +7315,8 @@
     "tt3717668": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1950-06-24",
@@ -7129,7 +7339,8 @@
     "tt0629651": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -7152,7 +7363,8 @@
     "tt0629669": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1954-01-01",
@@ -7175,7 +7387,8 @@
     "tt0629748": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1947-04-18",
@@ -7198,7 +7411,8 @@
     "tt0629609": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-02-23",
@@ -7221,7 +7435,8 @@
     "tt0629753": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -7244,7 +7459,8 @@
     "tt0629635": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-08-11",
@@ -7265,7 +7481,6 @@
   "imdb_id": "nm0205626",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629684": 9.3
@@ -7286,7 +7501,8 @@
     "tt1015441": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1968-12-21",
@@ -7309,7 +7525,8 @@
     "tt0629636": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1960-11-04",
@@ -7332,7 +7549,8 @@
     "tt1568497": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1955-12-21",
@@ -7355,7 +7573,8 @@
     "tt2587590": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -7378,7 +7597,8 @@
     "tt0915390": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1983-06-30",
@@ -7405,7 +7625,8 @@
     "tt2388722": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-07-21",
@@ -7428,7 +7649,8 @@
     "tt0629675": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1988-06-09",
@@ -7451,7 +7673,8 @@
     "tt1015433": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -7469,7 +7692,6 @@
   "imdb_id": "nm1945568",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629736": 9.4
@@ -7478,7 +7700,8 @@
     "tt0629742": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1985-08-15",
@@ -7503,7 +7726,8 @@
     "tt2227847": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-10-03",
@@ -7528,7 +7752,8 @@
     "tt0629649": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1971-01-14",
@@ -7551,7 +7776,8 @@
     "tt0629676": 8.6
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1975-01-29",
@@ -7576,7 +7802,8 @@
     "tt1236460": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-11-12",
@@ -7594,7 +7821,6 @@
   "imdb_id": "nm0936607",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629730": 8.7
@@ -7603,7 +7829,8 @@
     "tt0771259": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1984-03-08",
@@ -7628,7 +7855,8 @@
     "tt3508746": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1947-07-03",
@@ -7648,7 +7876,6 @@
   "imdb_id": "nm0000990",
   "homepage": "http://www.bettybuckley.com/",
   "year_of_appearance": "2006",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0760911": 9.2
@@ -7660,7 +7887,8 @@
     "tt1248637": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1969-03-27",
@@ -7687,7 +7915,8 @@
     "tt1875495": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1950-10-28",
@@ -7712,7 +7941,8 @@
     "tt0629621": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-01-24",
@@ -7735,7 +7965,8 @@
     "tt0629619": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-08-24",
@@ -7753,7 +7984,6 @@
   "imdb_id": "nm0559144",
   "homepage": "http://www.marleematlinsite.com/",
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629695": 9.2
@@ -7762,7 +7992,8 @@
     "tt0629699": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1986-01-24",
@@ -7787,7 +8018,8 @@
     "tt1569097": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-11-15",
@@ -7812,7 +8044,8 @@
     "tt0629754": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1943-02-01",
@@ -7835,7 +8068,8 @@
     "tt0629706": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1980-04-01",
@@ -7861,7 +8095,8 @@
     "tt2440978": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-09-01",
@@ -7886,7 +8121,8 @@
     "tt3673434": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-03-23",
@@ -7912,7 +8148,8 @@
     "tt0629631": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1949-02-08",
@@ -7935,7 +8172,8 @@
     "tt1248642": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-10-16",
@@ -7958,7 +8196,8 @@
     "tt2357100": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1975-10-16",
@@ -7984,7 +8223,8 @@
     "tt0629749": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1980-07-21",
@@ -8002,7 +8242,6 @@
   "imdb_id": "nm0337042",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629705": 9.2
@@ -8011,7 +8250,8 @@
     "tt1248634": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1972-03-12",
@@ -8034,7 +8274,8 @@
     "tt1248635": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -8059,7 +8300,8 @@
     "tt3186484": 8.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -8082,7 +8324,8 @@
     "tt4635088": 8.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-07-17",
@@ -8105,7 +8348,8 @@
     "tt0629696": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1948-10-17",
@@ -8131,7 +8375,8 @@
     "tt0629702": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-11-06",
@@ -8154,7 +8399,8 @@
     "tt6352474": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1983-09-21",
@@ -8180,7 +8426,8 @@
     "tt0629692": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1955-06-06",
@@ -8203,7 +8450,8 @@
     "tt0629644": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-03-01",
@@ -8226,7 +8474,8 @@
     "tt1015435": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1975-07-28",
@@ -8249,7 +8498,8 @@
     "tt2576028": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1975-03-18",
@@ -8272,7 +8522,8 @@
     "tt1568497": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -8295,7 +8546,8 @@
     "tt0629722": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -8318,7 +8570,8 @@
     "tt1248625": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -8341,7 +8594,8 @@
     "tt0629705": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -8366,7 +8620,8 @@
     "tt1015441": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1953-09-25",
@@ -8384,7 +8639,6 @@
   "imdb_id": "nm1159251",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 7,
   "episodes": [
    {
     "tt0629733": 9.2
@@ -8408,7 +8662,8 @@
     "tt7195344": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 7
  },
  {
   "birthday": "1949-03-07",
@@ -8431,7 +8686,8 @@
     "tt0629733": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1945-07-01",
@@ -8454,7 +8710,8 @@
     "tt0629667": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1931-07-15",
@@ -8472,7 +8729,6 @@
   "imdb_id": "nm0581008",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 40,
   "episodes": [
    {
     "tt0629676": 8.6
@@ -8618,7 +8874,8 @@
     "tt0629655": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1934-10-23",
@@ -8636,7 +8893,6 @@
   "imdb_id": "nm0307083",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629624": 9.0
@@ -8645,7 +8901,8 @@
     "tt0629644": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -8668,7 +8925,8 @@
     "tt0629734": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -8686,7 +8944,6 @@
   "imdb_id": "nm0348962",
   "homepage": null,
   "year_of_appearance": "2006",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0860060": 8.7
@@ -8695,7 +8952,8 @@
     "tt7195362": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1976-09-18",
@@ -8718,7 +8976,8 @@
     "tt0629729": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-09-13",
@@ -8745,7 +9004,8 @@
     "tt0897711": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-12-26",
@@ -8768,7 +9028,8 @@
     "tt3205454": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -8793,7 +9054,8 @@
     "tt0629755": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-08-10",
@@ -8811,7 +9073,6 @@
   "imdb_id": "nm0004990",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629700": 9.2
@@ -8832,7 +9093,8 @@
     "tt0629650": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1961-04-17",
@@ -8855,7 +9117,8 @@
     "tt0629704": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-01-01",
@@ -8878,7 +9141,8 @@
     "tt1248626": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1940-06-25",
@@ -8901,7 +9165,8 @@
     "tt0629609": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1960-06-12",
@@ -8924,7 +9189,8 @@
     "tt0771259": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-03-26",
@@ -8946,7 +9212,6 @@
   "imdb_id": "nm0005442",
   "homepage": "http://www.amy-smart.com",
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629632": 8.7
@@ -8955,7 +9220,8 @@
     "tt6882956": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1969-12-23",
@@ -8980,7 +9246,8 @@
     "tt0629661": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -8998,7 +9265,6 @@
   "imdb_id": "",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629638": 9.4
@@ -9007,7 +9273,8 @@
     "tt3255192": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1958-05-20",
@@ -9030,7 +9297,8 @@
     "tt1015447": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -9053,7 +9321,8 @@
     "tt0629656": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-11-27",
@@ -9073,7 +9342,6 @@
   "imdb_id": "nm0555500",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 7,
   "episodes": [
    {
     "tt2401380": 9.2
@@ -9097,7 +9365,8 @@
     "tt5734502": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 7
  },
  {
   "birthday": "1959-08-29",
@@ -9122,7 +9391,8 @@
     "tt0760911": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1973-03-26",
@@ -9145,7 +9415,8 @@
     "tt0629684": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1971-03-13",
@@ -9170,7 +9441,8 @@
     "tt1015451": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1986-03-13",
@@ -9193,7 +9465,8 @@
     "tt2408430": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1954-04-10",
@@ -9216,7 +9489,8 @@
     "tt0629725": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1939-08-30",
@@ -9239,7 +9513,8 @@
     "tt0629700": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1989-07-11",
@@ -9262,7 +9537,8 @@
     "tt1015437": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1966-01-02",
@@ -9285,7 +9561,8 @@
     "tt0629628": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -9308,7 +9585,8 @@
     "tt7195374": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1961-03-29",
@@ -9331,7 +9609,8 @@
     "tt0629665": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-06-07",
@@ -9356,7 +9635,8 @@
     "tt0629685": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -9381,7 +9661,8 @@
     "tt7195344": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-09-12",
@@ -9404,7 +9685,8 @@
     "tt0629735": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-09-16",
@@ -9429,7 +9711,8 @@
     "tt1248640": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-07-24",
@@ -9454,7 +9737,8 @@
     "tt0629643": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1985-02-19",
@@ -9481,7 +9765,8 @@
     "tt0629683": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-09-25",
@@ -9504,7 +9789,8 @@
     "tt1248641": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1953-02-21",
@@ -9527,7 +9813,8 @@
     "tt1248622": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "2007-03-07",
@@ -9550,7 +9837,8 @@
     "tt3436112": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-09-23",
@@ -9573,7 +9861,8 @@
     "tt0629721": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1956-09-11",
@@ -9591,7 +9880,6 @@
   "imdb_id": "nm0502180",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629722": 8.7
@@ -9603,7 +9891,8 @@
     "tt0629721": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1996-01-01",
@@ -9626,7 +9915,8 @@
     "tt7195384": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -9649,7 +9939,8 @@
     "tt2440978": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1946-02-20",
@@ -9672,7 +9963,8 @@
     "tt1248641": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-04-19",
@@ -9695,7 +9987,8 @@
     "tt1015433": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1936-07-05",
@@ -9713,7 +10006,6 @@
   "imdb_id": "nm0004309",
   "homepage": "http://www.shirleyknight.net/",
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629715": 9.2
@@ -9722,7 +10014,8 @@
     "tt0629749": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -9745,7 +10038,8 @@
     "tt5902008": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1998-11-17",
@@ -9768,7 +10062,8 @@
     "tt3255192": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1958-10-04",
@@ -9791,7 +10086,8 @@
     "tt1248626": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1980-06-20",
@@ -9814,7 +10110,8 @@
     "tt0756929": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -9837,7 +10134,8 @@
     "tt3599556": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1984-04-03",
@@ -9860,7 +10158,8 @@
     "tt7195380": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-11-21",
@@ -9885,7 +10184,8 @@
     "tt7195356": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-07-01",
@@ -9908,7 +10208,8 @@
     "tt4596276": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1928-10-16",
@@ -9934,7 +10235,8 @@
     "tt1015431": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-01-26",
@@ -9957,7 +10259,8 @@
     "tt1015432": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1950-10-12",
@@ -9980,7 +10283,8 @@
     "tt1601371": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1952-02-04",
@@ -10003,7 +10307,8 @@
     "tt0629746": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-05-12",
@@ -10021,7 +10326,6 @@
   "imdb_id": "nm0000526",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629634": 9.2
@@ -10030,7 +10334,8 @@
     "tt3599558": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1985-04-23",
@@ -10048,7 +10353,6 @@
   "imdb_id": "nm0041752",
   "homepage": "http://www.blytheauffarth.com/",
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629703": 8.9
@@ -10057,7 +10361,8 @@
     "tt0629715": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1992-09-28",
@@ -10080,7 +10385,8 @@
     "tt0629676": 8.6
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1958-03-10",
@@ -10101,7 +10407,6 @@
   "imdb_id": "nm0000232",
   "homepage": null,
   "year_of_appearance": "2010",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt1607136": 8.8
@@ -10113,7 +10418,8 @@
     "tt1644792": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1984-07-08",
@@ -10136,7 +10442,8 @@
     "tt0629696": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-04-30",
@@ -10159,7 +10466,8 @@
     "tt0629619": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "2003-12-30",
@@ -10182,7 +10490,8 @@
     "tt2576028": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1931-05-23",
@@ -10205,7 +10514,8 @@
     "tt0629701": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1950-04-17",
@@ -10228,7 +10538,8 @@
     "tt9122678": 7.3
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1989-01-16",
@@ -10253,7 +10564,8 @@
     "tt2587590": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-02-22",
@@ -10276,7 +10588,8 @@
     "tt0629751": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-08-14",
@@ -10299,7 +10612,8 @@
     "tt0897712": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-06-13",
@@ -10322,7 +10636,8 @@
     "tt5171644": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1961-07-18",
@@ -10345,7 +10660,8 @@
     "tt1015448": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-03-07",
@@ -10368,7 +10684,8 @@
     "tt3219646": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-06-01",
@@ -10393,7 +10710,8 @@
     "tt0629706": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -10416,7 +10734,8 @@
     "tt3272042": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1936-08-16",
@@ -10439,7 +10758,8 @@
     "tt1644792": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -10462,7 +10782,8 @@
     "tt5902004": 4.4
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1986-03-09",
@@ -10489,7 +10810,8 @@
     "tt0807685": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-05-16",
@@ -10514,7 +10836,8 @@
     "tt0629753": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1945-08-31",
@@ -10537,7 +10860,8 @@
     "tt0629655": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-04-08",
@@ -10563,7 +10887,8 @@
     "tt2501606": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-01-05",
@@ -10590,7 +10915,8 @@
     "tt8843020": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1955-03-13",
@@ -10613,7 +10939,8 @@
     "tt0629673": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-04-04",
@@ -10636,7 +10963,8 @@
     "tt1598661": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-08-14",
@@ -10659,7 +10987,6 @@
   "imdb_id": "nm0001315",
   "homepage": null,
   "year_of_appearance": "2005",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt0629712": 9.1
@@ -10674,7 +11001,8 @@
     "tt2639358": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1956-10-26",
@@ -10697,7 +11025,8 @@
     "tt1875495": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-12-03",
@@ -10720,7 +11049,8 @@
     "tt0629730": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-03-20",
@@ -10741,7 +11071,6 @@
   "imdb_id": "nm0305519",
   "homepage": null,
   "year_of_appearance": "2005",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt0629742": 8.7
@@ -10756,7 +11085,8 @@
     "tt0629609": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1965-05-20",
@@ -10781,7 +11111,8 @@
     "tt0799656": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1960-01-25",
@@ -10801,7 +11132,6 @@
   "imdb_id": "nm0533492",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629737": 9.1
@@ -10810,7 +11140,8 @@
     "tt3186484": 8.5
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1960-10-21",
@@ -10836,7 +11167,8 @@
     "tt7195348": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-04-09",
@@ -10861,7 +11193,8 @@
     "tt6930594": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-04-18",
@@ -10884,7 +11217,8 @@
     "tt1015446": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1944-09-06",
@@ -10909,7 +11243,8 @@
     "tt1248633": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1939-10-13",
@@ -10932,7 +11267,8 @@
     "tt0629617": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1954-07-22",
@@ -10955,7 +11291,8 @@
     "tt0629622": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -10982,7 +11319,8 @@
     "tt0629676": 8.6
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1983-10-09",
@@ -11005,7 +11343,8 @@
     "tt0629671": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1958-11-29",
@@ -11028,7 +11367,8 @@
     "tt0946366": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-07-23",
@@ -11051,7 +11391,8 @@
     "tt0629666": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1980-11-11",
@@ -11077,7 +11418,8 @@
     "tt2452938": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -11100,7 +11442,8 @@
     "tt7195354": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-03-24",
@@ -11123,7 +11466,8 @@
     "tt7195346": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-01-07",
@@ -11149,7 +11493,8 @@
     "tt2739518": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -11172,7 +11517,8 @@
     "tt4596276": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-06-29",
@@ -11198,7 +11544,8 @@
     "tt0863685": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1995-04-25",
@@ -11221,7 +11568,8 @@
     "tt3599556": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1992-10-22",
@@ -11244,7 +11592,8 @@
     "tt3219646": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1979-06-18",
@@ -11267,7 +11616,8 @@
     "tt1248637": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1960-02-10",
@@ -11292,7 +11642,8 @@
     "tt0629666": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-06-09",
@@ -11312,7 +11663,6 @@
   "imdb_id": "nm0005349",
   "homepage": "http://officialgloriareuben.com/",
   "year_of_appearance": "2002",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629647": 8.7
@@ -11324,7 +11674,8 @@
     "tt1717349": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1965-07-20",
@@ -11344,7 +11695,6 @@
   "imdb_id": "",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629632": 8.7
@@ -11353,7 +11703,8 @@
     "tt0629752": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -11376,7 +11727,8 @@
     "tt9122658": 8.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1949-04-20",
@@ -11399,7 +11751,8 @@
     "tt0629738": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-12-23",
@@ -11422,7 +11775,8 @@
     "tt0629643": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-06-22",
@@ -11445,7 +11799,8 @@
     "tt0629704": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-07-24",
@@ -11470,7 +11825,8 @@
     "tt0940158": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1988-08-08",
@@ -11495,7 +11851,8 @@
     "tt3494020": 6.5
    }
   ],
-  "mean_rating": 6
+  "mean_rating": 6,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1931-12-11",
@@ -11515,13 +11872,13 @@
   "imdb_id": "nm0001549",
   "homepage": null,
   "year_of_appearance": "2005",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629689": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1953-03-13",
@@ -11548,7 +11905,8 @@
     "tt0860059": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1958-01-27",
@@ -11571,7 +11929,8 @@
     "tt0629687": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1952-01-23",
@@ -11589,7 +11948,6 @@
   "imdb_id": "nm0123334",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629757": 9.1
@@ -11598,7 +11956,8 @@
     "tt0629672": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1972-01-19",
@@ -11626,7 +11985,8 @@
     "tt1803432": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-04-15",
@@ -11649,7 +12009,8 @@
     "tt0629634": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1966-04-09",
@@ -11672,7 +12033,8 @@
     "tt1015431": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1955-04-07",
@@ -11703,7 +12065,8 @@
     "tt0629744": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -11726,7 +12089,8 @@
     "tt3599556": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-09-30",
@@ -11749,7 +12113,8 @@
     "tt0629723": 7.2
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-07-08",
@@ -11772,7 +12137,8 @@
     "tt0629744": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1963-11-20",
@@ -11802,7 +12168,8 @@
     "tt0629639": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1931-07-01",
@@ -11827,7 +12194,8 @@
     "tt0863685": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-02-20",
@@ -11845,7 +12213,6 @@
   "imdb_id": "nm0024404",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2894568": 9.3
@@ -11854,7 +12221,8 @@
     "tt2876044": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1982-08-19",
@@ -11877,7 +12245,8 @@
     "tt1015434": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-06-08",
@@ -11902,7 +12271,8 @@
     "tt5901996": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-07-07",
@@ -11920,7 +12290,6 @@
   "imdb_id": "nm0917848",
   "homepage": "http://www.robinweigert.com/",
   "year_of_appearance": "2006",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0863685": 9.1
@@ -11929,7 +12298,8 @@
     "tt5154188": 4.1
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1941-04-28",
@@ -11952,7 +12322,8 @@
     "tt1601371": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-06-22",
@@ -11975,7 +12346,8 @@
     "tt0629723": 7.2
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1960-06-22",
@@ -11993,7 +12365,6 @@
   "imdb_id": "nm0001630",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629626": 8.7
@@ -12002,7 +12373,8 @@
     "tt0629627": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1988-11-15",
@@ -12025,7 +12397,8 @@
     "tt0629696": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1932-04-15",
@@ -12050,7 +12423,8 @@
     "tt1248632": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-05-12",
@@ -12073,7 +12447,8 @@
     "tt7195358": 7.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-10-11",
@@ -12098,7 +12473,8 @@
     "tt0629618": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-10-01",
@@ -12121,7 +12497,8 @@
     "tt3508746": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-09-24",
@@ -12141,7 +12518,6 @@
   "imdb_id": "nm0889522",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt2628024": 9.0
@@ -12153,7 +12529,8 @@
     "tt3673434": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1970-02-04",
@@ -12178,7 +12555,8 @@
     "tt1015436": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-05-22",
@@ -12201,7 +12579,8 @@
     "tt0629681": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1939-10-28",
@@ -12221,13 +12600,13 @@
   "imdb_id": "nm0000737",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629650": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1985-12-03",
@@ -12256,7 +12635,8 @@
     "tt0629694": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1937-07-24",
@@ -12279,7 +12659,8 @@
     "tt0629680": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-08-13",
@@ -12302,7 +12683,8 @@
     "tt1248639": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1955-07-09",
@@ -12325,7 +12707,8 @@
     "tt0629726": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1957-04-18",
@@ -12346,7 +12729,6 @@
   "imdb_id": "nm0390020",
   "homepage": "https://www.annaholbrook.com",
   "year_of_appearance": "2001",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629724": 9.1
@@ -12358,7 +12740,8 @@
     "tt0760910": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1948-09-26",
@@ -12383,7 +12766,8 @@
     "tt0629660": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1981-03-06",
@@ -12406,7 +12790,8 @@
     "tt0629624": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-07-08",
@@ -12426,7 +12811,6 @@
   "imdb_id": "nm0124208",
   "homepage": null,
   "year_of_appearance": "2014",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt3494020": 6.5
@@ -12435,7 +12819,8 @@
     "tt4596276": 8.9
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1950-02-06",
@@ -12458,7 +12843,8 @@
     "tt0771260": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-01-04",
@@ -12481,7 +12867,8 @@
     "tt0629658": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-02-24",
@@ -12499,7 +12886,6 @@
   "imdb_id": "nm1631311",
   "homepage": "https://triciapaoluccio.com",
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629632": 8.7
@@ -12508,7 +12894,8 @@
     "tt0629686": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1972-10-16",
@@ -12533,7 +12920,8 @@
     "tt0629749": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-11-10",
@@ -12556,7 +12944,8 @@
     "tt0629628": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1983-03-07",
@@ -12579,7 +12968,8 @@
     "tt0629755": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -12602,7 +12992,8 @@
     "tt3409880": 4.8
    }
   ],
-  "mean_rating": 5
+  "mean_rating": 5,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -12625,7 +13016,8 @@
     "tt0629644": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1987-11-20",
@@ -12651,7 +13043,8 @@
     "tt3219646": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-01-01",
@@ -12674,7 +13067,8 @@
     "tt0629707": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -12692,7 +13086,6 @@
   "imdb_id": "nm0215573",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629700": 9.2
@@ -12704,7 +13097,8 @@
     "tt0629748": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1978-05-17",
@@ -12729,7 +13123,8 @@
     "tt1750610": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -12747,7 +13142,6 @@
   "imdb_id": "nm2436809",
   "homepage": "https://www.sirensonginc.com/lisa-joyce",
   "year_of_appearance": "2007",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt1015442": 9.1
@@ -12756,7 +13150,8 @@
     "tt2058396": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -12779,7 +13174,8 @@
     "tt2587590": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1976-06-18",
@@ -12802,7 +13198,8 @@
     "tt3409880": 4.8
    }
   ],
-  "mean_rating": 5
+  "mean_rating": 5,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1944-09-13",
@@ -12829,7 +13226,8 @@
     "tt0629634": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1952-12-25",
@@ -12850,7 +13248,6 @@
   "imdb_id": "nm0001634",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt0629717": 9.4
@@ -12865,7 +13262,8 @@
     "tt1248636": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1981-01-24",
@@ -12890,7 +13288,8 @@
     "tt2787898": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1950-06-12",
@@ -12913,7 +13312,8 @@
     "tt3696034": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1922-03-30",
@@ -12931,7 +13331,6 @@
   "imdb_id": "nm0685771",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629713": 8.7
@@ -12940,7 +13339,8 @@
     "tt0629711": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1983-11-10",
@@ -12963,7 +13363,8 @@
     "tt2187829": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1987-09-28",
@@ -12991,7 +13392,8 @@
     "tt1248631": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1947-09-23",
@@ -13014,7 +13416,8 @@
     "tt0629752": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1960-07-04",
@@ -13037,7 +13440,8 @@
     "tt0629644": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1961-11-14",
@@ -13062,7 +13466,8 @@
     "tt1015446": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1971-01-02",
@@ -13084,7 +13489,6 @@
   "imdb_id": "nm0325989",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt2587590": 9.0
@@ -13096,7 +13500,8 @@
     "tt3599560": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1983-04-27",
@@ -13119,7 +13524,8 @@
     "tt0629638": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-10-10",
@@ -13137,7 +13543,6 @@
   "imdb_id": "nm0623085",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt2741872": 8.7
@@ -13149,7 +13554,8 @@
     "tt2894568": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1974-03-21",
@@ -13172,7 +13578,8 @@
     "tt1015431": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1985-06-05",
@@ -13195,7 +13602,8 @@
     "tt3250412": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1941-08-03",
@@ -13218,7 +13626,8 @@
     "tt2328103": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1973-01-01",
@@ -13241,7 +13650,8 @@
     "tt1248624": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1952-08-10",
@@ -13264,7 +13674,8 @@
     "tt0629666": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1955-06-15",
@@ -13289,7 +13700,8 @@
     "tt0629621": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1988-10-04",
@@ -13316,7 +13728,8 @@
     "tt1727032": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1978-09-19",
@@ -13334,7 +13747,6 @@
   "imdb_id": "nm1787532",
   "homepage": "https://www.sirensonginc.com/tijuana-ricks",
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629664": 8.8
@@ -13343,7 +13755,8 @@
     "tt0629744": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1951-10-01",
@@ -13366,7 +13779,8 @@
     "tt0629608": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "2001-01-01",
@@ -13389,7 +13803,8 @@
     "tt1248625": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -13412,7 +13827,8 @@
     "tt2760466": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1989-01-10",
@@ -13435,7 +13851,8 @@
     "tt1015433": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1997-08-16",
@@ -13458,7 +13875,8 @@
     "tt2003617": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -13481,7 +13899,8 @@
     "tt3186484": 8.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1934-04-03",
@@ -13504,7 +13923,8 @@
     "tt0629691": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-02-12",
@@ -13527,7 +13947,8 @@
     "tt0629617": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -13552,7 +13973,8 @@
     "tt0629621": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -13575,7 +13997,8 @@
     "tt3205454": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1981-09-23",
@@ -13598,7 +14021,8 @@
     "tt0966157": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-06-05",
@@ -13621,7 +14045,8 @@
     "tt0629746": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -13644,7 +14069,8 @@
     "tt3205454": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1996-11-21",
@@ -13669,7 +14095,8 @@
     "tt3250412": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -13687,7 +14114,6 @@
   "imdb_id": "nm4731251",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 7,
   "episodes": [
    {
     "tt2357100": 9.4
@@ -13711,7 +14137,8 @@
     "tt3673434": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 7
  },
  {
   "birthday": "1960-09-21",
@@ -13734,7 +14161,8 @@
     "tt0629709": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1927-11-20",
@@ -13757,7 +14185,8 @@
     "tt0629642": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-10-28",
@@ -13780,7 +14209,8 @@
     "tt0629607": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1945-10-26",
@@ -13805,7 +14235,8 @@
     "tt1601371": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -13830,7 +14261,8 @@
     "tt3305432": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -13856,7 +14288,8 @@
     "tt3409878": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -13879,7 +14312,8 @@
     "tt3409880": 4.8
    }
   ],
-  "mean_rating": 5
+  "mean_rating": 5,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1960-11-29",
@@ -13899,7 +14333,6 @@
   "imdb_id": "nm0001550",
   "homepage": null,
   "year_of_appearance": "2005",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629673": 9.3
@@ -13911,7 +14344,8 @@
     "tt3409878": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": null,
@@ -13934,7 +14368,8 @@
     "tt3409880": 4.8
    }
   ],
-  "mean_rating": 5
+  "mean_rating": 5,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1925-10-16",
@@ -13952,13 +14387,13 @@
   "imdb_id": "nm0001450",
   "homepage": null,
   "year_of_appearance": "2005",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629689": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1993-09-05",
@@ -13983,7 +14418,8 @@
     "tt7195350": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1966-06-28",
@@ -14001,7 +14437,6 @@
   "imdb_id": "nm0000524",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629755": 8.7
@@ -14019,7 +14454,8 @@
     "tt0946366": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1970-01-01",
@@ -14045,7 +14481,8 @@
     "tt9122616": 4.8
    }
   ],
-  "mean_rating": 5
+  "mean_rating": 5,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1992-03-08",
@@ -14065,7 +14502,6 @@
   "imdb_id": "nm1659579",
   "homepage": null,
   "year_of_appearance": "2006",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0887553": 9.1
@@ -14074,7 +14510,8 @@
     "tt5219196": 8.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1970-03-27",
@@ -14097,7 +14534,8 @@
     "tt0629684": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-03-03",
@@ -14120,7 +14558,8 @@
     "tt1236460": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-11-30",
@@ -14145,7 +14584,8 @@
     "tt0629614": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1933-04-26",
@@ -14170,7 +14610,8 @@
     "tt1248628": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -14193,7 +14634,8 @@
     "tt6884416": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-11-12",
@@ -14216,7 +14658,8 @@
     "tt0629739": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -14239,7 +14682,8 @@
     "tt3494020": 6.5
    }
   ],
-  "mean_rating": 6
+  "mean_rating": 6,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-02-01",
@@ -14265,7 +14709,8 @@
     "tt0629640": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -14288,7 +14733,8 @@
     "tt3508744": 4.6
    }
   ],
-  "mean_rating": 5
+  "mean_rating": 5,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -14311,7 +14757,8 @@
     "tt3508744": 4.6
    }
   ],
-  "mean_rating": 5
+  "mean_rating": 5,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1949-02-09",
@@ -14329,7 +14776,6 @@
   "imdb_id": "nm0509937",
   "homepage": "http://www.judithlight.com/",
   "year_of_appearance": "2002",
-  "number_of_appearances": 23,
   "episodes": [
    {
     "tt0629674": 8.7
@@ -14419,7 +14865,6 @@
   "imdb_id": "nm0005486",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt0629666": 8.7
@@ -14434,7 +14879,8 @@
     "tt0629704": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1971-10-26",
@@ -14459,7 +14905,8 @@
     "tt0629751": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -14479,7 +14926,6 @@
   "imdb_id": "nm0102650",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt2440978": 8.9
@@ -14497,7 +14943,8 @@
     "tt7195362": 8.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1932-01-22",
@@ -14523,7 +14970,8 @@
     "tt0629620": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1961-05-13",
@@ -14543,7 +14991,6 @@
   "imdb_id": "nm0266441",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629624": 9.0
@@ -14552,7 +14999,8 @@
     "tt0629736": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -14572,7 +15020,6 @@
   "imdb_id": "nm1801099",
   "homepage": null,
   "year_of_appearance": "2014",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt3599556": 9.2
@@ -14590,7 +15037,8 @@
     "tt4653920": 9.0
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 5
  },
  {
   "birthday": null,
@@ -14613,7 +15061,8 @@
     "tt3696034": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-06-28",
@@ -14633,7 +15082,6 @@
   "imdb_id": "nm0372961",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629750": 9.2
@@ -14642,7 +15090,8 @@
     "tt2440978": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1973-05-17",
@@ -14667,7 +15116,8 @@
     "tt8917872": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-03-03",
@@ -14692,7 +15142,8 @@
     "tt0629701": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-12-23",
@@ -14712,7 +15163,6 @@
   "imdb_id": "nm0886700",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629732": 9.1
@@ -14721,7 +15171,8 @@
     "tt1015448": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -14746,7 +15197,8 @@
     "tt2388722": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1990-10-19",
@@ -14773,7 +15225,8 @@
     "tt3717668": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1961-06-29",
@@ -14796,7 +15249,8 @@
     "tt0629622": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1989-02-15",
@@ -14819,7 +15273,8 @@
     "tt0629674": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1957-04-12",
@@ -14844,7 +15299,8 @@
     "tt0629729": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -14867,7 +15323,8 @@
     "tt7195346": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-01-01",
@@ -14894,7 +15351,8 @@
     "tt0629635": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-05-31",
@@ -14914,7 +15372,6 @@
   "imdb_id": "nm0000222",
   "homepage": null,
   "year_of_appearance": "2017",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt7195344": 8.7
@@ -14929,7 +15386,8 @@
     "tt7195352": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1963-12-14",
@@ -14952,7 +15410,8 @@
     "tt0629704": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1938-02-25",
@@ -14975,7 +15434,8 @@
     "tt0629672": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -15000,7 +15460,8 @@
     "tt2452938": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1933-03-19",
@@ -15025,7 +15486,8 @@
     "tt1601371": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-05-13",
@@ -15048,7 +15510,8 @@
     "tt0629734": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1933-08-13",
@@ -15073,7 +15536,8 @@
     "tt0629688": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-11-26",
@@ -15096,7 +15560,8 @@
     "tt2855090": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -15122,7 +15587,8 @@
     "tt9122666": 8.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1979-01-01",
@@ -15145,7 +15611,8 @@
     "tt0629680": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1966-02-04",
@@ -15165,13 +15632,13 @@
   "imdb_id": "nm0783596",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629650": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1996-10-30",
@@ -15194,7 +15661,8 @@
     "tt8815444": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-10-20",
@@ -15217,7 +15685,8 @@
     "tt0629667": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -15240,7 +15709,8 @@
     "tt2452938": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-03-23",
@@ -15263,7 +15733,8 @@
     "tt2760466": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -15288,7 +15759,8 @@
     "tt2452938": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -15313,7 +15785,8 @@
     "tt2440978": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1967-05-22",
@@ -15331,7 +15804,6 @@
   "imdb_id": "nm0807548",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2357100": 9.4
@@ -15340,7 +15812,8 @@
     "tt2384186": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1964-01-01",
@@ -15363,7 +15836,8 @@
     "tt3186484": 8.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1948-02-26",
@@ -15381,7 +15855,6 @@
   "imdb_id": "nm0520171",
   "homepage": null,
   "year_of_appearance": "2008",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt1015434": 9.4
@@ -15390,7 +15863,8 @@
     "tt2440978": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1943-02-20",
@@ -15416,7 +15890,8 @@
     "tt0629665": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1941-06-18",
@@ -15439,7 +15914,8 @@
     "tt0629727": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1966-08-30",
@@ -15464,7 +15940,8 @@
     "tt0925451": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-03-10",
@@ -15484,7 +15961,6 @@
   "imdb_id": "nm0108295",
   "homepage": null,
   "year_of_appearance": "2007",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0925453": 9.3
@@ -15496,7 +15972,8 @@
     "tt2384186": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1969-08-27",
@@ -15514,7 +15991,6 @@
   "imdb_id": "nm0933156",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629754": 9.2
@@ -15523,7 +15999,8 @@
     "tt0629605": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -15548,7 +16025,8 @@
     "tt0629722": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-10-03",
@@ -15574,7 +16052,8 @@
     "tt7195372": 9.5
    }
   ],
-  "mean_rating": 10
+  "mean_rating": 10,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1966-01-01",
@@ -15597,7 +16076,8 @@
     "tt0629645": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1957-12-30",
@@ -15617,7 +16097,6 @@
   "imdb_id": "nm0435678",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 7,
   "episodes": [
    {
     "tt0629655": 9.1
@@ -15641,7 +16120,8 @@
     "tt1015440": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 7
  },
  {
   "birthday": "1972-03-30",
@@ -15659,7 +16139,6 @@
   "imdb_id": "nm0000815",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt0629700": 9.2
@@ -15671,7 +16150,8 @@
     "tt2408430": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1970-10-22",
@@ -15694,7 +16174,8 @@
     "tt0629627": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1951-02-24",
@@ -15719,7 +16200,8 @@
     "tt0883172": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1987-09-19",
@@ -15745,7 +16227,8 @@
     "tt0629673": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1960-06-04",
@@ -15768,7 +16251,8 @@
     "tt0629638": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1973-01-01",
@@ -15791,7 +16275,8 @@
     "tt0629738": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -15818,7 +16303,8 @@
     "tt8917870": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1958-05-23",
@@ -15843,7 +16329,8 @@
     "tt1248626": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-10-13",
@@ -15866,7 +16353,8 @@
     "tt0629694": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1974-10-07",
@@ -15889,7 +16377,8 @@
     "tt0629725": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "2000-04-15",
@@ -15907,7 +16396,6 @@
   "imdb_id": "nm1425780",
   "homepage": null,
   "year_of_appearance": "2014",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt3599560": 9.2
@@ -15916,7 +16404,8 @@
     "tt3599562": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1993-07-23",
@@ -15941,7 +16430,8 @@
     "tt8843020": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-07-03",
@@ -15959,7 +16449,6 @@
   "imdb_id": "nm0567653",
   "homepage": "http://audramcdonald.net/",
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629632": 8.7
@@ -15968,7 +16457,8 @@
     "tt0629734": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1978-07-09",
@@ -15991,7 +16481,8 @@
     "tt1248634": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1985-02-07",
@@ -16016,7 +16507,8 @@
     "tt1507723": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -16039,7 +16531,8 @@
     "tt2628024": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -16062,7 +16555,8 @@
     "tt5902030": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-07-17",
@@ -16087,7 +16581,8 @@
     "tt7195384": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1949-09-30",
@@ -16110,7 +16605,8 @@
     "tt0629740": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "2002-08-19",
@@ -16135,7 +16631,8 @@
     "tt7195314": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1930-02-22",
@@ -16160,7 +16657,8 @@
     "tt0629713": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1986-10-07",
@@ -16186,7 +16684,8 @@
     "tt9122678": 7.3
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1973-12-30",
@@ -16211,7 +16710,8 @@
     "tt0629649": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -16234,7 +16734,8 @@
     "tt2672002": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1958-05-01",
@@ -16257,7 +16758,8 @@
     "tt0629618": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -16280,7 +16782,8 @@
     "tt3508748": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -16303,7 +16806,8 @@
     "tt4635088": 8.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1961-12-16",
@@ -16326,7 +16830,8 @@
     "tt0629613": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1954-07-05",
@@ -16349,7 +16854,8 @@
     "tt0629747": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-12-29",
@@ -16374,7 +16880,8 @@
     "tt0629653": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -16397,7 +16904,8 @@
     "tt4596276": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-03-25",
@@ -16417,7 +16925,6 @@
   "imdb_id": "nm0004986",
   "homepage": null,
   "year_of_appearance": "2006",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0784441": 9.3
@@ -16429,7 +16936,8 @@
     "tt2576028": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1946-04-23",
@@ -16450,7 +16958,6 @@
   "imdb_id": "nm0001974",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629683": 9.3
@@ -16459,7 +16966,8 @@
     "tt0629694": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1968-08-15",
@@ -16484,7 +16992,8 @@
     "tt1833175": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-07-07",
@@ -16509,7 +17018,8 @@
     "tt0629612": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1948-02-28",
@@ -16534,7 +17044,8 @@
     "tt0897712": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1982-09-23",
@@ -16557,7 +17068,8 @@
     "tt9122600": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1953-01-01",
@@ -16580,7 +17092,8 @@
     "tt2787898": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1971-05-06",
@@ -16598,7 +17111,6 @@
   "imdb_id": "nm1417931",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629755": 8.7
@@ -16607,7 +17119,8 @@
     "tt1475914": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1948-05-12",
@@ -16633,7 +17146,8 @@
     "tt1248628": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1956-03-13",
@@ -16658,7 +17172,8 @@
     "tt0629692": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1933-04-26",
@@ -16681,7 +17196,8 @@
     "tt1015434": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1980-10-30",
@@ -16704,7 +17220,8 @@
     "tt8843020": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-05-10",
@@ -16722,7 +17239,6 @@
   "imdb_id": "nm0005389",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2628024": 9.0
@@ -16731,7 +17247,8 @@
     "tt3494020": 6.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1980-01-01",
@@ -16749,7 +17266,6 @@
   "imdb_id": "nm3834495",
   "homepage": "http://www.jenniferlimonline.com/",
   "year_of_appearance": "2006",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0860059": 9.0
@@ -16758,7 +17274,8 @@
     "tt2855090": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -16783,7 +17300,8 @@
     "tt7195354": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1960-05-17",
@@ -16806,7 +17324,8 @@
     "tt1015433": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -16829,7 +17348,8 @@
     "tt2760466": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -16852,7 +17372,8 @@
     "tt2760466": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1939-04-09",
@@ -16875,7 +17396,8 @@
     "tt0629706": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1955-05-31",
@@ -16901,7 +17423,8 @@
     "tt5372770": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -16924,7 +17447,8 @@
     "tt2787898": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1925-10-16",
@@ -16949,7 +17473,8 @@
     "tt0629625": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1993-10-23",
@@ -16967,7 +17492,6 @@
   "imdb_id": "nm1837588",
   "homepage": "http://www.taylorspreitler.com/",
   "year_of_appearance": "2005",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629709": 9.3
@@ -16976,7 +17500,8 @@
     "tt2452938": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1965-07-25",
@@ -16996,7 +17521,6 @@
   "imdb_id": "nm0001152",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629675": 8.7
@@ -17008,7 +17532,8 @@
     "tt0629748": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": null,
@@ -17031,7 +17556,8 @@
     "tt2787898": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1988-07-17",
@@ -17054,7 +17580,8 @@
     "tt3508748": 8.9
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1964-07-18",
@@ -17077,7 +17604,8 @@
     "tt2699330": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1971-02-01",
@@ -17095,7 +17623,6 @@
   "imdb_id": "nm0187460",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629700": 9.2
@@ -17104,7 +17631,8 @@
     "tt9126864": 9.5
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1929-09-20",
@@ -17122,7 +17650,6 @@
   "imdb_id": "nm0575198",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629727": 9.4
@@ -17131,7 +17658,8 @@
     "tt2501606": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1948-03-31",
@@ -17154,7 +17682,8 @@
     "tt1015435": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1925-01-08",
@@ -17177,7 +17706,8 @@
     "tt0629693": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1962-05-10",
@@ -17200,7 +17730,8 @@
     "tt0629630": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1986-08-08",
@@ -17221,7 +17752,6 @@
   "imdb_id": "nm0514228",
   "homepage": null,
   "year_of_appearance": "2001",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629703": 8.9
@@ -17230,7 +17760,8 @@
     "tt0629736": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1981-10-30",
@@ -17248,7 +17779,6 @@
   "imdb_id": "nm1875040",
   "homepage": null,
   "year_of_appearance": "2008",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt1248636": 9.2
@@ -17257,7 +17787,8 @@
     "tt1248637": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "2005-03-26",
@@ -17280,7 +17811,8 @@
     "tt3599556": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1969-07-15",
@@ -17298,7 +17830,6 @@
   "imdb_id": "nm0267432",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629739": 8.7
@@ -17310,7 +17841,8 @@
     "tt5566126": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1926-02-26",
@@ -17331,7 +17863,6 @@
   "imdb_id": "nm0067497",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629627": 9.2
@@ -17340,7 +17871,8 @@
     "tt0629702": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1984-01-02",
@@ -17363,7 +17895,8 @@
     "tt5902036": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1961-06-04",
@@ -17381,7 +17914,6 @@
   "imdb_id": "nm0925033",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629731": 8.7
@@ -17399,7 +17931,8 @@
     "tt1015432": 8.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1991-01-01",
@@ -17422,7 +17955,8 @@
     "tt9122600": 9.4
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1940-06-21",
@@ -17440,7 +17974,6 @@
   "imdb_id": "nm0366866",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629706": 9.3
@@ -17458,7 +17991,8 @@
     "tt1248627": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1977-02-04",
@@ -17481,7 +18015,8 @@
     "tt0915390": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "2000-01-01",
@@ -17506,7 +18041,8 @@
     "tt7195346": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1959-09-14",
@@ -17531,7 +18067,8 @@
     "tt0629644": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1972-11-19",
@@ -17551,7 +18088,6 @@
   "imdb_id": "nm0002142",
   "homepage": null,
   "year_of_appearance": "2016",
-  "number_of_appearances": 4,
   "episodes": [
    {
     "tt5566126": 8.7
@@ -17566,7 +18102,8 @@
     "tt8917872": 8.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 4
  },
  {
   "birthday": "1992-06-30",
@@ -17589,7 +18126,8 @@
     "tt0629623": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -17607,7 +18145,6 @@
   "imdb_id": "nm0054769",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2501606": 8.7
@@ -17616,7 +18153,8 @@
     "tt2872940": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1958-09-29",
@@ -17639,7 +18177,8 @@
     "tt0629695": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1965-06-17",
@@ -17659,7 +18198,6 @@
   "imdb_id": "nm0260632",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629656": 9.3
@@ -17668,7 +18206,8 @@
     "tt0799656": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1960-06-05",
@@ -17686,7 +18225,6 @@
   "imdb_id": "nm0376890",
   "homepage": null,
   "year_of_appearance": "1999",
-  "number_of_appearances": 9,
   "episodes": [
    {
     "tt0629700": 9.2
@@ -17716,7 +18254,8 @@
     "tt0629685": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 9
  },
  {
   "birthday": "1979-07-05",
@@ -17741,7 +18280,8 @@
     "tt0629743": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1980-12-27",
@@ -17764,7 +18304,8 @@
     "tt2201765": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1981-11-25",
@@ -17787,7 +18328,8 @@
     "tt3305432": 9.0
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1989-01-30",
@@ -17810,7 +18352,8 @@
     "tt7195366": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1926-03-23",
@@ -17833,7 +18376,8 @@
     "tt0629700": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1970-02-08",
@@ -17851,7 +18395,6 @@
   "imdb_id": "nm0334027",
   "homepage": null,
   "year_of_appearance": "2009",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt1248624": 9.3
@@ -17860,7 +18403,8 @@
     "tt2658680": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -17883,7 +18427,8 @@
     "tt2894568": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1996-12-06",
@@ -17901,7 +18446,6 @@
   "imdb_id": "nm2640887",
   "homepage": "http://stefaniescottofficialsite.com/",
   "year_of_appearance": "2014",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt3409880": 4.8
@@ -17910,7 +18454,8 @@
     "tt3508746": 8.8
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1971-06-18",
@@ -17936,6 +18481,7 @@
     "tt2872940": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 1
  }
 ]

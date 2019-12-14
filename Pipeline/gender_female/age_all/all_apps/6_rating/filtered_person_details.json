@@ -22,7 +22,8 @@
     "tt3494020": 6.5
    }
   ],
-  "mean_rating": 6
+  "mean_rating": 6,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -45,6 +46,7 @@
     "tt3494020": 6.5
    }
   ],
-  "mean_rating": 6
+  "mean_rating": 6,
+  "number_of_appearances": 1
  }
 ]

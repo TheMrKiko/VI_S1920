@@ -22,7 +22,8 @@
     "tt0629723": 7.2
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1968-04-10",
@@ -45,7 +46,8 @@
     "tt9122678": 7.3
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -63,7 +65,6 @@
   "imdb_id": "nm0133084",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt0629691": 8.7
@@ -75,7 +76,8 @@
     "tt3508744": 4.6
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1971-10-20",
@@ -101,7 +103,8 @@
     "tt9122678": 7.3
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1979-03-30",
@@ -126,7 +129,8 @@
     "tt0629723": 7.2
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1963-03-08",
@@ -151,7 +155,8 @@
     "tt0629723": 7.2
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1977-08-08",
@@ -169,7 +174,6 @@
   "imdb_id": "nm1985974",
   "homepage": null,
   "year_of_appearance": "2011",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2100037": 9.0
@@ -178,7 +182,8 @@
     "tt4507510": 4.5
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1953-08-13",
@@ -208,7 +213,8 @@
     "tt0629723": 7.2
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  },
  {
   "birthday": "1967-08-04",
@@ -226,7 +232,6 @@
   "imdb_id": "nm0011401",
   "homepage": null,
   "year_of_appearance": "2006",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0853818": 9.1
@@ -235,7 +240,8 @@
     "tt7195376": 4.2
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1976-01-01",
@@ -253,7 +259,6 @@
   "imdb_id": "nm0755603",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt3305432": 9.0
@@ -262,7 +267,8 @@
     "tt3508744": 4.6
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1968-01-01",
@@ -283,7 +289,6 @@
   "imdb_id": "nm0223561",
   "homepage": "http://roxanevacca.co.uk/clients/hari-dhillon",
   "year_of_appearance": "2015",
-  "number_of_appearances": 3,
   "episodes": [
    {
     "tt4540826": 4.0
@@ -295,7 +300,8 @@
     "tt5566126": 8.7
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 3
  },
  {
   "birthday": "1965-04-17",
@@ -320,6 +326,7 @@
     "tt0629723": 7.2
    }
   ],
-  "mean_rating": 7
+  "mean_rating": 7,
+  "number_of_appearances": 1
  }
 ]

@@ -20,7 +20,8 @@
     "tt7195376": 4.2
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -43,7 +44,8 @@
     "tt5902050": 4.2
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -66,7 +68,8 @@
     "tt5902004": 4.4
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -89,7 +92,8 @@
     "tt5902004": 4.4
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -112,7 +116,8 @@
     "tt7195376": 4.2
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -135,7 +140,8 @@
     "tt4432486": 4.3
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -158,7 +164,8 @@
     "tt5902022": 4.0
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -181,7 +188,8 @@
     "tt5902050": 4.2
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -204,7 +212,8 @@
     "tt4540826": 4.0
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -227,7 +236,8 @@
     "tt7195376": 4.2
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  },
  {
   "birthday": null,
@@ -250,6 +260,7 @@
     "tt5902050": 4.2
    }
   ],
-  "mean_rating": 4
+  "mean_rating": 4,
+  "number_of_appearances": 1
  }
 ]

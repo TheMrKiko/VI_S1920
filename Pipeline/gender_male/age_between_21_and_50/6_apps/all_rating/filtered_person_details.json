@@ -25,7 +25,6 @@
   "imdb_id": "nm0799777",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629747": 9.3
@@ -46,7 +45,8 @@
     "tt0629655": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1966-02-27",
@@ -66,7 +66,6 @@
   "imdb_id": "nm0006610",
   "homepage": null,
   "year_of_appearance": "2014",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt3508746": 8.8
@@ -87,7 +86,8 @@
     "tt3696034": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  },
  {
   "birthday": "1969-12-31",
@@ -105,7 +105,6 @@
   "imdb_id": "nm0714698",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 6,
   "episodes": [
    {
     "tt0629747": 9.3
@@ -126,6 +125,7 @@
     "tt0629672": 9.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 6
  }
 ]

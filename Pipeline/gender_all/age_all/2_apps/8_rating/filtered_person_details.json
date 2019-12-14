@@ -15,7 +15,6 @@
   "imdb_id": "nm1533954",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629730": 8.7
@@ -24,7 +23,8 @@
     "tt1015432": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1991-08-02",
@@ -42,7 +42,6 @@
   "imdb_id": "nm1384666",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2787898": 9.1
@@ -51,7 +50,8 @@
     "tt3494020": 6.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -69,7 +69,6 @@
   "imdb_id": "nm1022918",
   "homepage": null,
   "year_of_appearance": "2002",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629752": 8.7
@@ -78,7 +77,8 @@
     "tt8794144": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": null,
@@ -96,7 +96,6 @@
   "imdb_id": "nm0348962",
   "homepage": null,
   "year_of_appearance": "2006",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0860060": 8.7
@@ -105,7 +104,8 @@
     "tt7195362": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1953-09-16",
@@ -123,7 +123,6 @@
   "imdb_id": "nm0298281",
   "homepage": null,
   "year_of_appearance": "2018",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt7195358": 7.5
@@ -132,7 +131,8 @@
     "tt8395466": 8.6
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1958-01-06",
@@ -153,7 +153,6 @@
   "imdb_id": "nm0117302",
   "homepage": "http://www.bretadamsltd.net/content/client/male-actors/scott-bryce/",
   "year_of_appearance": "2009",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt1248633": 8.8
@@ -162,7 +161,8 @@
     "tt8917872": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1982-07-08",
@@ -182,7 +182,6 @@
   "imdb_id": "nm0124208",
   "homepage": null,
   "year_of_appearance": "2014",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt3494020": 6.5
@@ -191,7 +190,8 @@
     "tt4596276": 8.9
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1982-01-24",
@@ -209,7 +209,6 @@
   "imdb_id": "nm4377526",
   "homepage": "http://www.daveeddiggs.com/",
   "year_of_appearance": "2015",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt5044786": 8.7
@@ -218,7 +217,8 @@
     "tt5317574": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1959-05-10",
@@ -236,7 +236,6 @@
   "imdb_id": "nm0005389",
   "homepage": null,
   "year_of_appearance": "2013",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt2628024": 9.0
@@ -245,7 +244,8 @@
     "tt3494020": 6.5
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  },
  {
   "birthday": "1984-04-16",
@@ -263,7 +263,6 @@
   "imdb_id": "nm0281575",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 2,
   "episodes": [
    {
     "tt0629619": 8.7
@@ -272,6 +271,7 @@
     "tt5171644": 8.2
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 2
  }
 ]

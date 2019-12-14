@@ -17,7 +17,6 @@
   "imdb_id": "nm0090225",
   "homepage": "http://www.michaelboatman.us/",
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629607": 8.7
@@ -35,7 +34,8 @@
     "tt0760910": 9.3
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1959-05-22",
@@ -55,7 +55,6 @@
   "imdb_id": "nm0256599",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629663": 8.7
@@ -73,7 +72,8 @@
     "tt2787898": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1969-01-01",
@@ -94,7 +94,6 @@
   "imdb_id": "nm0995946",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629625": 8.7
@@ -112,7 +111,8 @@
     "tt0946364": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1966-06-28",
@@ -130,7 +130,6 @@
   "imdb_id": "nm0000524",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629755": 8.7
@@ -148,7 +147,8 @@
     "tt0946366": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1956-09-16",
@@ -166,7 +166,6 @@
   "imdb_id": "nm0416838",
   "homepage": null,
   "year_of_appearance": "2000",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629677": 8.4
@@ -184,7 +183,8 @@
     "tt0629612": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1961-06-04",
@@ -202,7 +202,6 @@
   "imdb_id": "nm0925033",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629731": 8.7
@@ -220,6 +219,7 @@
     "tt1015432": 8.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  }
 ]

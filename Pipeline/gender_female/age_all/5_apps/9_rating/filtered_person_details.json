@@ -15,7 +15,6 @@
   "imdb_id": "nm0000350",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629628": 9.4
@@ -33,7 +32,8 @@
     "tt1015438": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1959-05-22",
@@ -53,7 +53,6 @@
   "imdb_id": "nm0256599",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629663": 8.7
@@ -71,7 +70,8 @@
     "tt2787898": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": null,
@@ -91,7 +91,6 @@
   "imdb_id": "nm1560437",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629639": 9.2
@@ -109,7 +108,8 @@
     "tt3599562": 9.1
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1966-06-28",
@@ -127,7 +127,6 @@
   "imdb_id": "nm0000524",
   "homepage": null,
   "year_of_appearance": "2004",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629755": 8.7
@@ -145,7 +144,8 @@
     "tt0946366": 8.7
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": null,
@@ -165,7 +165,6 @@
   "imdb_id": "nm0102650",
   "homepage": null,
   "year_of_appearance": "2012",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt2440978": 8.9
@@ -183,7 +182,8 @@
     "tt7195362": 8.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1961-06-04",
@@ -201,7 +201,6 @@
   "imdb_id": "nm0925033",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629731": 8.7
@@ -219,7 +218,8 @@
     "tt1015432": 8.2
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  },
  {
   "birthday": "1940-06-21",
@@ -237,7 +237,6 @@
   "imdb_id": "nm0366866",
   "homepage": null,
   "year_of_appearance": "2003",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt0629706": 9.3
@@ -255,6 +254,7 @@
     "tt1248627": 8.8
    }
   ],
-  "mean_rating": 9
+  "mean_rating": 9,
+  "number_of_appearances": 5
  }
 ]

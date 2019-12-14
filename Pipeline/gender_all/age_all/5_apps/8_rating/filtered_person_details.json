@@ -17,7 +17,6 @@
   "imdb_id": "nm1801099",
   "homepage": null,
   "year_of_appearance": "2014",
-  "number_of_appearances": 5,
   "episodes": [
    {
     "tt3599556": 9.2
@@ -35,6 +34,7 @@
     "tt4653920": 9.0
    }
   ],
-  "mean_rating": 8
+  "mean_rating": 8,
+  "number_of_appearances": 5
  }
 ]
