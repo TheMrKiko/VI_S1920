@@ -360,10 +360,10 @@ async function loadTreeMap() {
     meanRatings = {
         "name": "cluster",
         "children": [
-            { "name": "AgglomerativeCluster", "size": 19 },
-            { "name": "CommunityStructure", "size": 1 },
-            { "name": "HierarchicalCluster", "size": 7 },
-            { "name": "MergeEdge", "size": 5 }
+            { "name": "2", "size": 19 },
+            { "name": "3", "size": 1 },
+            { "name": "4", "size": 7 },
+            { "name": "5", "size": 5 }
         ]
     }
     dispatch.call("upTreemap");
@@ -421,10 +421,10 @@ function treemap() {
         meanRatings = {
             "name": "cluster",
             "children": [
-                { "name": "AgglomerativeCluster", "size": 1 },
-                { "name": "CommunityStructure", "size": 7 },
-                { "name": "HierarchicalCluster", "size": 17 },
-                { "name": "MergeEdge", "size": 20 }
+                { "name": "2", "size": 1 },
+                { "name": "3", "size": 7 },
+                { "name": "4", "size": 17 },
+                { "name": "5", "size": 20 }
             ]
         }
         root = d3.hierarchy(meanRatings).sum(function (d) { return d.size }) // Here the size of each leave is given in the 'value' field in input data
@@ -466,7 +466,7 @@ function treemap() {
 
 
 var width = window.innerWidth - 10;
-var height = window.innerHeight - 40;
+var height = window.innerHeight - 70;
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 
