@@ -33,8 +33,12 @@ body {
 .window {
 	display: flex;
 	flex-direction: column;
-	border: black solid 2px;
-	background-color: white;
+	box-shadow: inset 1px 1px 0 0 #424242;
+    border: 1px solid #fff;
+    border-right-color: #848484;
+    border-bottom-color: #848484;
+    background: silver;
+    padding: 2px;
 }
 
 .windowbar {
@@ -42,11 +46,13 @@ body {
 	align-items: center;
 	flex-direction: row;
 	height: 30px;
-	border-bottom: black solid 2px;
+	box-shadow: 1px 1px 0 0 #424242;
 	padding: 0 2px;
+	background: -webkit-linear-gradient(left,#08216b,#a5cef7)!important;
 }
 
 .windowbartext {
+	color: white;
 	margin-left: 8px;
 	flex: 1;
 }
@@ -57,7 +63,10 @@ body {
 	flex: 0 0 20px;
 	justify-content: center;
 	align-items: center;
-	border: black solid 2px;
+    border: 1px solid #fff;
+    border-right-color: #424242;
+    border-bottom-color: #424242;
+    background: silver;
 }
 
 #wind-net {
@@ -87,7 +96,7 @@ body {
 }
 
 #pie {
-	width: 350px;
+	width: 500px;
 	height: 200px;
 }
 
