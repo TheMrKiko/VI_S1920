@@ -3,6 +3,7 @@
 <head>
   <title>How Law and Order: SVU affects its guest stars' careers?</title>
   <link rel="stylesheet" href="svu.css">
+  <link rel="stylesheet" href="win.css">
   <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
   <!-- <script src="https://unpkg.com/netclustering@0.0.4/dist/netClustering.js"></script> -->
 </head>
@@ -14,7 +15,7 @@
       <p class="windowbaricon">?</p>
       <p class="windowbaricon">X</p>
     </div>
-    <div id="third_chart">
+    <div id="net-container" class="graph">
       <svg id="network"></svg>
     </div>
 
@@ -24,7 +25,7 @@
         <p class="windowbaricon">?</p>
         <p class="windowbaricon">X</p>
       </div>
-      <div id="timeline"></div>
+      <div id="timeline" class="graph"></div>
     </div>
 
     <div class="window" id="wind-pie">
@@ -33,7 +34,7 @@
         <p class="windowbaricon">?</p>
         <p class="windowbaricon">X</p>
       </div>
-      <div id="pie"></div>
+      <div id="pie" class="graph"></div>
     </div>
 
     <div class="window" id="wind-inside">
@@ -43,7 +44,14 @@
         <p class="windowbaricon">X</p>
       </div>
       <div id="filters">
-        <input class="filter" type="text">
+        <input class="filter" list="browsers" id="searchbox">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
         <div class="filtersgroup">
           <button class="btn filter gender" id="male" onclick="setGender('male');">Male</button>
           <button class="btn filter gender" id="female" onclick="setGender('female');">Female</button>
@@ -54,11 +62,22 @@
           <button class="btn filter age" id="over_50" onclick="setAge('over_50');">Over 50</button>
         </div>
       </div>
-      <div id="treemap"></div>
+      <div id="treemap" class="graph"></div>
     </div>
   </div>
 
-  <div id="footer"></div>
+  <div id="taskbar"><span id="start-button">
+      <div id="inner-start-button"><img class="icon" src="images/win98_icons/windows.ico"
+          style="width:20px; margin:-2px 0 0 0">
+        <p class="text">&nbsp;Start</p>
+      </div>
+    </span><span class="bigpipe"></span> <span class="pipe"></span> <span id="quick-launch"><img
+        class="icon show-desktop" src="images/win98_icons/desktop.ico" style="margin:0px 1px 0px 1px"> <img
+        class="icon new-mail" src="images/win98_icons/mail.ico" style="margin:0px 1px 0px 1px" program-name="mail">
+    </span><span class="pipe"></span> <span class="bigpipe"></span>
+    <span id="right"><span class="bigpipe" style="/* right: 64px; */"></span><span id="clock">
+        <div class="text">10:57 AM</div>
+      </span></span></div>
 
   <script src="svu.js"></script>
 

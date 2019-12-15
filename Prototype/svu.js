@@ -165,7 +165,7 @@ svg.selectAll("mycircle")
         svg.selectAll(".lolilines") // same code, but now we only change values
         .data(groupYear)
         .transition() // add a smooth transition
-        .duration(1000)
+        .duration(1500)
         .attr("x1", (d, i) => {console.log("hereee"); return xscale(d.year)})
         .attr("x2", (d, i) => xscale(d.year))
         .attr("y1", d => hscale(d.freq))
@@ -176,7 +176,7 @@ svg.selectAll("mycircle")
         svg.selectAll(".lolicircles") // same code, but now we only change values
             .data(groupYear)
             .transition() // add a smooth transition
-            .duration(1000)
+            .duration(1500)
             .attr("cx", (d, i) => xscale(d.year))
             .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
             .attr("r", radius)
@@ -186,7 +186,7 @@ svg.selectAll("mycircle")
             svg.selectAll(".chartLineText")
             .data(groupYear)
             .transition()
-            .duration(1000)
+            .duration(1500)
             .attr("x", (d, i) => xscale(d.year))
             .text(function (d) { return Math.round(d.freq)/10 })
             .attr("y", function (d) { return hscale(d.freq)+radius/2; })
@@ -314,14 +314,14 @@ function appearancesPie() {
         svg.selectAll('path')
             .data(dataReady)
             .transition()
-            .duration(1000)
+            .duration(1500)
             .attrTween('d', arcTween); // redraw the arcs
 
         // Add the polylines between chart and labels:
         svg.selectAll('polyline')
             .data(dataReady)
             .transition()
-            .duration(1000)
+            .duration(1500)
             .attr('points', d => {
                 var posA = arc.centroid(d) // line insertion in the slice
                 var posB = outerArc.centroid(d) // line break: we use the other arc generator that has been built only for that
@@ -335,7 +335,7 @@ function appearancesPie() {
         svg.selectAll('text')
             .data(dataReady)
             .transition() // add a smooth transition
-            .duration(1000)
+            .duration(1500)
             .attr('transform', d => {
                 var pos = outerArc.centroid(d);
                 var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2
@@ -357,10 +357,10 @@ async function loadTreeMap() {
     meanRatings = {
         "name": "cluster",
         "children": [
-            { "name": "AgglomerativeCluster", "size": 19 },
-            { "name": "CommunityStructure", "size": 1 },
-            { "name": "HierarchicalCluster", "size": 7 },
-            { "name": "MergeEdge", "size": 5 }
+            { "name": "2", "size": 19 },
+            { "name": "3", "size": 1 },
+            { "name": "4", "size": 7 },
+            { "name": "5", "size": 5 }
         ]
     }
     dispatch.call("upTreemap");
@@ -398,7 +398,8 @@ function treemap() {
         .attr('y', function (d) { return d.y0; })
         .attr('width', function (d) { return d.x1 - d.x0; })
         .attr('height', function (d) { return d.y1 - d.y0; })
-        .style("stroke", "black")
+        .attr("stroke", "white")
+        .style("stroke-width", "1px")
         .style("fill", d => color(d.data.name))
 
     // and to add the text labels
@@ -418,10 +419,10 @@ function treemap() {
         meanRatings = {
             "name": "cluster",
             "children": [
-                { "name": "AgglomerativeCluster", "size": 1 },
-                { "name": "CommunityStructure", "size": 7 },
-                { "name": "HierarchicalCluster", "size": 17 },
-                { "name": "MergeEdge", "size": 20 }
+                { "name": "2", "size": 1 },
+                { "name": "3", "size": 7 },
+                { "name": "4", "size": 17 },
+                { "name": "5", "size": 20 }
             ]
         }
         root = d3.hierarchy(meanRatings).sum(function (d) { return d.size }) // Here the size of each leave is given in the 'value' field in input data
@@ -440,7 +441,8 @@ function treemap() {
             .attr('y', function (d) { return d.y0; })
             .attr('width', function (d) { return d.x1 - d.x0; })
             .attr('height', function (d) { return d.y1 - d.y0; })
-            .style("stroke", "black")
+            .attr("stroke", "white")
+            .style("stroke-width", "1px")
             .style("fill", d => color(d.data.name))
 
         // and to add the text labels
@@ -463,7 +465,7 @@ function treemap() {
 
 
 var width = window.innerWidth - 10;
-var height = window.innerHeight - 40;
+var height = window.innerHeight - 70;
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 
