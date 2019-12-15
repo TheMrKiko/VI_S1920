@@ -4,12 +4,13 @@ from alt_separate_by_svu_rating import separate_by_svu_rating
 from alt_separate_by_num_apps import separate_by_num_apps
 from groupWorkFreqRating import freq_and_rating_by_group
 from people_by_numapps import prepare_for_pie
+from people_connections import prepare_for_network
 import json
 import os, shutil, glob
 
 guest_stars = open("guest_stars_raw.json")
 cast = open("castIDS.json")
-commonwork_pairs = open("commonwork_bypeople_nospace.json")
+commonwork_pairs = open("commonworks.json")
 person_details = open("person_details.json")
 
 guest_stars_table = json.load(guest_stars)
@@ -66,6 +67,12 @@ def divider():
                     pie = open(destined_path+"/pie_chart_persondetails.json", "w")
                     json.dump(pie_chart, pie, indent=1) 
                     pie.close()
+
+                    # network_chart = prepare_for_network(commonwork_pairs_table)
+
+                    # net = open(destined_path+"/network_chart_persondetails.json", "w")
+                    # json.dump(network_chart, net, indent=1) 
+                    # net.close()
 
                     if len(filtered_table) != 0:
                         stats = freq_and_rating_by_group(filtered_table)

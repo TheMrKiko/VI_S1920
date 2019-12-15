@@ -467,7 +467,7 @@ var height = window.innerHeight - 40;
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 
-d3.json("miserables.json").then(function (graph) {
+d3.json("network.json").then(function (graph) {
     var nodes = graph.nodes
     var nodess = graph.nodes.map(e => parseInt(e.id))
     var links = graph.links.map(e => {
@@ -669,7 +669,7 @@ function prepareSearch() {
             actor_names.push(actor["name"]);
         });
     })
-    actor_names.sort((a, b) => a> b)
+    actor_names.sort((a, b) => a.local)
     console.log(actor_names)
 }
 prepareSearch()
