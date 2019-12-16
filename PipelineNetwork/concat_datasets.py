@@ -27,7 +27,12 @@ for actor in person_details_table:
         if (actor_id_str in actor_app_id):
             #print(actor_id_str)
             #print(actor_app_id)
-            actor.update( {"number_of_appearances" : actor_id_apps[str(actor["id"])]})
+            apps =  actor_id_apps[str(actor["id"])]
+            if 2 <= apps <=6:
+                actor.update( {"number_of_appearances" : apps})
+            else:
+                person_details_table.remove(actor)
+
     
 temp = person_details_table.copy()   
 print(len(person_details_table))

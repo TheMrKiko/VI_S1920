@@ -5,6 +5,7 @@ from alt_separate_by_num_apps import separate_by_num_apps
 from groupWorkFreqRating import freq_and_rating_by_group
 from people_by_numapps import prepare_for_pie
 from people_connections import prepare_for_network
+from people_by_svu_rating import prepare_for_tree_map
 import json
 import os, shutil, glob
 
@@ -73,6 +74,11 @@ def divider():
                     # net = open(destined_path+"/network_chart_persondetails.json", "w")
                     # json.dump(network_chart, net, indent=1) 
                     # net.close()
+                    tree_map = prepare_for_tree_map(filtered_table)
+        
+                    tree = open(destined_path+"/tree_map_persondetails.json", "w")
+                    json.dump(tree_map, tree, indent=1) 
+                    tree.close()
 
                     if len(filtered_table) != 0:
                         stats = freq_and_rating_by_group(filtered_table)
@@ -82,20 +88,6 @@ def divider():
                     json.dump(stats, stats_file, indent=1)
 
                     stats_file.close()
-""" 
-                    files = glob.iglob(os.path.join(original_path, "*ered_person_details.json"))
-                    for filee in files:
-                        
-                        shutil.copy(filee, destined_path)
-                        print(destined_path) """
-"""  if os.path.isfile("filtered_person_details.json"):
-                        shutil.copy(out, destined_path)         
-                    
-                    if os.path.exists("filtered_person_details.json"):
-                        os.remove("filtered_person_details.json")
-                    else:
-                        print("The file \"out\" does not exist")"""
-
 
 folder_creator(original_path, level)
 divider()
@@ -104,12 +96,3 @@ person_details.close()
 commonwork_pairs.close()
 cast.close()
 guest_stars.close()
-
-"""  print(str(fd_str))
-            for file in files:
-                if os.path.isfile(file):
-                    #shutil.copy(file, fd_str)
-                    #print("copying files")
-                    #print(str(file))
-                    a = 1
-                    a = a + 1 """

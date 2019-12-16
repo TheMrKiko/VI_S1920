@@ -1,0 +1,45 @@
+{
+ "name": "dummy",
+ "children": [
+  {
+   "name": 1,
+   "size": 0
+  },
+  {
+   "name": 2,
+   "size": 0
+  },
+  {
+   "name": 3,
+   "size": 0
+  },
+  {
+   "name": 4,
+   "size": 3
+  },
+  {
+   "name": 5,
+   "size": 10
+  },
+  {
+   "name": 6,
+   "size": 3
+  },
+  {
+   "name": 7,
+   "size": 12
+  },
+  {
+   "name": 8,
+   "size": 48
+  },
+  {
+   "name": 9,
+   "size": 775
+  },
+  {
+   "name": 10,
+   "size": 5
+  }
+ ]
+}

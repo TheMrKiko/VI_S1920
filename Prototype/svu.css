@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: calibri, arial, sans serif;
+	font-family: Helvetica Neue, Arial, Helvetica, sans-serif
 }
 
 .vis {
@@ -8,7 +8,8 @@ body {
 	align-items: flex-end;
 }
 
-.axis path, .axis line {
+.axis path,
+.axis line {
 	fill: none;
 	stroke: black;
 }
@@ -22,23 +23,23 @@ body {
 	opacity: 0.7;
 }
 
-#footer {
-	width: 100%;
-	height: 40px;
-	position: absolute;
-	bottom: 0;
-	background-color: lightblue;
-}
-
 .window {
 	display: flex;
 	flex-direction: column;
 	box-shadow: inset 1px 1px 0 0 #424242;
-    border: 1px solid #fff;
-    border-right-color: #848484;
-    border-bottom-color: #848484;
-    background: silver;
-    padding: 2px;
+	border: 1px solid #fff;
+	border-right-color: #848484;
+	border-bottom-color: #848484;
+	background: silver;
+	padding: 2px;
+}
+
+.graph {
+	background: #fff;
+    border: 1px solid #000;
+    border-bottom-color: #a3a3a3;
+    border-right-color: #a3a3a3;
+    padding: 1px;
 }
 
 .windowbar {
@@ -48,7 +49,7 @@ body {
 	height: 30px;
 	box-shadow: 1px 1px 0 0 #424242;
 	padding: 0 2px;
-	background: -webkit-linear-gradient(left,#08216b,#a5cef7)!important;
+	background: -webkit-linear-gradient(left, #08216b, #a5cef7) !important;
 }
 
 .windowbartext {
@@ -63,17 +64,27 @@ body {
 	flex: 0 0 20px;
 	justify-content: center;
 	align-items: center;
-    border: 1px solid #fff;
-    border-right-color: #424242;
-    border-bottom-color: #424242;
-    background: silver;
+	border: 1px solid #fff;
+	border-right-color: #424242;
+	border-bottom-color: #424242;
+	background: silver;
 }
 
 #wind-net {
 	position: absolute;
 	width: -webkit-fill-available;
-	bottom: 40px;
+	bottom: 25px;
+	margin: 5px;
 	top: 0;
+}
+
+#network {
+	bottom: 0;
+	position: absolute;
+}
+
+#net-container {
+	height: -webkit-fill-available;
 }
 
 #wind-timeline {
@@ -123,6 +134,10 @@ body {
 	flex: 1;
 	width: 100px;
 	margin: 6px;
+}
+
+#searchbox {
+	
 }
 
 .btn {
