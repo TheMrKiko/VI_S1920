@@ -44,22 +44,19 @@
         <p class="windowbaricon">X</p>
       </div>
       <div id="filters">
-        <input class="filter" list="browsers" id="searchbox">
-        <datalist id="browsers">
-          <option value="Internet Explorer">
-          <option value="Firefox">
-          <option value="Chrome">
-          <option value="Opera">
-          <option value="Safari">
-        </datalist>
+        <div class="autocomplete filtersgroup">
+          <input id="myInput" class="filter select-picker" type="text" placeholder="Guest star's name">
+        </div>
+        <button class="filter btn" id="selected-person"><u>P</u>erson: <span id="selected-person-txt">None</span></button>
         <div class="filtersgroup">
-          <button class="btn filter gender" id="male" onclick="setGender('male');">Male</button>
-          <button class="btn filter gender" id="female" onclick="setGender('female');">Female</button>
+          <button class="btn filter gender" id="male" onclick="setGender('male');"><u>M</u>ale</button>
+          <button class="btn filter gender" id="female" onclick="setGender('female');"><u>F</u>emale</button>
         </div>
         <div class="filtersgroup">
-          <button class="btn filter age" id="under_21" onclick="setAge('under_21')">Under 21</button>
-          <button class="btn filter age" id="between_21_and_50" onclick="setAge('between_21_and_50');">21 to 50</button>
-          <button class="btn filter age" id="over_50" onclick="setAge('over_50');">Over 50</button>
+          <button class="btn filter age" id="under_21" onclick="setAge('under_21')"><u>U</u>nder 21</button>
+          <button class="btn filter age" id="between_21_and_50" onclick="setAge('between_21_and_50');"><u>2</u>1 to
+            50</button>
+          <button class="btn filter age" id="over_50" onclick="setAge('over_50');"><u>O</u>ver 50</button>
         </div>
       </div>
       <div id="treemap" class="graph"></div>
@@ -75,7 +72,7 @@
         class="icon show-desktop" src="images/win98_icons/desktop.ico" style="margin:0px 1px 0px 1px"> <img
         class="icon new-mail" src="images/win98_icons/mail.ico" style="margin:0px 1px 0px 1px" program-name="mail">
     </span><span class="pipe"></span> <span class="bigpipe"></span>
-    <span id="right"><span class="bigpipe" style="/* right: 64px; */"></span><span id="clock">
+    <span id="right"><span class="bigpipe"></span><span id="clock">
         <div class="text">10:57 AM</div>
       </span></span></div>
 
