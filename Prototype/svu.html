@@ -37,9 +37,9 @@
       <div id="pie" class="graph"></div>
     </div>
 
-    <div class="window" id="wind-inside">
+    <div class="window" id="wind-filter">
       <div class="windowbar">
-        <p class="windowbartext">Inside SVU: Ep Rating</p>
+        <p class="windowbartext">Toolbar</p>
         <p class="windowbaricon">?</p>
         <p class="windowbaricon">X</p>
       </div>
@@ -47,7 +47,8 @@
         <div class="autocomplete filtersgroup">
           <input id="myInput" class="filter select-picker" type="text" placeholder="Guest star's name">
         </div>
-        <button class="filter btn" id="selected-person"><u>P</u>erson: <span id="selected-person-txt">None</span></button>
+        <button class="filter btn" id="selected-person"><u>P</u>erson: <span id="selected-person-txt">None
+            selected</span></button>
         <div class="filtersgroup">
           <button class="btn filter gender" id="male" onclick="setGender('male');"><u>M</u>ale</button>
           <button class="btn filter gender" id="female" onclick="setGender('female');"><u>F</u>emale</button>
@@ -58,6 +59,13 @@
             50</button>
           <button class="btn filter age" id="over_50" onclick="setAge('over_50');"><u>O</u>ver 50</button>
         </div>
+      </div>
+    </div>
+    <div class="window" id="wind-inside">
+      <div class="windowbar">
+        <p class="windowbartext">Inside SVU: Ep Rating</p>
+        <p class="windowbaricon">?</p>
+        <p class="windowbaricon">X</p>
       </div>
       <div id="treemap" class="graph"></div>
     </div>

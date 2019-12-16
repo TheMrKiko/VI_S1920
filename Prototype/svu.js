@@ -1,4 +1,4 @@
-var gender = "all", age = "all", rating = "all", appearances = "all";
+var gender = "all", age = "all", rating = "all", appearances = "all", person = null;
 const root = "../Pipeline"
 const currpath = () => {
     console.log(`${gender} ${age} ${appearances} ${rating}`)
@@ -7,27 +7,43 @@ const currpath = () => {
 
 /* BUTTONS */
 
-function setGender(newGender) {
-    gender = setFilter("gender", newGender, gender);
-    updateVis();
+function setGender(newGender, update = true) {
+    gender = setFilter("gender", newGender, gender, undefined, !update);
+    if (update) updateVis();
 }
 
-function setAge(newAge) {
-    age = setFilter("age", newAge, age);
-    updateVis();
+function setAge(newAge, update = true) {
+    age = setFilter("age", newAge, age, undefined, !update);
+    if (update) updateVis();
 }
 
-function setAppearances(newApp) {
-    appearances = setFilter("appearances-css", newApp, appearances, "a-");
-    updateVis();
+function setAppearances(newApp, update = true) {
+    appearances = setFilter("appearances-css", newApp, appearances, "a-", !update);
+    if (update) updateVis();
 }
 
-function setRating(newRating) {
-    rating = setFilter("rating-css", newRating, rating, "r-");
-    updateVis();
+function setRating(newRating, update = true) {
+    rating = setFilter("rating-css", newRating, rating, "r-", !update);
+    if (update) updateVis();
 }
 
-function setFilter(className, newV, currV, more = "") {
+function setPerson(newPerson, update = true) {
+    person = newPerson;
+    if (!person) {
+        document.getElementById("selected-person-txt").innerHTML = "None selected";
+        document.getElementById("selected-person").classList.toggle("active", false);
+    } else {
+        document.getElementById("selected-person-txt").innerHTML = person;
+        document.getElementById("selected-person").classList.toggle("active", true);
+        setGender('all', false);
+        setAge('all', false);
+        setAppearances('all', false);
+        setRating('all', false);
+    }
+    if (update) updateVis();
+}
+
+function setFilter(className, newV, currV, more = "", inchain = false) {
     let value = newV == currV ? "all" : newV;
     let els = document.getElementsByClassName(className);
 
@@ -36,6 +52,7 @@ function setFilter(className, newV, currV, more = "") {
     })
     if (value != "all")
         document.getElementById(`${more}${value}`).classList.toggle("active", true);
+    if (!inchain) setPerson(null, false);
     return value;
 }
 
@@ -96,71 +113,71 @@ function timeline() {
         .attr("transform", "translate(0," + maxheight + ")")
         .attr("class", "xaxis") // we are giving it a css style
         .call(xaxis);
-/*
-    svg.selectAll("rect")
-        .data(groupYear)
-        .enter().append("rect")
-        .attr("width", Math.floor((w - padding * 2) / groupYear.length) - 1)
-        .attr("height", d => maxheight - hscale(d.rating)) // this was inverted
-        .attr("fill", (d, i) => cscale(d.freq)) // fill chosen by scale
-        .attr("x", (d, i) => xscale(i))
-        .attr("y", d => hscale(d.rating)); // this was inverted
-
-    svg.selectAll("rect").append("title") // adding a title for each bar
-        .data(groupYear)
-        .text(d => d.title);
-
-  
-
-
-        var y = d3.scaleLinear()
-        .domain([0, 10])
-        .range([ maxheight - 0, maxheight - maxheight]);
-svg.append("g")
-  .call(d3.axisRight(y))
-  .attr("transform", "translate(" + (w - padding) + ",0)")
-  .append("text")
-  .attr("transform", "rotate(-90)")
-  .style("text-anchor", "end")
-  .style("fill", "black")
-  .text("Work Frequency");*/
+    /*
+        svg.selectAll("rect")
+            .data(groupYear)
+            .enter().append("rect")
+            .attr("width", Math.floor((w - padding * 2) / groupYear.length) - 1)
+            .attr("height", d => maxheight - hscale(d.rating)) // this was inverted
+            .attr("fill", (d, i) => cscale(d.freq)) // fill chosen by scale
+            .attr("x", (d, i) => xscale(i))
+            .attr("y", d => hscale(d.rating)); // this was inverted
+    
+        svg.selectAll("rect").append("title") // adding a title for each bar
+            .data(groupYear)
+            .text(d => d.title);
+    
+      
+    
+    
+            var y = d3.scaleLinear()
+            .domain([0, 10])
+            .range([ maxheight - 0, maxheight - maxheight]);
+    svg.append("g")
+      .call(d3.axisRight(y))
+      .attr("transform", "translate(" + (w - padding) + ",0)")
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .style("text-anchor", "end")
+      .style("fill", "black")
+      .text("Work Frequency");*/
     // Lines
-svg.selectAll("myline")
-  .data(groupYear)
-  .enter()
-  .append("line")
-    .attr("x1", (d, i) => xscale(d.year))
-    .attr("x2", (d, i) => xscale(d.year))
-    .attr("y1", d => hscale(d.freq))
-    .attr("y2", hscale(0))
-    .attr("stroke", "grey")
-    .attr("class", "lolilines")
+    svg.selectAll("myline")
+        .data(groupYear)
+        .enter()
+        .append("line")
+        .attr("x1", (d, i) => xscale(d.year))
+        .attr("x2", (d, i) => xscale(d.year))
+        .attr("y1", d => hscale(d.freq))
+        .attr("y2", hscale(0))
+        .attr("stroke", "grey")
+        .attr("class", "lolilines")
 
-// Circles
-radius = 10
-svg.selectAll("mycircle")
-  .data(groupYear)
-  .enter()
-  .append("circle")
-    .attr("cx", (d, i) => xscale(d.year))
-    .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
-    .attr("r", radius)
-    .style("fill", "#69b3a2")
-    .attr("stroke", "black")
-    .attr("class", "lolicircles")
+    // Circles
+    radius = 10
+    svg.selectAll("mycircle")
+        .data(groupYear)
+        .enter()
+        .append("circle")
+        .attr("cx", (d, i) => xscale(d.year))
+        .attr("cy", d => { console.log(hscale(0)); return hscale(d.freq); })
+        .attr("r", radius)
+        .style("fill", "#69b3a2")
+        .attr("stroke", "black")
+        .attr("class", "lolicircles")
 
     svg.selectAll(".chartLineText")
-    .data(groupYear)
-    .enter()
-    .append('text')
-    .attr("class", "chartLineText")
-    .style("color", "#000")
-    .style("text-anchor", "middle")
-    //.attr("transform", "translate(" + 30 + ",-2)")
-    .attr("x", (d, i) => xscale(d.year))
-    .text(function (d) { return Math.round(d.freq)/10 })
-    .attr("y", function (d) { return hscale(d.freq)+radius/2; })
-    .style("font-size", radius*1.2+"px");
+        .data(groupYear)
+        .enter()
+        .append('text')
+        .attr("class", "chartLineText")
+        .style("color", "#000")
+        .style("text-anchor", "middle")
+        //.attr("transform", "translate(" + 30 + ",-2)")
+        .attr("x", (d, i) => xscale(d.year))
+        .text(function (d) { return Math.round(d.freq) / 10 })
+        .attr("y", function (d) { return hscale(d.freq) + radius / 2; })
+        .style("font-size", radius * 1.2 + "px");
 
     dispatch.on("upTimeline", (d) => { // click event
         cscale.domain([
@@ -168,14 +185,14 @@ svg.selectAll("mycircle")
             d3.max(groupYear, d => d.freq)
         ])
         svg.selectAll(".lolilines") // same code, but now we only change values
-        .data(groupYear)
-        .transition() // add a smooth transition
-        .duration(1500)
-        .attr("x1", (d, i) => {console.log("hereee"); return xscale(d.year)})
-        .attr("x2", (d, i) => xscale(d.year))
-        .attr("y1", d => hscale(d.freq))
-        .attr("y2", hscale(0))
-        .attr("stroke", "grey");
+            .data(groupYear)
+            .transition() // add a smooth transition
+            .duration(1500)
+            .attr("x1", (d, i) => { console.log("hereee"); return xscale(d.year) })
+            .attr("x2", (d, i) => xscale(d.year))
+            .attr("y1", d => hscale(d.freq))
+            .attr("y2", hscale(0))
+            .attr("stroke", "grey");
         console.log("heree")
 
         svg.selectAll(".lolicircles") // same code, but now we only change values
@@ -183,25 +200,25 @@ svg.selectAll("mycircle")
             .transition() // add a smooth transition
             .duration(1500)
             .attr("cx", (d, i) => xscale(d.year))
-            .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
+            .attr("cy", d => { console.log(hscale(0)); return hscale(d.freq); })
             .attr("r", radius)
             .style("fill", "#69b3a2")
             .attr("stroke", "black")
 
-            svg.selectAll(".chartLineText")
+        svg.selectAll(".chartLineText")
             .data(groupYear)
             .transition()
             .duration(1500)
             .attr("x", (d, i) => xscale(d.year))
-            .text(function (d) { return Math.round(d.freq)/10 })
-            .attr("y", function (d) { return hscale(d.freq)+radius/2; })
-            .style("font-size", radius*1.2+"px");
-      /*  xaxis.scale(d3.scaleLinear()
-            .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
-            // values from movies' years
-            .range([padding + barwidth / 2, w - padding - barwidth / 2])) // we are adding our padding
-        d3.select(".xaxis")
-            .call(xaxis);*/
+            .text(function (d) { return Math.round(d.freq) / 10 })
+            .attr("y", function (d) { return hscale(d.freq) + radius / 2; })
+            .style("font-size", radius * 1.2 + "px");
+        /*  xaxis.scale(d3.scaleLinear()
+              .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
+              // values from movies' years
+              .range([padding + barwidth / 2, w - padding - barwidth / 2])) // we are adding our padding
+          d3.select(".xaxis")
+              .call(xaxis);*/
     });
 }
 
@@ -374,9 +391,9 @@ async function loadTreeMap() {
 }
 
 function treemap() {
-    const margin = { top: 40, right: 10, bottom: 10, left: 10 },
+    const margin = { top: 10, right: 10, bottom: 10, left: 10 },
         width = 300 - margin.left - margin.right,
-        height = window.innerHeight * (2 / 3) - margin.top - margin.bottom,
+        height = window.innerHeight * (5 / 9) - margin.top - margin.bottom,
         color = d3.scaleOrdinal()
             .range(d3.schemeDark2);
 
@@ -413,7 +430,7 @@ function treemap() {
         .on("click", (d) => {
             setRating(`${d.data.name}`)
         })
-    
+
     // and to add the text labels
     svg.selectAll("text")
         .data(root.leaves())
@@ -704,13 +721,14 @@ function autocomplete(inp, arr) {
                     /*close the list of autocompleted values,
                     (or any other open lists of autocompleted values:*/
                     closeAllLists();
-                    console.log(inp.value)
-                    inp.value = ""
+                    setPerson(inp.value);
+                    inp.value = "";
                 });
                 a.appendChild(b);
             }
         }
     });
+    document.getElementById("selected-person").addEventListener("click", () => setPerson(null));
     /*execute a function presses a key on the keyboard:*/
     inp.addEventListener("keydown", function (e) {
         var x = document.getElementById(this.id + "autocomplete-list");
@@ -762,6 +780,7 @@ function autocomplete(inp, arr) {
             }
         }
     }
+
     /*execute a function when someone clicks in the document:*/
     document.addEventListener("click", function (e) {
         closeAllLists(e.target);
@@ -784,11 +803,11 @@ function updateVis() {
 function prepareSearch() {
     var actor_names = []
     d3.json("../Pipeline/person_details.json").then(function (person_details) {
-        person_details.forEach(function(actor) {
+        person_details.forEach(function (actor) {
             actor_names.push(actor["name"]);
         });
     })
-    actor_names.sort((a, b) => a> b)
+    actor_names.sort((a, b) => a > b)
     console.log(actor_names)
 }
 prepareSearch()

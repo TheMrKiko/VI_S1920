@@ -119,6 +119,13 @@ body {
 	bottom: 0;
 	right: 0;
 	margin: 10px;
+	width: 300px;
+}
+
+#wind-filter {
+	position: absolute;
+	right: 0;
+	margin: 10px;
 	top: 30px;
 	width: 300px;
 }
@@ -161,7 +168,10 @@ body {
 
 #selected-person {
 	text-align: left;
-    opacity: 0.5;
+}
+
+#selected-person:not(.active) {
+	opacity: 0.5;
 }
 
 .select-picker {
