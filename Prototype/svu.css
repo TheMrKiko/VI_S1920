@@ -147,6 +147,7 @@ body {
 }
 
 .btn.active {
+	padding: 8px 9px;
 	border: 2px inset #fff;
 	background: url(./images/Word%20Images/background.bmp);
 	box-shadow: -1px -1px #000;
@@ -156,6 +157,11 @@ body {
 .autocomplete {
 	/*the container must be positioned relative:*/
 	position: relative;
+}
+
+#selected-person {
+	text-align: left;
+    opacity: 0.5;
 }
 
 .select-picker {
