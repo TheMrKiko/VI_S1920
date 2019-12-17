@@ -1040,3 +1040,5 @@ function updateVis() {
     loadAppearances()
     loadTreeMap()
 }
+
+window.setTimeout(() => dispatch.call("upNetwork"), 500)
