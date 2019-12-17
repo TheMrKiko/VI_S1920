@@ -1,5 +1,5 @@
 var gender = "all", age = "all", rating = "all", appearances = "all", person = null, personName = "";
-var personApp = null;
+var personApp = null, personRating = null;
 const root = "../Pipeline"
 const currpath = () => {
 
@@ -31,9 +31,11 @@ function setRating(newRating, update = true) {
 
 function setPerson(newPerson, update = true) {
     person = newPerson;
-    if (!person) {
+    if (!person) { //apaga pessoa
         document.getElementById("selected-person-txt").innerHTML = "None selected";
         document.getElementById("selected-person").classList.toggle("active", false);
+        personRating = null;
+        personApp = null;
     } else {
         document.getElementById("selected-person-txt").innerHTML = personName;
         document.getElementById("selected-person").classList.toggle("active", true);
@@ -58,15 +60,29 @@ function setFilter(className, newV, currV, more = "", inchain = false) {
     return value;
 }
 
+function setPersonFilter(className, value, more) {
+    let els = document.getElementsByClassName(className);
+
+    Array.from(els).forEach((el) => {
+        el.classList.toggle("disabled", false)
+    })
+    if (value != null) {
+        Array.from(els).forEach((el) => {
+            el.classList.toggle("disabled", true)
+        })
+        document.getElementById(`${more}${value}`).classList.toggle("disabled", false);
+    }
+}
+
 var pieChart, groupYear, meanRatings;
 
-var peopleDetails, personFreq, personRating;
+var peopleDetails, peopleFreq, peopleRating;
 
 var dispatch = d3.dispatch("upTimeline", "upPie", "upTreemap");
 
 /* LOAD DATA */
 async function loadTimeline() {
-    if (!person) 
+    if (!person)
         groupYear = await d3.json(`${currpath()}/stats_freq_rating.json`);
     dispatch.call("upTimeline");
 }
@@ -83,11 +99,11 @@ function timeline() {
         .range([maxheight + toppadding, toppadding]);
     var xscale = d3.scaleLinear()
         .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
-        .range([60, w - toppadding*2]); // we are adding our padding to our width scale
+        .range([60, w - toppadding * 2]); // we are adding our padding to our width scale
 
     var cscale = d3.scaleOrdinal()
-    .domain([0, 10])
-    .range(d3.schemeDark2);
+        .domain([0, 10])
+        .range(d3.schemeDark2);
 
     var svg = d3.select("#timeline")
         .append("svg") // we are appending an svg to the div 'the_chart'
@@ -166,9 +182,9 @@ function timeline() {
         .enter()
         .append("circle")
         .attr("cx", (d, i) => xscale(d.year))
-        .attr("cy", d =>  hscale(d.freq))
+        .attr("cy", d => hscale(d.freq))
         .attr("r", radius)
-        .style("fill", d => cscale(Math.round(d.freq/10)))
+        .style("fill", d => cscale(Math.round(d.freq / 10)))
         .attr("class", "lolicircles")
 
     svg.selectAll(".chartLineText")
@@ -193,7 +209,7 @@ function timeline() {
             .data(groupYear)
             .transition() // add a smooth transition
             .duration(1500)
-            .attr("x1", (d, i) =>  xscale(d.year) )
+            .attr("x1", (d, i) => xscale(d.year))
             .attr("x2", (d, i) => xscale(d.year))
             .attr("y1", d => hscale(d.freq))
             .attr("y2", hscale(0))
@@ -206,7 +222,7 @@ function timeline() {
             .attr("cx", (d, i) => xscale(d.year))
             .attr("cy", d => hscale(d.freq))
             .attr("r", radius)
-            .style("fill", d => cscale(Math.round(d.freq/10)))
+            .style("fill", d => cscale(Math.round(d.freq / 10)))
 
         svg.selectAll(".chartLineText")
             .data(groupYear)
@@ -243,7 +259,6 @@ async function loadAppearances() {
             }
         }
     }
-    setFilter("appearances-css", personApp, null, "a-", true);
     dispatch.call("upPie");
 }
 
@@ -383,6 +398,7 @@ function appearancesPie() {
                 var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2
                 return (midangle < Math.PI ? 'start' : 'end')
             })
+        setPersonFilter("appearances-css", personApp, "a-");
     });
 }
 
@@ -391,6 +407,15 @@ function appearancesPie() {
 
 async function loadTreeMap() {
     meanRatings = await d3.json(`${currpath()}/tree_map_persondetails.json`);
+    if (person) {
+        for (p in peopleDetails) {
+            pdet = peopleDetails[p]
+            if (pdet.id == person) {
+                personRating = pdet["mean_rating"];
+                break;
+            }
+        }
+    }
     dispatch.call("upTreemap");
 }
 
@@ -399,9 +424,9 @@ function treemap() {
         width = 300 - margin.left - margin.right,
         height = window.innerHeight * (5 / 9) - margin.top - margin.bottom,
         color = d3.scaleOrdinal()
-        .domain([0, 10])
-        .range(d3.schemeDark2);
-    
+            .domain([0, 10])
+            .range(d3.schemeDark2);
+
 
     var svg = d3.select("#treemap")
         .append("svg")
@@ -480,6 +505,8 @@ function treemap() {
             .attr("y", function (d) { return d.y0 + 20 })    // +20 to adjust position (lower)
             .text(function (d) { return `${d.data.name}.0/10` })
             .style("opacity", d => d.data.size ? '1' : '0')
+
+        setPersonFilter("rating-css", personRating, "r-");
     })
 }
 
@@ -1090,12 +1117,13 @@ async function loadGuests() {
     //peopleDetails = await d3.json(`${root}/person_details.json`);
     return peopleDetails.map(a => ({
         name: a["name"],
-pid: a["id"]}
-))
+        pid: a["id"]
+    }
+    ))
 }
 
 
-loadGuests().then(people => {autocomplete(document.getElementById("myInput"), people)})
+loadGuests().then(people => { autocomplete(document.getElementById("myInput"), people) })
 loadTimeline().then(timeline)
 loadAppearances().then(appearancesPie)
 loadTreeMap().then(treemap)

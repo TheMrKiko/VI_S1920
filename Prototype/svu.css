@@ -23,11 +23,15 @@ body {
 }
 
 .appearances-css.disabled {
-	opacity: 0.3;
+	opacity: 0.2;
 }
 
 .rating-css:not(.active) {
 	opacity: 0.7;
+}
+
+.rating-css.disabled {
+	opacity: 0.3;
 }
 
 .window {
