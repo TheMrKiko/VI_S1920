@@ -1019,7 +1019,7 @@ function autocomplete(inp, arr) {
 
 async function loadGuests() {
     peopleDetails = await d3.json(`${root}/person_details.json`);
-    peopleTimeline = await d3.json(`${root}/person_details.json`);
+    peopleTimeline = await d3.json(`${root}/freq_plus_rating.json`);
     return peopleDetails.map(a => ({
         name: a["name"],
         pid: a["id"]
