@@ -1,0 +1,35 @@
+{
+ "nodes": [
+  {
+   "id": 18999,
+   "group": 2,
+   "name": "J.K. Simmons"
+  },
+  {
+   "id": 108890,
+   "group": 2,
+   "name": "Harvey Atkin"
+  },
+  {
+   "id": 10825,
+   "group": 2,
+   "name": "Donal Logue"
+  },
+  {
+   "id": 129101,
+   "group": 2,
+   "name": "Lance Reddick"
+  },
+  {
+   "id": 24046,
+   "group": 2,
+   "name": "John Schuck"
+  }
+ ],
+ "links": [
+  {
+   "source": 18999,
+   "target": 129101
+  }
+ ]
+}

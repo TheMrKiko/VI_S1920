@@ -1,0 +1,45 @@
+{
+ "nodes": [
+  {
+   "id": 1187106,
+   "group": 2,
+   "name": "Amber Stevens"
+  },
+  {
+   "id": 106490,
+   "group": 2,
+   "name": "Stefanie Scott"
+  },
+  {
+   "id": 79087,
+   "group": 2,
+   "name": "Robin Weigert"
+  },
+  {
+   "id": 357551,
+   "group": 2,
+   "name": "Amy Landecker"
+  },
+  {
+   "id": 180997,
+   "group": 2,
+   "name": "Nazneen Contractor"
+  },
+  {
+   "id": 29051,
+   "group": 2,
+   "name": "L. Scott Caldwell"
+  },
+  {
+   "id": 13602,
+   "group": 2,
+   "name": "Joie Lee"
+  }
+ ],
+ "links": [
+  {
+   "source": 180997,
+   "target": 1187106
+  }
+ ]
+}

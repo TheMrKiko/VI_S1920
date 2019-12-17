@@ -1,0 +1,35 @@
+[
+ {
+  "birthday": "1962-09-25",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 106791,
+  "name": "Aida Turturro",
+  "also_known_as": [],
+  "gender": 0,
+  "biography": "\u200bFrom Wikipedia, the free encyclopedia. \u00a0\n\nAida Turturro (born September 25, 1962) is an American actress probably best known for playing Janice Soprano, sister of New Jersey mob boss Tony Soprano, on the HBO TV series The Sopranos.",
+  "popularity": 1.563,
+  "place_of_birth": "Brooklyn, New York, USA",
+  "profile_path": "/hvQKy8ZdeWWVBgLbeczkm0kyAgU.jpg",
+  "adult": false,
+  "imdb_id": "nm0878152",
+  "homepage": null,
+  "year_of_appearance": "2013",
+  "episodes": [
+   {
+    "tt2587590": 9.0
+   },
+   {
+    "tt3272042": 9.2
+   },
+   {
+    "tt3599558": 8.7
+   },
+   {
+    "tt9628210": 6.6
+   }
+  ],
+  "mean_rating": 8,
+  "number_of_appearances": 4
+ }
+]

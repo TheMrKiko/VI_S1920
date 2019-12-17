@@ -1,0 +1,35 @@
+{
+ "nodes": [
+  {
+   "id": 55265,
+   "group": 2,
+   "name": "Jonathan Silverman"
+  },
+  {
+   "id": 1473042,
+   "group": 2,
+   "name": "Patrick Thomas Cragin"
+  },
+  {
+   "id": 1122388,
+   "group": 2,
+   "name": "Yvonna Kopacz Wright"
+  },
+  {
+   "id": 439253,
+   "group": 2,
+   "name": "Laura Slade Wiggins"
+  },
+  {
+   "id": 1473045,
+   "group": 2,
+   "name": "Caroline Lindy"
+  },
+  {
+   "id": 1358090,
+   "group": 2,
+   "name": "Sal Governale"
+  }
+ ],
+ "links": []
+}

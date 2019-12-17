@@ -1,0 +1,40 @@
+{
+ "nodes": [
+  {
+   "id": 4766,
+   "group": 2,
+   "name": "Melora Walters"
+  },
+  {
+   "id": 154625,
+   "group": 2,
+   "name": "Pamela Dunlap"
+  },
+  {
+   "id": 1036,
+   "group": 2,
+   "name": "Cybill Shepherd"
+  },
+  {
+   "id": 2395,
+   "group": 2,
+   "name": "Whoopi Goldberg"
+  },
+  {
+   "id": 65020,
+   "group": 2,
+   "name": "Victoria Rowell"
+  },
+  {
+   "id": 4778,
+   "group": 2,
+   "name": "Melinda Dillon"
+  },
+  {
+   "id": 59662,
+   "group": 2,
+   "name": "Joanna Going"
+  }
+ ],
+ "links": []
+}

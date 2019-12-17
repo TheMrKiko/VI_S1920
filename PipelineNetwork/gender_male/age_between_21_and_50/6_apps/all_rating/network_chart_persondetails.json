@@ -1,0 +1,25 @@
+{
+ "nodes": [
+  {
+   "id": 18999,
+   "group": 2,
+   "name": "J.K. Simmons"
+  },
+  {
+   "id": 10825,
+   "group": 2,
+   "name": "Donal Logue"
+  },
+  {
+   "id": 129101,
+   "group": 2,
+   "name": "Lance Reddick"
+  }
+ ],
+ "links": [
+  {
+   "source": 18999,
+   "target": 129101
+  }
+ ]
+}

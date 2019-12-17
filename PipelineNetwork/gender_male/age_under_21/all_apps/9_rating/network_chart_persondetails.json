@@ -1,0 +1,289 @@
+{
+ "nodes": [
+  {
+   "id": 132157,
+   "group": 2,
+   "name": "Ezra Miller"
+  },
+  {
+   "id": 4012,
+   "group": 2,
+   "name": "Spencer Treat Clark"
+  },
+  {
+   "id": 112476,
+   "group": 2,
+   "name": "Dylan Minnette"
+  },
+  {
+   "id": 12,
+   "group": 2,
+   "name": "Alexander Gould"
+  },
+  {
+   "id": 35236,
+   "group": 2,
+   "name": "Hunter Parrish"
+  },
+  {
+   "id": 55494,
+   "group": 2,
+   "name": "Devon Gearhart"
+  },
+  {
+   "id": 1213602,
+   "group": 2,
+   "name": "Cody Kasch"
+  },
+  {
+   "id": 43464,
+   "group": 2,
+   "name": "John Patrick Amedori"
+  },
+  {
+   "id": 56676,
+   "group": 2,
+   "name": "Michael Welch"
+  },
+  {
+   "id": 176797,
+   "group": 2,
+   "name": "Michael Drayer"
+  },
+  {
+   "id": 83141,
+   "group": 2,
+   "name": "Paul Wesley"
+  },
+  {
+   "id": 68178,
+   "group": 2,
+   "name": "Bret Harrison"
+  },
+  {
+   "id": 59251,
+   "group": 2,
+   "name": "Victor Rasuk"
+  },
+  {
+   "id": 132213,
+   "group": 2,
+   "name": "Ethan Cutkosky"
+  },
+  {
+   "id": 77078,
+   "group": 2,
+   "name": "Malcolm David Kelley"
+  },
+  {
+   "id": 4738,
+   "group": 2,
+   "name": "Connor Paolo"
+  },
+  {
+   "id": 70643,
+   "group": 2,
+   "name": "Jordan Garrett"
+  },
+  {
+   "id": 12042,
+   "group": 2,
+   "name": "Seamus Davey-Fitzpatrick"
+  },
+  {
+   "id": 1056523,
+   "group": 2,
+   "name": "John D'Leo"
+  },
+  {
+   "id": 1377051,
+   "group": 2,
+   "name": "Ryan Buggle"
+  },
+  {
+   "id": 49918,
+   "group": 2,
+   "name": "Charlie Tahan"
+  },
+  {
+   "id": 177219,
+   "group": 2,
+   "name": "Billy Kay"
+  },
+  {
+   "id": 155200,
+   "group": 2,
+   "name": "Julito McCullum"
+  },
+  {
+   "id": 1474123,
+   "group": 2,
+   "name": "Caleb McLaughlin"
+  },
+  {
+   "id": 92729,
+   "group": 2,
+   "name": "Spencer List"
+  },
+  {
+   "id": 1257562,
+   "group": 2,
+   "name": "Keidrich Sellati"
+  },
+  {
+   "id": 80641,
+   "group": 2,
+   "name": "Sterling Beaumon"
+  },
+  {
+   "id": 10136,
+   "group": 2,
+   "name": "Reiley McClendon"
+  },
+  {
+   "id": 1466530,
+   "group": 2,
+   "name": "Christopher Paul Richards"
+  },
+  {
+   "id": 1181345,
+   "group": 2,
+   "name": "Jack Gore"
+  },
+  {
+   "id": 28042,
+   "group": 2,
+   "name": "Rory Culkin"
+  },
+  {
+   "id": 90577,
+   "group": 2,
+   "name": "Ricky Ullman"
+  },
+  {
+   "id": 62646,
+   "group": 2,
+   "name": "Marc John Jefferies"
+  },
+  {
+   "id": 1184090,
+   "group": 2,
+   "name": "Pablo Santos"
+  },
+  {
+   "id": 1684536,
+   "group": 2,
+   "name": "Iain Armitage"
+  },
+  {
+   "id": 934242,
+   "group": 2,
+   "name": "Max Schneider"
+  },
+  {
+   "id": 1224221,
+   "group": 2,
+   "name": "Matthew Gumley"
+  },
+  {
+   "id": 33528,
+   "group": 2,
+   "name": "Joseph Cross"
+  },
+  {
+   "id": 123726,
+   "group": 2,
+   "name": "Aidan Mitchell"
+  },
+  {
+   "id": 60255,
+   "group": 2,
+   "name": "Jake T. Austin"
+  },
+  {
+   "id": 931792,
+   "group": 2,
+   "name": "Anthony Keyvan"
+  },
+  {
+   "id": 1678709,
+   "group": 2,
+   "name": "Lincoln Melcher"
+  },
+  {
+   "id": 9829,
+   "group": 2,
+   "name": "Jacob Smith"
+  },
+  {
+   "id": 1218240,
+   "group": 2,
+   "name": "Robert Iler"
+  },
+  {
+   "id": 468492,
+   "group": 2,
+   "name": "Lucian Maisel"
+  },
+  {
+   "id": 107437,
+   "group": 2,
+   "name": "Braeden Lemasters"
+  },
+  {
+   "id": 1041923,
+   "group": 2,
+   "name": "Jeffrey Scaperrotta"
+  }
+ ],
+ "links": [
+  {
+   "source": 1466530,
+   "target": 1181345
+  },
+  {
+   "source": 90577,
+   "target": 1213602
+  },
+  {
+   "source": 107437,
+   "target": 4738
+  },
+  {
+   "source": 92729,
+   "target": 1678709
+  },
+  {
+   "source": 59251,
+   "target": 80641
+  },
+  {
+   "source": 176797,
+   "target": 62646
+  },
+  {
+   "source": 35236,
+   "target": 28042
+  },
+  {
+   "source": 35236,
+   "target": 931792
+  },
+  {
+   "source": 43464,
+   "target": 28042
+  },
+  {
+   "source": 177219,
+   "target": 62646
+  },
+  {
+   "source": 62646,
+   "target": 155200
+  },
+  {
+   "source": 112476,
+   "target": 1678709
+  }
+ ]
+}

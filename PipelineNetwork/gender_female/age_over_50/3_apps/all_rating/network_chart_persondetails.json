@@ -1,0 +1,30 @@
+{
+ "nodes": [
+  {
+   "id": 4430,
+   "group": 2,
+   "name": "Sharon Stone"
+  },
+  {
+   "id": 52462,
+   "group": 2,
+   "name": "Betty Buckley"
+  },
+  {
+   "id": 728,
+   "group": 2,
+   "name": "Kelly Bishop"
+  },
+  {
+   "id": 54645,
+   "group": 2,
+   "name": "Nia Vardalos"
+  }
+ ],
+ "links": [
+  {
+   "source": 52462,
+   "target": 4430
+  }
+ ]
+}

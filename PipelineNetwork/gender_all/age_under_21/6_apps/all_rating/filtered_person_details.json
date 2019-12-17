@@ -1,0 +1,41 @@
+[
+ {
+  "birthday": "1981-12-03",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 51998,
+  "name": "Liza Lapira",
+  "also_known_as": [],
+  "gender": 1,
+  "biography": "From Wikipedia, the free encyclopedia.\n\nLiza Lapira (born December 3, 1981) is an American actress best known for playing Kianna in the 2008 film 21, and Special Agent Michelle Lee in NCIS. Most recently she was a cast regular in Joss Whedon's Dollhouse as Ivy, Topher's assistant.",
+  "popularity": 2.516,
+  "place_of_birth": "Queens - New York - USA",
+  "profile_path": "/tV55n4QH4BJcdBvwhqBfBxqyDW0.jpg",
+  "adult": false,
+  "imdb_id": "nm0487594",
+  "homepage": null,
+  "year_of_appearance": "1999",
+  "episodes": [
+   {
+    "tt0629753": 8.9
+   },
+   {
+    "tt0629728": 9.2
+   },
+   {
+    "tt0925451": 9.2
+   },
+   {
+    "tt0963576": 8.8
+   },
+   {
+    "tt1015442": 9.1
+   },
+   {
+    "tt1015432": 8.2
+   }
+  ],
+  "mean_rating": 9,
+  "number_of_appearances": 6
+ }
+]

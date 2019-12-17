@@ -1,0 +1,85 @@
+[
+ {
+  "birthday": "1991-08-02",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 1017302,
+  "name": "Skyler Day",
+  "also_known_as": [],
+  "gender": 1,
+  "biography": "",
+  "popularity": 1.55,
+  "place_of_birth": "Atlanta, Georgia, USA",
+  "profile_path": "/iKgdpNr3pssHJgYnhKpTiAC6aXJ.jpg",
+  "adult": false,
+  "imdb_id": "nm1384666",
+  "homepage": null,
+  "year_of_appearance": "2013",
+  "episodes": [
+   {
+    "tt2787898": 9.1
+   },
+   {
+    "tt3494020": 6.5
+   }
+  ],
+  "mean_rating": 8,
+  "number_of_appearances": 2
+ },
+ {
+  "birthday": "1982-07-08",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 54830,
+  "name": "Sophia Bush",
+  "also_known_as": [
+   "Sophia Anna Bush "
+  ],
+  "gender": 1,
+  "biography": "Sophia Anna Bush (born July 8, 1982) is an American actress, director and spokesperson. She is perhaps best known for playing Detective Erin Lindsay on NBC's Chicago P.D.  Her film credits include the 2007 remake The Hitcher, John Tucker Must Die and The Narrows.",
+  "popularity": 3.088,
+  "place_of_birth": "Pasadena, California, USA",
+  "profile_path": "/tj3bDGOcJIje9P7TmT7PZjTqSe8.jpg",
+  "adult": false,
+  "imdb_id": "nm0124208",
+  "homepage": null,
+  "year_of_appearance": "2014",
+  "episodes": [
+   {
+    "tt3494020": 6.5
+   },
+   {
+    "tt4596276": 8.9
+   }
+  ],
+  "mean_rating": 8,
+  "number_of_appearances": 2
+ },
+ {
+  "birthday": "1982-01-24",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 1652371,
+  "name": "Daveed Diggs",
+  "also_known_as": [],
+  "gender": 2,
+  "biography": "Daveed Daniele Diggs is an American actor and rapper. He is the vocalist of the hip-hop group clipping. and originated the role of Marquis de Lafayette/Thomas Jefferson in the 2015 musical Hamilton, for which he won a Grammy Award and a Tony Award in 2016.",
+  "popularity": 6.56,
+  "place_of_birth": "Oakland, California",
+  "profile_path": "/codalhZzB4LvJTSGOnOyrTEsqsF.jpg",
+  "adult": false,
+  "imdb_id": "nm4377526",
+  "homepage": "http://www.daveeddiggs.com/",
+  "year_of_appearance": "2015",
+  "episodes": [
+   {
+    "tt5044786": 8.7
+   },
+   {
+    "tt5317574": 8.2
+   }
+  ],
+  "mean_rating": 8,
+  "number_of_appearances": 2
+ }
+]

@@ -1,0 +1,55 @@
+{
+ "nodes": [
+  {
+   "id": 21125,
+   "group": 2,
+   "name": "Richard Kind"
+  },
+  {
+   "id": 59222,
+   "group": 2,
+   "name": "George Newbern"
+  },
+  {
+   "id": 29685,
+   "group": 2,
+   "name": "Kurt Fuller"
+  },
+  {
+   "id": 15416,
+   "group": 2,
+   "name": "Richard Masur"
+  },
+  {
+   "id": 1218088,
+   "group": 2,
+   "name": "Scott Bryce"
+  },
+  {
+   "id": 1101,
+   "group": 2,
+   "name": "Carl Weathers"
+  },
+  {
+   "id": 161147,
+   "group": 2,
+   "name": "Emilio Delgado"
+  },
+  {
+   "id": 161547,
+   "group": 2,
+   "name": "Sam Freed"
+  },
+  {
+   "id": 1508927,
+   "group": 2,
+   "name": "Joe Biden"
+  }
+ ],
+ "links": [
+  {
+   "source": 59222,
+   "target": 21125
+  }
+ ]
+}

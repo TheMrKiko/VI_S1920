@@ -1,0 +1,84 @@
+{
+ "nodes": [
+  {
+   "id": 87070,
+   "group": 2,
+   "name": "Michael Chernus"
+  },
+  {
+   "id": 1187106,
+   "group": 2,
+   "name": "Amber Stevens"
+  },
+  {
+   "id": 20191,
+   "group": 2,
+   "name": "Jose Pablo Cantillo"
+  },
+  {
+   "id": 79087,
+   "group": 2,
+   "name": "Robin Weigert"
+  },
+  {
+   "id": 202939,
+   "group": 2,
+   "name": "Hari Dhillon"
+  },
+  {
+   "id": 15338,
+   "group": 2,
+   "name": "William Mapother"
+  },
+  {
+   "id": 1218185,
+   "group": 2,
+   "name": "Timothy Adams"
+  },
+  {
+   "id": 19767,
+   "group": 2,
+   "name": "Snoop Dogg"
+  },
+  {
+   "id": 357551,
+   "group": 2,
+   "name": "Amy Landecker"
+  },
+  {
+   "id": 180997,
+   "group": 2,
+   "name": "Nazneen Contractor"
+  },
+  {
+   "id": 53963,
+   "group": 2,
+   "name": "Robert Stanton"
+  },
+  {
+   "id": 124645,
+   "group": 2,
+   "name": "Chad L. Coleman"
+  },
+  {
+   "id": 1218218,
+   "group": 2,
+   "name": "Thomas Sadoski"
+  },
+  {
+   "id": 13602,
+   "group": 2,
+   "name": "Joie Lee"
+  }
+ ],
+ "links": [
+  {
+   "source": 180997,
+   "target": 1187106
+  },
+  {
+   "source": 19767,
+   "target": 53963
+  }
+ ]
+}

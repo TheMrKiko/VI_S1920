@@ -1,0 +1,29 @@
+[
+ {
+  "birthday": "1996-12-06",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 106490,
+  "name": "Stefanie Scott",
+  "also_known_as": [],
+  "gender": 1,
+  "biography": "Stefanie Noelle Scott (born December 6, 1996) is an American actress and singer. Scott is best known for her roles as Lexi Reed on Disney Channel's A.N.T. Farm, Dana Tressler in the film Flipped, for which she won a 2011 Young Artist Award, and Quinn Brenner in the film Insidious: Chapter 3.\n\nDescription above from the Wikipedia article Stefanie Scott, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+  "popularity": 3.2,
+  "place_of_birth": "Chicago - Illinois - USA",
+  "profile_path": "/9GuhjMW2W5reSogJT9yG2Zw7MCm.jpg",
+  "adult": false,
+  "imdb_id": "nm2640887",
+  "homepage": "http://stefaniescottofficialsite.com/",
+  "year_of_appearance": "2014",
+  "episodes": [
+   {
+    "tt3409880": 4.8
+   },
+   {
+    "tt3508746": 8.8
+   }
+  ],
+  "mean_rating": 7,
+  "number_of_appearances": 2
+ }
+]

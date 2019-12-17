@@ -1,0 +1,30 @@
+{
+ "nodes": [
+  {
+   "id": 21125,
+   "group": 2,
+   "name": "Richard Kind"
+  },
+  {
+   "id": 59222,
+   "group": 2,
+   "name": "George Newbern"
+  },
+  {
+   "id": 12263,
+   "group": 2,
+   "name": "Geoffrey Wigdor"
+  },
+  {
+   "id": 32287,
+   "group": 2,
+   "name": "Scott Sowers"
+  }
+ ],
+ "links": [
+  {
+   "source": 59222,
+   "target": 21125
+  }
+ ]
+}

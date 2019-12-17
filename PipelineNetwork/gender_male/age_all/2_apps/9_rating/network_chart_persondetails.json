@@ -1,0 +1,634 @@
+{
+ "nodes": [
+  {
+   "id": 26473,
+   "group": 2,
+   "name": "Fisher Stevens"
+  },
+  {
+   "id": 424,
+   "group": 2,
+   "name": "Dallas Roberts"
+  },
+  {
+   "id": 17179,
+   "group": 2,
+   "name": "Gregg Edelman"
+  },
+  {
+   "id": 60117,
+   "group": 2,
+   "name": "Derek Cecil"
+  },
+  {
+   "id": 19576,
+   "group": 2,
+   "name": "Richard Thomas"
+  },
+  {
+   "id": 1215617,
+   "group": 2,
+   "name": "Felix Solis"
+  },
+  {
+   "id": 4012,
+   "group": 2,
+   "name": "Spencer Treat Clark"
+  },
+  {
+   "id": 159850,
+   "group": 2,
+   "name": "Jack Gwaltney"
+  },
+  {
+   "id": 13936,
+   "group": 2,
+   "name": "Frankie Faison"
+  },
+  {
+   "id": 14331,
+   "group": 2,
+   "name": "Nestor Serrano"
+  },
+  {
+   "id": 81681,
+   "group": 2,
+   "name": "Denis O'Hare"
+  },
+  {
+   "id": 1005,
+   "group": 2,
+   "name": "Peter Appel"
+  },
+  {
+   "id": 101781,
+   "group": 2,
+   "name": "James Murtaugh"
+  },
+  {
+   "id": 63296,
+   "group": 2,
+   "name": "J.C. MacKenzie"
+  },
+  {
+   "id": 1472892,
+   "group": 2,
+   "name": "Alex Hernandez"
+  },
+  {
+   "id": 29774,
+   "group": 2,
+   "name": "Dan Lauria"
+  },
+  {
+   "id": 6677,
+   "group": 2,
+   "name": "Kyle MacLachlan"
+  },
+  {
+   "id": 80352,
+   "group": 2,
+   "name": "Noel Fisher"
+  },
+  {
+   "id": 9632,
+   "group": 2,
+   "name": "Fredric Lehne"
+  },
+  {
+   "id": 176762,
+   "group": 2,
+   "name": "Todd Williams"
+  },
+  {
+   "id": 96228,
+   "group": 2,
+   "name": "Gary Basaraba"
+  },
+  {
+   "id": 31166,
+   "group": 2,
+   "name": "Henry Ian Cusick"
+  },
+  {
+   "id": 55861,
+   "group": 2,
+   "name": "Kirk Acevedo"
+  },
+  {
+   "id": 37421,
+   "group": 2,
+   "name": "James Naughton"
+  },
+  {
+   "id": 6167,
+   "group": 2,
+   "name": "Judd Hirsch"
+  },
+  {
+   "id": 1232195,
+   "group": 2,
+   "name": "Mark LaMura"
+  },
+  {
+   "id": 42993,
+   "group": 2,
+   "name": "Martin Donovan"
+  },
+  {
+   "id": 61852,
+   "group": 2,
+   "name": "Nicholas Gonzalez"
+  },
+  {
+   "id": 131642,
+   "group": 2,
+   "name": "Joshua Malina"
+  },
+  {
+   "id": 43902,
+   "group": 2,
+   "name": "Erik Palladino"
+  },
+  {
+   "id": 19392,
+   "group": 2,
+   "name": "Jesse L. Martin"
+  },
+  {
+   "id": 171719,
+   "group": 2,
+   "name": "Vincent Curatola"
+  },
+  {
+   "id": 72997,
+   "group": 2,
+   "name": "Chris Potter"
+  },
+  {
+   "id": 164003,
+   "group": 2,
+   "name": "Matthew Arkin"
+  },
+  {
+   "id": 176797,
+   "group": 2,
+   "name": "Michael Drayer"
+  },
+  {
+   "id": 104196,
+   "group": 2,
+   "name": "Sean Cullen"
+  },
+  {
+   "id": 187712,
+   "group": 2,
+   "name": "Robert T. Bogue"
+  },
+  {
+   "id": 55962,
+   "group": 2,
+   "name": "Louis Mustillo"
+  },
+  {
+   "id": 658,
+   "group": 2,
+   "name": "Alfred Molina"
+  },
+  {
+   "id": 14792,
+   "group": 2,
+   "name": "Josef Sommer"
+  },
+  {
+   "id": 83141,
+   "group": 2,
+   "name": "Paul Wesley"
+  },
+  {
+   "id": 60195,
+   "group": 2,
+   "name": "David Aaron Baker"
+  },
+  {
+   "id": 11517,
+   "group": 2,
+   "name": "Gerry Bamman"
+  },
+  {
+   "id": 21130,
+   "group": 2,
+   "name": "Jayce Bartok"
+  },
+  {
+   "id": 155173,
+   "group": 2,
+   "name": "James McCaffrey"
+  },
+  {
+   "id": 12644,
+   "group": 2,
+   "name": "Mitch Pileggi"
+  },
+  {
+   "id": 50464,
+   "group": 2,
+   "name": "Brian Kerwin"
+  },
+  {
+   "id": 12122,
+   "group": 2,
+   "name": "Ron Rifkin"
+  },
+  {
+   "id": 45566,
+   "group": 2,
+   "name": "Roger Bart"
+  },
+  {
+   "id": 61963,
+   "group": 2,
+   "name": "Danny Mastrogiorgio"
+  },
+  {
+   "id": 38085,
+   "group": 2,
+   "name": "Michael O'Keefe"
+  },
+  {
+   "id": 1218149,
+   "group": 2,
+   "name": "Brennan Brown"
+  },
+  {
+   "id": 7002,
+   "group": 2,
+   "name": "Luke Kirby"
+  },
+  {
+   "id": 154784,
+   "group": 2,
+   "name": "Dominic Fumusa"
+  },
+  {
+   "id": 6165,
+   "group": 2,
+   "name": "Anthony Rapp"
+  },
+  {
+   "id": 12645,
+   "group": 2,
+   "name": "Jeffrey DeMunn"
+  },
+  {
+   "id": 4250,
+   "group": 2,
+   "name": "Michael Lerner"
+  },
+  {
+   "id": 51329,
+   "group": 2,
+   "name": "Bradley Cooper"
+  },
+  {
+   "id": 12975,
+   "group": 2,
+   "name": "Doug E. Doug"
+  },
+  {
+   "id": 6861,
+   "group": 2,
+   "name": "Andre Braugher"
+  },
+  {
+   "id": 91827,
+   "group": 2,
+   "name": "Arthur French"
+  },
+  {
+   "id": 4738,
+   "group": 2,
+   "name": "Connor Paolo"
+  },
+  {
+   "id": 81685,
+   "group": 2,
+   "name": "Frank Grillo"
+  },
+  {
+   "id": 2141,
+   "group": 2,
+   "name": "Ned Bellamy"
+  },
+  {
+   "id": 77585,
+   "group": 2,
+   "name": "Anthony Mangano"
+  },
+  {
+   "id": 92611,
+   "group": 2,
+   "name": "Antonio D. Charity"
+  },
+  {
+   "id": 12042,
+   "group": 2,
+   "name": "Seamus Davey-Fitzpatrick"
+  },
+  {
+   "id": 84923,
+   "group": 2,
+   "name": "Steve Rosen"
+  },
+  {
+   "id": 123557,
+   "group": 2,
+   "name": "John Dossett"
+  },
+  {
+   "id": 49918,
+   "group": 2,
+   "name": "Charlie Tahan"
+  },
+  {
+   "id": 59207,
+   "group": 2,
+   "name": "E.J. Carroll"
+  },
+  {
+   "id": 59739,
+   "group": 2,
+   "name": "Otto Sanchez"
+  },
+  {
+   "id": 138027,
+   "group": 2,
+   "name": "David Anzuelo"
+  },
+  {
+   "id": 80874,
+   "group": 2,
+   "name": "Tom Mason"
+  },
+  {
+   "id": 155456,
+   "group": 2,
+   "name": "Neal Matarazzo"
+  },
+  {
+   "id": 58565,
+   "group": 2,
+   "name": "Carlos Leon"
+  },
+  {
+   "id": 2962,
+   "group": 2,
+   "name": "Robert Foxworth"
+  },
+  {
+   "id": 8171,
+   "group": 2,
+   "name": "Ludacris"
+  },
+  {
+   "id": 91508,
+   "group": 2,
+   "name": "Hassan Johnson"
+  },
+  {
+   "id": 10136,
+   "group": 2,
+   "name": "Reiley McClendon"
+  },
+  {
+   "id": 90444,
+   "group": 2,
+   "name": "Rony Clanton"
+  },
+  {
+   "id": 32987,
+   "group": 2,
+   "name": "Sam Riley"
+  },
+  {
+   "id": 62646,
+   "group": 2,
+   "name": "Marc John Jefferies"
+  },
+  {
+   "id": 90776,
+   "group": 2,
+   "name": "Roscoe Orman"
+  },
+  {
+   "id": 1224221,
+   "group": 2,
+   "name": "Matthew Gumley"
+  },
+  {
+   "id": 1472780,
+   "group": 2,
+   "name": "Joel Brady"
+  },
+  {
+   "id": 163775,
+   "group": 2,
+   "name": "John C. Vennema"
+  },
+  {
+   "id": 66785,
+   "group": 2,
+   "name": "Richard Joseph Paul"
+  },
+  {
+   "id": 1415436,
+   "group": 2,
+   "name": "Bryce Romero"
+  },
+  {
+   "id": 6579,
+   "group": 2,
+   "name": "Brian Delate"
+  },
+  {
+   "id": 1218075,
+   "group": 2,
+   "name": "Charley Scalies"
+  },
+  {
+   "id": 1217588,
+   "group": 2,
+   "name": "Lord Jamar"
+  }
+ ],
+ "links": [
+  {
+   "source": 51329,
+   "target": 12122
+  },
+  {
+   "source": 164003,
+   "target": 92611
+  },
+  {
+   "source": 42993,
+   "target": 2141
+  },
+  {
+   "source": 12122,
+   "target": 12645
+  },
+  {
+   "source": 424,
+   "target": 6165
+  },
+  {
+   "source": 424,
+   "target": 81685
+  },
+  {
+   "source": 424,
+   "target": 81681
+  },
+  {
+   "source": 51329,
+   "target": 81685
+  },
+  {
+   "source": 658,
+   "target": 55962
+  },
+  {
+   "source": 658,
+   "target": 4250
+  },
+  {
+   "source": 123557,
+   "target": 1218149
+  },
+  {
+   "source": 4012,
+   "target": 7002
+  },
+  {
+   "source": 83141,
+   "target": 6861
+  },
+  {
+   "source": 55861,
+   "target": 187712
+  },
+  {
+   "source": 2141,
+   "target": 12042
+  },
+  {
+   "source": 26473,
+   "target": 59739
+  },
+  {
+   "source": 26473,
+   "target": 81681
+  },
+  {
+   "source": 176797,
+   "target": 62646
+  },
+  {
+   "source": 42993,
+   "target": 60117
+  },
+  {
+   "source": 42993,
+   "target": 31166
+  },
+  {
+   "source": 101781,
+   "target": 14792
+  },
+  {
+   "source": 2141,
+   "target": 12975
+  },
+  {
+   "source": 51329,
+   "target": 45566
+  },
+  {
+   "source": 19392,
+   "target": 6165
+  },
+  {
+   "source": 19392,
+   "target": 21130
+  },
+  {
+   "source": 19392,
+   "target": 1217588
+  },
+  {
+   "source": 1215617,
+   "target": 6677
+  },
+  {
+   "source": 6677,
+   "target": 72997
+  },
+  {
+   "source": 6165,
+   "target": 8171
+  },
+  {
+   "source": 80352,
+   "target": 72997
+  },
+  {
+   "source": 12122,
+   "target": 55861
+  },
+  {
+   "source": 4250,
+   "target": 38085
+  },
+  {
+   "source": 1218149,
+   "target": 154784
+  },
+  {
+   "source": 45566,
+   "target": 1415436
+  },
+  {
+   "source": 61852,
+   "target": 14331
+  },
+  {
+   "source": 61852,
+   "target": 81685
+  },
+  {
+   "source": 61963,
+   "target": 63296
+  },
+  {
+   "source": 13936,
+   "target": 14331
+  },
+  {
+   "source": 104196,
+   "target": 80352
+  },
+  {
+   "source": 104196,
+   "target": 72997
+  },
+  {
+   "source": 14792,
+   "target": 81681
+  },
+  {
+   "source": 80352,
+   "target": 6677
+  }
+ ]
+}

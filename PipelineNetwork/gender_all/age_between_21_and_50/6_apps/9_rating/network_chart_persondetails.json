@@ -1,0 +1,49 @@
+{
+ "nodes": [
+  {
+   "id": 164397,
+   "group": 2,
+   "name": "Callie Thorne"
+  },
+  {
+   "id": 52929,
+   "group": 2,
+   "name": "Angie Harmon"
+  },
+  {
+   "id": 84422,
+   "group": 2,
+   "name": "Carolyn McCormick"
+  },
+  {
+   "id": 18999,
+   "group": 2,
+   "name": "J.K. Simmons"
+  },
+  {
+   "id": 19492,
+   "group": 2,
+   "name": "Viola Davis"
+  },
+  {
+   "id": 10825,
+   "group": 2,
+   "name": "Donal Logue"
+  },
+  {
+   "id": 129101,
+   "group": 2,
+   "name": "Lance Reddick"
+  }
+ ],
+ "links": [
+  {
+   "source": 19492,
+   "target": 129101
+  },
+  {
+   "source": 18999,
+   "target": 129101
+  }
+ ]
+}

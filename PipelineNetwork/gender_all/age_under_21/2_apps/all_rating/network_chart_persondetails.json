@@ -1,0 +1,118 @@
+{
+ "nodes": [
+  {
+   "id": 4012,
+   "group": 2,
+   "name": "Spencer Treat Clark"
+  },
+  {
+   "id": 106490,
+   "group": 2,
+   "name": "Stefanie Scott"
+  },
+  {
+   "id": 229031,
+   "group": 2,
+   "name": "Peyton List"
+  },
+  {
+   "id": 17265,
+   "group": 2,
+   "name": "Hayden Panettiere"
+  },
+  {
+   "id": 176797,
+   "group": 2,
+   "name": "Michael Drayer"
+  },
+  {
+   "id": 83141,
+   "group": 2,
+   "name": "Paul Wesley"
+  },
+  {
+   "id": 4738,
+   "group": 2,
+   "name": "Connor Paolo"
+  },
+  {
+   "id": 59219,
+   "group": 2,
+   "name": "Kyle Gallner"
+  },
+  {
+   "id": 12042,
+   "group": 2,
+   "name": "Seamus Davey-Fitzpatrick"
+  },
+  {
+   "id": 49918,
+   "group": 2,
+   "name": "Charlie Tahan"
+  },
+  {
+   "id": 57286,
+   "group": 2,
+   "name": "Noah Fleiss"
+  },
+  {
+   "id": 212132,
+   "group": 2,
+   "name": "Lily Pilblad"
+  },
+  {
+   "id": 131820,
+   "group": 2,
+   "name": "Emma Bell"
+  },
+  {
+   "id": 10136,
+   "group": 2,
+   "name": "Reiley McClendon"
+  },
+  {
+   "id": 91351,
+   "group": 2,
+   "name": "Sarah Hyland"
+  },
+  {
+   "id": 62646,
+   "group": 2,
+   "name": "Marc John Jefferies"
+  },
+  {
+   "id": 1224221,
+   "group": 2,
+   "name": "Matthew Gumley"
+  },
+  {
+   "id": 78139,
+   "group": 2,
+   "name": "Blythe Auffarth"
+  },
+  {
+   "id": 88496,
+   "group": 2,
+   "name": "Charlie Ray"
+  },
+  {
+   "id": 188013,
+   "group": 2,
+   "name": "Taylor Spreitler"
+  }
+ ],
+ "links": [
+  {
+   "source": 91351,
+   "target": 59219
+  },
+  {
+   "source": 176797,
+   "target": 62646
+  },
+  {
+   "source": 12042,
+   "target": 57286
+  }
+ ]
+}

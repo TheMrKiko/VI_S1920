@@ -1,0 +1,35 @@
+{
+ "nodes": [
+  {
+   "id": 1452000,
+   "group": 2,
+   "name": "Johnny M. Wu"
+  },
+  {
+   "id": 87070,
+   "group": 2,
+   "name": "Michael Chernus"
+  },
+  {
+   "id": 106490,
+   "group": 2,
+   "name": "Stefanie Scott"
+  },
+  {
+   "id": 79087,
+   "group": 2,
+   "name": "Robin Weigert"
+  },
+  {
+   "id": 1218185,
+   "group": 2,
+   "name": "Timothy Adams"
+  },
+  {
+   "id": 1218218,
+   "group": 2,
+   "name": "Thomas Sadoski"
+  }
+ ],
+ "links": []
+}

@@ -1,0 +1,20 @@
+{
+ "nodes": [
+  {
+   "id": 21125,
+   "group": 2,
+   "name": "Richard Kind"
+  },
+  {
+   "id": 59222,
+   "group": 2,
+   "name": "George Newbern"
+  }
+ ],
+ "links": [
+  {
+   "source": 59222,
+   "target": 21125
+  }
+ ]
+}

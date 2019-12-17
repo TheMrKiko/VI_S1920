@@ -1,0 +1,118 @@
+{
+ "nodes": [
+  {
+   "id": 13936,
+   "group": 2,
+   "name": "Frankie Faison"
+  },
+  {
+   "id": 101781,
+   "group": 2,
+   "name": "James Murtaugh"
+  },
+  {
+   "id": 29774,
+   "group": 2,
+   "name": "Dan Lauria"
+  },
+  {
+   "id": 37421,
+   "group": 2,
+   "name": "James Naughton"
+  },
+  {
+   "id": 6167,
+   "group": 2,
+   "name": "Judd Hirsch"
+  },
+  {
+   "id": 1232195,
+   "group": 2,
+   "name": "Mark LaMura"
+  },
+  {
+   "id": 171719,
+   "group": 2,
+   "name": "Vincent Curatola"
+  },
+  {
+   "id": 658,
+   "group": 2,
+   "name": "Alfred Molina"
+  },
+  {
+   "id": 14792,
+   "group": 2,
+   "name": "Josef Sommer"
+  },
+  {
+   "id": 11517,
+   "group": 2,
+   "name": "Gerry Bamman"
+  },
+  {
+   "id": 12644,
+   "group": 2,
+   "name": "Mitch Pileggi"
+  },
+  {
+   "id": 50464,
+   "group": 2,
+   "name": "Brian Kerwin"
+  },
+  {
+   "id": 12122,
+   "group": 2,
+   "name": "Ron Rifkin"
+  },
+  {
+   "id": 12645,
+   "group": 2,
+   "name": "Jeffrey DeMunn"
+  },
+  {
+   "id": 4250,
+   "group": 2,
+   "name": "Michael Lerner"
+  },
+  {
+   "id": 91827,
+   "group": 2,
+   "name": "Arthur French"
+  },
+  {
+   "id": 2962,
+   "group": 2,
+   "name": "Robert Foxworth"
+  },
+  {
+   "id": 90776,
+   "group": 2,
+   "name": "Roscoe Orman"
+  },
+  {
+   "id": 163775,
+   "group": 2,
+   "name": "John C. Vennema"
+  },
+  {
+   "id": 6579,
+   "group": 2,
+   "name": "Brian Delate"
+  }
+ ],
+ "links": [
+  {
+   "source": 12122,
+   "target": 12645
+  },
+  {
+   "source": 658,
+   "target": 4250
+  },
+  {
+   "source": 101781,
+   "target": 14792
+  }
+ ]
+}

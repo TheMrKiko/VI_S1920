@@ -1,0 +1,55 @@
+{
+ "nodes": [
+  {
+   "id": 87070,
+   "group": 2,
+   "name": "Michael Chernus"
+  },
+  {
+   "id": 20191,
+   "group": 2,
+   "name": "Jose Pablo Cantillo"
+  },
+  {
+   "id": 202939,
+   "group": 2,
+   "name": "Hari Dhillon"
+  },
+  {
+   "id": 15338,
+   "group": 2,
+   "name": "William Mapother"
+  },
+  {
+   "id": 1218185,
+   "group": 2,
+   "name": "Timothy Adams"
+  },
+  {
+   "id": 19767,
+   "group": 2,
+   "name": "Snoop Dogg"
+  },
+  {
+   "id": 53963,
+   "group": 2,
+   "name": "Robert Stanton"
+  },
+  {
+   "id": 124645,
+   "group": 2,
+   "name": "Chad L. Coleman"
+  },
+  {
+   "id": 1218218,
+   "group": 2,
+   "name": "Thomas Sadoski"
+  }
+ ],
+ "links": [
+  {
+   "source": 19767,
+   "target": 53963
+  }
+ ]
+}

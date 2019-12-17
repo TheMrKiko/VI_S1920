@@ -1,0 +1,82 @@
+{
+ "nodes": [
+  {
+   "id": 1986,
+   "group": 2,
+   "name": "Peter Gerety"
+  },
+  {
+   "id": 21125,
+   "group": 2,
+   "name": "Richard Kind"
+  },
+  {
+   "id": 4430,
+   "group": 2,
+   "name": "Sharon Stone"
+  },
+  {
+   "id": 59222,
+   "group": 2,
+   "name": "George Newbern"
+  },
+  {
+   "id": 52462,
+   "group": 2,
+   "name": "Betty Buckley"
+  },
+  {
+   "id": 60205,
+   "group": 2,
+   "name": "John Rothman"
+  },
+  {
+   "id": 725,
+   "group": 2,
+   "name": "Jerry Orbach"
+  },
+  {
+   "id": 116515,
+   "group": 2,
+   "name": "Delaney Williams"
+  },
+  {
+   "id": 728,
+   "group": 2,
+   "name": "Kelly Bishop"
+  },
+  {
+   "id": 19974,
+   "group": 2,
+   "name": "Greg Germann"
+  },
+  {
+   "id": 8975,
+   "group": 2,
+   "name": "Sam Waterston"
+  },
+  {
+   "id": 54645,
+   "group": 2,
+   "name": "Nia Vardalos"
+  }
+ ],
+ "links": [
+  {
+   "source": 725,
+   "target": 52462
+  },
+  {
+   "source": 59222,
+   "target": 21125
+  },
+  {
+   "source": 52462,
+   "target": 4430
+  },
+  {
+   "source": 21125,
+   "target": 54645
+  }
+ ]
+}

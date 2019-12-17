@@ -1,0 +1,107 @@
+[
+ {
+  "year": -10,
+  "freq": 27.4,
+  "rating": 69.8
+ },
+ {
+  "year": -9,
+  "freq": 49.0,
+  "rating": 56.666666666666664
+ },
+ {
+  "year": -8,
+  "freq": 36.25,
+  "rating": 66.25
+ },
+ {
+  "year": -7,
+  "freq": 34.5,
+  "rating": 52.25
+ },
+ {
+  "year": -6,
+  "freq": 33.5,
+  "rating": 60.25
+ },
+ {
+  "year": -5,
+  "freq": 54.5,
+  "rating": 60.25
+ },
+ {
+  "year": -4,
+  "freq": 38.75,
+  "rating": 65.5
+ },
+ {
+  "year": -3,
+  "freq": 23.75,
+  "rating": 66.0
+ },
+ {
+  "year": -2,
+  "freq": 28.2,
+  "rating": 58.2
+ },
+ {
+  "year": -1,
+  "freq": 43.0,
+  "rating": 56.5
+ },
+ {
+  "year": 0,
+  "freq": 42.0,
+  "rating": 58.666666666666664
+ },
+ {
+  "year": 1,
+  "freq": 27.6,
+  "rating": 58.4
+ },
+ {
+  "year": 2,
+  "freq": 39.25,
+  "rating": 57.0
+ },
+ {
+  "year": 3,
+  "freq": 80.33333333333333,
+  "rating": 66.0
+ },
+ {
+  "year": 4,
+  "freq": 29.0,
+  "rating": 62.666666666666664
+ },
+ {
+  "year": 5,
+  "freq": 25.333333333333332,
+  "rating": 64.0
+ },
+ {
+  "year": 6,
+  "freq": 0,
+  "rating": 0
+ },
+ {
+  "year": 7,
+  "freq": 0,
+  "rating": 0
+ },
+ {
+  "year": 8,
+  "freq": 0,
+  "rating": 0
+ },
+ {
+  "year": 9,
+  "freq": 0,
+  "rating": 0
+ },
+ {
+  "year": 10,
+  "freq": 0,
+  "rating": 0
+ }
+]

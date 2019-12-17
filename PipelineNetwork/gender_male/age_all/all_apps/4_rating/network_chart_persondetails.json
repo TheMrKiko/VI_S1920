@@ -1,0 +1,25 @@
+{
+ "nodes": [
+  {
+   "id": 1376148,
+   "group": 2,
+   "name": "Mark St. Cyr"
+  },
+  {
+   "id": 2111960,
+   "group": 2,
+   "name": "Henry Gagliardi"
+  },
+  {
+   "id": 2111964,
+   "group": 2,
+   "name": "Jack Garrity"
+  }
+ ],
+ "links": [
+  {
+   "source": 2111960,
+   "target": 2111964
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+[
+ {
+  "birthday": "1952-10-28",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 8873,
+  "name": "Annie Potts",
+  "also_known_as": [
+   "Anne Hampton \"Annie\" Potts",
+   "Anne Hampton Potts"
+  ],
+  "gender": 1,
+  "biography": "Annie Potts is an American film and television actress, best known for playing Mary Jo Shively, one of the leading roles in the television sitcom \"Designing Women\", as well as several supporting roles in features films such as \"Ghostbusters\", \"Pretty in Pink\", and \"Jumpin' Jack Flash\".",
+  "popularity": 3.668,
+  "place_of_birth": "Franklin, Kentucky, USA",
+  "profile_path": "/eryXT84RL41jHSJcMy4kS3u9y6w.jpg",
+  "adult": false,
+  "imdb_id": "nm0001633",
+  "homepage": null,
+  "year_of_appearance": "2005",
+  "episodes": [
+   {
+    "tt0629721": 8.7
+   },
+   {
+    "tt0629671": 8.7
+   },
+   {
+    "tt1015446": 8.7
+   },
+   {
+    "tt1248631": 8.7
+   }
+  ],
+  "mean_rating": 9,
+  "number_of_appearances": 4
+ },
+ {
+  "birthday": "1937-11-21",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 104997,
+  "name": "Marlo Thomas",
+  "also_known_as": [],
+  "gender": 1,
+  "biography": "From Wikipedia, the free encyclopedia.\n\nMargaret Julia \u201cMarlo\u201d Thomas (born November 21, 1937) is an American actress, producer, and social activist known for her starring role on the TV series That Girl (1966\u20131971). She also serves as National Outreach Director for St. Jude Children's Research Hospital.\n\nDescription above from the Wikipedia article Marlo Thomas, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+  "popularity": 1.38,
+  "place_of_birth": "Detroit, Michigan, United States",
+  "profile_path": "/A3sdmFEZxh9ylKnweqzAWttLpg3.jpg",
+  "adult": false,
+  "imdb_id": "nm0005486",
+  "homepage": null,
+  "year_of_appearance": "2004",
+  "episodes": [
+   {
+    "tt0629666": 8.7
+   },
+   {
+    "tt0629732": 9.1
+   },
+   {
+    "tt0629679": 8.7
+   },
+   {
+    "tt0629704": 9.3
+   }
+  ],
+  "mean_rating": 9,
+  "number_of_appearances": 4
+ },
+ {
+  "birthday": "1965-05-31",
+  "known_for_department": "Acting",
+  "deathday": null,
+  "id": 15110,
+  "name": "Brooke Shields",
+  "also_known_as": [
+   "\ube0c\ub8e9 \uc274\uc988"
+  ],
+  "gender": 1,
+  "biography": "From Wikipedia, the free encyclopedia\n\nBrooke Christa Shields (born May 31, 1965, height 6' (1,83 m)) is an American actress, author and model. Some of her better-known movies include Pretty Baby and The Blue Lagoon, as well as TV shows such as Suddenly Susan, That '70s Show and Lipstick Jungle.\n\nDescription above from the Wikipedia article Brooke Shields, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+  "popularity": 6.059,
+  "place_of_birth": "New York City - New York - USA",
+  "profile_path": "/zOyzH2LjJ3CbzpiJcAmpsiC7d1O.jpg",
+  "adult": false,
+  "imdb_id": "nm0000222",
+  "homepage": null,
+  "year_of_appearance": "2017",
+  "episodes": [
+   {
+    "tt7195344": 8.7
+   },
+   {
+    "tt7195346": 9.3
+   },
+   {
+    "tt7195350": 9.3
+   },
+   {
+    "tt7195352": 9.4
+   }
+  ],
+  "mean_rating": 9,
+  "number_of_appearances": 4
+ }
+]

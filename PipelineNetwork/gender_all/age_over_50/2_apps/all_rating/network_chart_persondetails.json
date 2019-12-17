@@ -1,0 +1,314 @@
+{
+ "nodes": [
+  {
+   "id": 164077,
+   "group": 2,
+   "name": "Sally Murphy"
+  },
+  {
+   "id": 13936,
+   "group": 2,
+   "name": "Frankie Faison"
+  },
+  {
+   "id": 10556,
+   "group": 2,
+   "name": "Carol Kane"
+  },
+  {
+   "id": 101781,
+   "group": 2,
+   "name": "James Murtaugh"
+  },
+  {
+   "id": 29774,
+   "group": 2,
+   "name": "Dan Lauria"
+  },
+  {
+   "id": 25306,
+   "group": 2,
+   "name": "Mel Harris"
+  },
+  {
+   "id": 37421,
+   "group": 2,
+   "name": "James Naughton"
+  },
+  {
+   "id": 6167,
+   "group": 2,
+   "name": "Judd Hirsch"
+  },
+  {
+   "id": 1232195,
+   "group": 2,
+   "name": "Mark LaMura"
+  },
+  {
+   "id": 18,
+   "group": 2,
+   "name": "Brad Garrett"
+  },
+  {
+   "id": 32394,
+   "group": 2,
+   "name": "Anne Meara"
+  },
+  {
+   "id": 171719,
+   "group": 2,
+   "name": "Vincent Curatola"
+  },
+  {
+   "id": 29685,
+   "group": 2,
+   "name": "Kurt Fuller"
+  },
+  {
+   "id": 2230,
+   "group": 2,
+   "name": "Pam Grier"
+  },
+  {
+   "id": 13299,
+   "group": 2,
+   "name": "Rita Moreno"
+  },
+  {
+   "id": 658,
+   "group": 2,
+   "name": "Alfred Molina"
+  },
+  {
+   "id": 14792,
+   "group": 2,
+   "name": "Josef Sommer"
+  },
+  {
+   "id": 14730,
+   "group": 2,
+   "name": "Angela Lansbury"
+  },
+  {
+   "id": 11517,
+   "group": 2,
+   "name": "Gerry Bamman"
+  },
+  {
+   "id": 12644,
+   "group": 2,
+   "name": "Mitch Pileggi"
+  },
+  {
+   "id": 50464,
+   "group": 2,
+   "name": "Brian Kerwin"
+  },
+  {
+   "id": 52003,
+   "group": 2,
+   "name": "Kathleen Chalfant"
+  },
+  {
+   "id": 19239,
+   "group": 2,
+   "name": "Judith Ivey"
+  },
+  {
+   "id": 12122,
+   "group": 2,
+   "name": "Ron Rifkin"
+  },
+  {
+   "id": 1192389,
+   "group": 2,
+   "name": "Tibor Feldman"
+  },
+  {
+   "id": 13724,
+   "group": 2,
+   "name": "Jane Alexander"
+  },
+  {
+   "id": 7571,
+   "group": 2,
+   "name": "Blair Brown"
+  },
+  {
+   "id": 1218088,
+   "group": 2,
+   "name": "Scott Bryce"
+  },
+  {
+   "id": 12645,
+   "group": 2,
+   "name": "Jeffrey DeMunn"
+  },
+  {
+   "id": 4250,
+   "group": 2,
+   "name": "Michael Lerner"
+  },
+  {
+   "id": 91827,
+   "group": 2,
+   "name": "Arthur French"
+  },
+  {
+   "id": 28778,
+   "group": 2,
+   "name": "Shirley Knight"
+  },
+  {
+   "id": 170918,
+   "group": 2,
+   "name": "Priscilla Lopez"
+  },
+  {
+   "id": 8895,
+   "group": 2,
+   "name": "Didi Conn"
+  },
+  {
+   "id": 1902,
+   "group": 2,
+   "name": "Dianne Wiest"
+  },
+  {
+   "id": 65020,
+   "group": 2,
+   "name": "Victoria Rowell"
+  },
+  {
+   "id": 2962,
+   "group": 2,
+   "name": "Robert Foxworth"
+  },
+  {
+   "id": 55496,
+   "group": 2,
+   "name": "Robert LuPone"
+  },
+  {
+   "id": 90776,
+   "group": 2,
+   "name": "Roscoe Orman"
+  },
+  {
+   "id": 163775,
+   "group": 2,
+   "name": "John C. Vennema"
+  },
+  {
+   "id": 24293,
+   "group": 2,
+   "name": "Doris Belack"
+  },
+  {
+   "id": 6579,
+   "group": 2,
+   "name": "Brian Delate"
+  },
+  {
+   "id": 1232543,
+   "group": 2,
+   "name": "Rita Gardner"
+  },
+  {
+   "id": 38691,
+   "group": 2,
+   "name": "Anne Pitoniak"
+  }
+ ],
+ "links": [
+  {
+   "source": 18,
+   "target": 658
+  },
+  {
+   "source": 18,
+   "target": 13299
+  },
+  {
+   "source": 12122,
+   "target": 7571
+  },
+  {
+   "source": 52003,
+   "target": 55496
+  },
+  {
+   "source": 12122,
+   "target": 12645
+  },
+  {
+   "source": 13936,
+   "target": 55496
+  },
+  {
+   "source": 658,
+   "target": 25306
+  },
+  {
+   "source": 658,
+   "target": 4250
+  },
+  {
+   "source": 29685,
+   "target": 24293
+  },
+  {
+   "source": 2230,
+   "target": 12644
+  },
+  {
+   "source": 50464,
+   "target": 28778
+  },
+  {
+   "source": 1902,
+   "target": 14730
+  },
+  {
+   "source": 101781,
+   "target": 14792
+  },
+  {
+   "source": 29685,
+   "target": 29774
+  },
+  {
+   "source": 2230,
+   "target": 10556
+  },
+  {
+   "source": 10556,
+   "target": 6167
+  },
+  {
+   "source": 28778,
+   "target": 7571
+  },
+  {
+   "source": 1192389,
+   "target": 170918
+  },
+  {
+   "source": 13299,
+   "target": 171719
+  },
+  {
+   "source": 13299,
+   "target": 14730
+  },
+  {
+   "source": 13724,
+   "target": 7571
+  },
+  {
+   "source": 13936,
+   "target": 170918
+  }
+ ]
+}

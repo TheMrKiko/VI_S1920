@@ -1,0 +1,35 @@
+{
+ "nodes": [
+  {
+   "id": 20899,
+   "group": 2,
+   "name": "Peter Riegert"
+  },
+  {
+   "id": 16131,
+   "group": 2,
+   "name": "Mariette Hartley"
+  },
+  {
+   "id": 821,
+   "group": 2,
+   "name": "Beverly D'Angelo"
+  },
+  {
+   "id": 13473,
+   "group": 2,
+   "name": "Barry Bostwick"
+  },
+  {
+   "id": 6541,
+   "group": 2,
+   "name": "Philip Bosco"
+  }
+ ],
+ "links": [
+  {
+   "source": 13473,
+   "target": 16131
+  }
+ ]
+}

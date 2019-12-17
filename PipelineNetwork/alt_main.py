@@ -4,13 +4,15 @@ from alt_separate_by_svu_rating import separate_by_svu_rating
 from alt_separate_by_num_apps import separate_by_num_apps
 from groupWorkFreqRating import freq_and_rating_by_group
 from people_by_numapps import prepare_for_pie
+from treatCommonWorks import prepare_for_network
+from people_by_svu_rating import prepare_for_tree_map
 import json
 import os, shutil, glob
 
 guest_stars = open("guest_stars_raw.json")
 cast = open("castIDS.json")
-commonwork_pairs = open("commonwork_bypeople_nospace.json")
-person_details = open("person_details_network.json")
+commonwork_pairs = open("commonworks.json")
+person_details = open("person_details.json")
 
 guest_stars_table = json.load(guest_stars)
 cast_table = json.load(cast)
@@ -67,28 +69,23 @@ def divider():
                     json.dump(pie_chart, pie, indent=1) 
                     pie.close()
 
-                    if len(filtered_table) != 0:
-                        stats = freq_and_rating_by_group(filtered_table)
-                    else:
-                        stats = []
+                    network_chart = prepare_for_network(filtered_table)
+
+                    net = open(destined_path+"/network_chart_persondetails.json", "w")
+                    json.dump(network_chart, net, indent=1) 
+                    net.close()
+                    tree_map = prepare_for_tree_map(filtered_table)
+        
+                    tree = open(destined_path+"/tree_map_persondetails.json", "w")
+                    json.dump(tree_map, tree, indent=1) 
+                    tree.close()
+
+                    stats = freq_and_rating_by_group(filtered_table)
+
                     stats_file = open(destined_path +"/stats_freq_rating.json", "w")
                     json.dump(stats, stats_file, indent=1)
 
                     stats_file.close()
-""" 
-                    files = glob.iglob(os.path.join(original_path, "*ered_person_details.json"))
-                    for filee in files:
-                        
-                        shutil.copy(filee, destined_path)
-                        print(destined_path) """
-"""  if os.path.isfile("filtered_person_details.json"):
-                        shutil.copy(out, destined_path)         
-                    
-                    if os.path.exists("filtered_person_details.json"):
-                        os.remove("filtered_person_details.json")
-                    else:
-                        print("The file \"out\" does not exist")"""
-
 
 folder_creator(original_path, level)
 divider()
@@ -97,12 +94,3 @@ person_details.close()
 commonwork_pairs.close()
 cast.close()
 guest_stars.close()
-
-"""  print(str(fd_str))
-            for file in files:
-                if os.path.isfile(file):
-                    #shutil.copy(file, fd_str)
-                    #print("copying files")
-                    #print(str(file))
-                    a = 1
-                    a = a + 1 """

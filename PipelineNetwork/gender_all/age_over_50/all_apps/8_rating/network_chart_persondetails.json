@@ -1,0 +1,103 @@
+{
+ "nodes": [
+  {
+   "id": 4766,
+   "group": 2,
+   "name": "Melora Walters"
+  },
+  {
+   "id": 154625,
+   "group": 2,
+   "name": "Pamela Dunlap"
+  },
+  {
+   "id": 21125,
+   "group": 2,
+   "name": "Richard Kind"
+  },
+  {
+   "id": 59222,
+   "group": 2,
+   "name": "George Newbern"
+  },
+  {
+   "id": 29685,
+   "group": 2,
+   "name": "Kurt Fuller"
+  },
+  {
+   "id": 1036,
+   "group": 2,
+   "name": "Cybill Shepherd"
+  },
+  {
+   "id": 2395,
+   "group": 2,
+   "name": "Whoopi Goldberg"
+  },
+  {
+   "id": 15416,
+   "group": 2,
+   "name": "Richard Masur"
+  },
+  {
+   "id": 1218088,
+   "group": 2,
+   "name": "Scott Bryce"
+  },
+  {
+   "id": 106791,
+   "group": 2,
+   "name": "Aida Turturro"
+  },
+  {
+   "id": 65020,
+   "group": 2,
+   "name": "Victoria Rowell"
+  },
+  {
+   "id": 1101,
+   "group": 2,
+   "name": "Carl Weathers"
+  },
+  {
+   "id": 4778,
+   "group": 2,
+   "name": "Melinda Dillon"
+  },
+  {
+   "id": 59662,
+   "group": 2,
+   "name": "Joanna Going"
+  },
+  {
+   "id": 161147,
+   "group": 2,
+   "name": "Emilio Delgado"
+  },
+  {
+   "id": 161547,
+   "group": 2,
+   "name": "Sam Freed"
+  },
+  {
+   "id": 1508927,
+   "group": 2,
+   "name": "Joe Biden"
+  }
+ ],
+ "links": [
+  {
+   "source": 21125,
+   "target": 154625
+  },
+  {
+   "source": 59222,
+   "target": 21125
+  },
+  {
+   "source": 2395,
+   "target": 1218088
+  }
+ ]
+}
