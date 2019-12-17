@@ -35,9 +35,9 @@ function setRating(newRating, update = true) {
     if (update) updateVis();
 }
 
-function setPerson(newPerson, update = true) {
+function setPerson(newPerson, update = true, updateNetwork = true) {
     person = newPerson;
-    if (!person) { //apaga pessoa
+    if (!person) { //se nao ha pessoa nova, apaga antiga
         document.getElementById("selected-person-txt").innerHTML = "None selected";
         document.getElementById("selected-person").classList.toggle("active", false);
         personRating = null;
@@ -50,7 +50,7 @@ function setPerson(newPerson, update = true) {
         setAppearances('all', false);
         setRating('all', false);
     }
-    if (update) updateVis();
+    if (update) updateVis(updateNetwork);
 }
 
 function setFilter(className, newV, currV, more = "", inchain = false) {
@@ -681,6 +681,8 @@ function relations() {
             if (diffX < delta && diffY < delta) {
                 //alert('clicked an element');
                 selected = true
+                personName = closeNode.name;
+                setPerson(closeNode.id, true, false);
             }
 
             if (selected) {
@@ -1034,11 +1036,11 @@ loadTimeline().then(timeline)
 loadAppearances().then(appearancesPie)
 loadTreeMap().then(treemap)
 
-function updateVis() {
-    loadRelations()
+function updateVis(updateNetwork = true) {
     loadTimeline()
     loadAppearances()
     loadTreeMap()
+    if (updateNetwork) loadRelations()
 }
 
 window.setTimeout(() => dispatch.call("upNetwork"), 500)
