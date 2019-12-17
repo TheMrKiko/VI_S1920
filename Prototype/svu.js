@@ -243,7 +243,7 @@ async function loadAppearances() {
             }
         }
     }
-    console.log(personApp)
+    setFilter("appearances-css", personApp, null, "a-", true);
     dispatch.call("upPie");
 }
 
