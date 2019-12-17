@@ -14,12 +14,16 @@ body {
 }
 
 .axis text {
-	font-family: calibri, sans serif;
+	/* font-family: calibri, sans serif; */
 	font-size: 10pt;
 }
 
 .appearances-css:not(.active) {
 	opacity: 0.7;
+}
+
+.appearances-css.disabled {
+	opacity: 0.3;
 }
 
 .rating-css:not(.active) {

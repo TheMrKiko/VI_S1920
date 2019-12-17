@@ -1,6 +1,8 @@
-var gender = "all", age = "all", rating = "all", appearances = "all";
+var gender = "all", age = "all", rating = "all", appearances = "all", person = null, personName = "";
+var personApp = null;
 const root = "../Pipeline"
 const currpath = () => {
+
     console.log(`${gender} ${age} ${appearances} ${rating}`)
     return `${root}/gender_${gender}/age_${age}/${appearances}_apps/${rating}_rating`;
 }
@@ -22,7 +24,28 @@ function setAppearances(newApp) {
     updateVis();
 }
 
-function setFilter(className, newV, currV) {
+function setRating(newRating, update = true) {
+    rating = setFilter("rating-css", newRating, rating, "r-", !update);
+    if (update) updateVis();
+}
+
+function setPerson(newPerson, update = true) {
+    person = newPerson;
+    if (!person) {
+        document.getElementById("selected-person-txt").innerHTML = "None selected";
+        document.getElementById("selected-person").classList.toggle("active", false);
+    } else {
+        document.getElementById("selected-person-txt").innerHTML = personName;
+        document.getElementById("selected-person").classList.toggle("active", true);
+        setGender('all', false);
+        setAge('all', false);
+        setAppearances('all', false);
+        setRating('all', false);
+    }
+    if (update) updateVis();
+}
+
+function setFilter(className, newV, currV, more = "", inchain = false) {
     let value = newV == currV ? "all" : newV;
     let els = document.getElementsByClassName(className);
 
@@ -36,33 +59,34 @@ function setFilter(className, newV, currV) {
 
 var pieChart, groupYear, meanRatings;
 
+var peopleDetails, personFreq, personRating;
+
 var dispatch = d3.dispatch("upTimeline", "upPie", "upTreemap");
 
 /* LOAD DATA */
 async function loadTimeline() {
-    groupYear = await d3.json(`${currpath()}/stats_freq_rating.json`);
+    if (!person) 
+        groupYear = await d3.json(`${currpath()}/stats_freq_rating.json`);
     dispatch.call("upTimeline");
 }
 
 function timeline() {
     var w = 600;
     var h = 200;
-    var padding = 30;
-    var barwidth = Math.floor((w - padding * 2) / groupYear.length) - 1;
+    var toppadding = 10;
+    var bottompadding = 35;
+    var padding = bottompadding + toppadding;
     var maxheight = h - padding;
     var hscale = d3.scaleLinear()
         .domain([0, 100])
-        .range([maxheight - 0, maxheight - maxheight]);
+        .range([maxheight + toppadding, toppadding]);
     var xscale = d3.scaleLinear()
         .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
-        .range([padding, w - padding]); // we are adding our padding to our width scale
+        .range([60, w - toppadding*2]); // we are adding our padding to our width scale
 
-    var cscale = d3.scaleLinear() // let us create a new scale for color
-        .domain([
-            d3.min(groupYear, d => d.freq),
-            d3.max(groupYear, d => d.freq)
-        ])
-        .range(["yellow", "orange"]);
+    var cscale = d3.scaleOrdinal()
+    .domain([0, 10])
+    .range(d3.schemeDark2);
 
     var svg = d3.select("#timeline")
         .append("svg") // we are appending an svg to the div 'the_chart'
@@ -73,14 +97,14 @@ function timeline() {
         .scale(hscale) // fit to our scale
         .tickFormat(d3.format("d"));
     svg.append("g") // we are creating a 'g' element to match our yaxis
-        .attr("transform", "translate(30,0)") // 30 is the padding
+        .attr("transform", "translate(" + 40 + ", 0)") // 30 is the padding
         .attr("class", "yaxis") // we are giving it a css style
         .call(yaxis)
         .append("text")
         .attr("transform", "rotate(-90)")
         .style("text-anchor", "end")
         .style("fill", "black")
-        .attr("y", -23)
+        .attr("y", -30)
         .attr("x", -5)
         .text("Work Frequency");
 
@@ -88,74 +112,76 @@ function timeline() {
         .scale(xscale) // we are adding our padding
         .ticks(groupYear.length);
     svg.append("g") // we are creating a 'g' element to match our x axis
-        .attr("transform", "translate(0," + maxheight + ")")
+        .attr("transform", "translate(0," + (maxheight + toppadding) + ")")
         .attr("class", "xaxis") // we are giving it a css style
-        .call(xaxis);
-/*
-    svg.selectAll("rect")
-        .data(groupYear)
-        .enter().append("rect")
-        .attr("width", Math.floor((w - padding * 2) / groupYear.length) - 1)
-        .attr("height", d => maxheight - hscale(d.rating)) // this was inverted
-        .attr("fill", (d, i) => cscale(d.freq)) // fill chosen by scale
-        .attr("x", (d, i) => xscale(i))
-        .attr("y", d => hscale(d.rating)); // this was inverted
-
-    svg.selectAll("rect").append("title") // adding a title for each bar
-        .data(groupYear)
-        .text(d => d.title);
-
-  
-
-
-        var y = d3.scaleLinear()
-        .domain([0, 10])
-        .range([ maxheight - 0, maxheight - maxheight]);
-svg.append("g")
-  .call(d3.axisRight(y))
-  .attr("transform", "translate(" + (w - padding) + ",0)")
-  .append("text")
-  .attr("transform", "rotate(-90)")
-  .style("text-anchor", "end")
-  .style("fill", "black")
-  .text("Work Frequency");*/
+        .style("fill", "white")
+        .call(xaxis)
+        .append("text")
+        .style("text-anchor", "end")
+        .attr("y", 28)
+        .attr("x", 580)
+        .text("Year related to SVU appearance");
+    /*
+        svg.selectAll("rect")
+            .data(groupYear)
+            .enter().append("rect")
+            .attr("width", Math.floor((w - padding * 2) / groupYear.length) - 1)
+            .attr("height", d => maxheight - hscale(d.rating)) // this was inverted
+            .attr("fill", (d, i) => cscale(d.freq)) // fill chosen by scale
+            .attr("x", (d, i) => xscale(i))
+            .attr("y", d => hscale(d.rating)); // this was inverted
+    
+        svg.selectAll("rect").append("title") // adding a title for each bar
+            .data(groupYear)
+            .text(d => d.title);
+    
+            var y = d3.scaleLinear()
+            .domain([0, 10])
+            .range([ maxheight - 0, maxheight - maxheight]);
+    svg.append("g")
+      .call(d3.axisRight(y))
+      .attr("transform", "translate(" + (w - padding) + ",0)")
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .style("text-anchor", "end")
+      .style("fill", "black")
+      .text("Work Frequency");*/
     // Lines
-svg.selectAll("myline")
-  .data(groupYear)
-  .enter()
-  .append("line")
-    .attr("x1", (d, i) => xscale(d.year))
-    .attr("x2", (d, i) => xscale(d.year))
-    .attr("y1", d => hscale(d.freq))
-    .attr("y2", hscale(0))
-    .attr("stroke", "grey")
-    .attr("class", "lolilines")
+    svg.selectAll("myline")
+        .data(groupYear)
+        .enter()
+        .append("line")
+        .attr("x1", (d, i) => xscale(d.year))
+        .attr("x2", (d, i) => xscale(d.year))
+        .attr("y1", d => hscale(d.freq))
+        .attr("y2", hscale(0))
+        .attr("stroke", "grey")
+        .attr("class", "lolilines")
 
-// Circles
-radius = 10
-svg.selectAll("mycircle")
-  .data(groupYear)
-  .enter()
-  .append("circle")
-    .attr("cx", (d, i) => xscale(d.year))
-    .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
-    .attr("r", radius)
-    .style("fill", "#69b3a2")
-    .attr("stroke", "black")
-    .attr("class", "lolicircles")
+    // Circles
+    radius = 12
+    svg.selectAll("mycircle")
+        .data(groupYear)
+        .enter()
+        .append("circle")
+        .attr("cx", (d, i) => xscale(d.year))
+        .attr("cy", d =>  hscale(d.freq))
+        .attr("r", radius)
+        .style("fill", d => cscale(Math.round(d.freq/10)))
+        .attr("class", "lolicircles")
 
     svg.selectAll(".chartLineText")
-    .data(groupYear)
-    .enter()
-    .append('text')
-    .attr("class", "chartLineText")
-    .style("color", "#000")
-    .style("text-anchor", "middle")
-    //.attr("transform", "translate(" + 30 + ",-2)")
-    .attr("x", (d, i) => xscale(d.year))
-    .text(function (d) { return Math.round(d.freq)/10 })
-    .attr("y", function (d) { return hscale(d.freq)+radius/2; })
-    .style("font-size", radius*1.2+"px");
+        .data(groupYear)
+        .enter()
+        .append('text')
+        .attr("class", "chartLineText")
+        .style("fill", "white")
+        .style("text-anchor", "middle")
+        //.attr("transform", "translate(" + 30 + ",-2)")
+        .attr("x", (d, i) => xscale(d.year))
+        .text(function (d) { return Math.round(d.freq) / 10 })
+        .attr("y", function (d) { return hscale(d.freq) + radius / 2 - 1; })
+        .style("font-size", radius * 1.1 + "px");
 
     dispatch.on("upTimeline", (d) => { // click event
         cscale.domain([
@@ -163,40 +189,38 @@ svg.selectAll("mycircle")
             d3.max(groupYear, d => d.freq)
         ])
         svg.selectAll(".lolilines") // same code, but now we only change values
-        .data(groupYear)
-        .transition() // add a smooth transition
-        .duration(1500)
-        .attr("x1", (d, i) => {console.log("hereee"); return xscale(d.year)})
-        .attr("x2", (d, i) => xscale(d.year))
-        .attr("y1", d => hscale(d.freq))
-        .attr("y2", hscale(0))
-        .attr("stroke", "grey");
-        console.log("heree")
+            .data(groupYear)
+            .transition() // add a smooth transition
+            .duration(1500)
+            .attr("x1", (d, i) =>  xscale(d.year) )
+            .attr("x2", (d, i) => xscale(d.year))
+            .attr("y1", d => hscale(d.freq))
+            .attr("y2", hscale(0))
+            .attr("stroke", "grey");
 
         svg.selectAll(".lolicircles") // same code, but now we only change values
             .data(groupYear)
             .transition() // add a smooth transition
             .duration(1500)
             .attr("cx", (d, i) => xscale(d.year))
-            .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
+            .attr("cy", d => hscale(d.freq))
             .attr("r", radius)
-            .style("fill", "#69b3a2")
-            .attr("stroke", "black")
+            .style("fill", d => cscale(Math.round(d.freq/10)))
 
             svg.selectAll(".chartLineText")
             .data(groupYear)
             .transition()
             .duration(1500)
             .attr("x", (d, i) => xscale(d.year))
-            .text(function (d) { return Math.round(d.freq)/10 })
-            .attr("y", function (d) { return hscale(d.freq)+radius/2; })
-            .style("font-size", radius*1.2+"px");
-      /*  xaxis.scale(d3.scaleLinear()
-            .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
-            // values from movies' years
-            .range([padding + barwidth / 2, w - padding - barwidth / 2])) // we are adding our padding
-        d3.select(".xaxis")
-            .call(xaxis);*/
+            .text(function (d) { return Math.round(d.freq) / 10 })
+            .attr("y", function (d) { return hscale(d.freq) + radius / 2 - 1; })
+            .style("font-size", radius * 1.2 + "px");
+        /*  xaxis.scale(d3.scaleLinear()
+              .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
+              // values from movies' years
+              .range([padding + barwidth / 2, w - padding - barwidth / 2])) // we are adding our padding
+          d3.select(".xaxis")
+              .call(xaxis);*/
     });
 }
 
@@ -209,6 +233,16 @@ svg.selectAll("mycircle")
 
 async function loadAppearances() {
     pieChart = await d3.json(`${currpath()}/pie_chart_persondetails.json`);
+    if (person) {
+        for (p in peopleDetails) {
+            pdet = peopleDetails[p]
+            if (pdet.id == person) {
+                personApp = pdet["number_of_appearances"];
+                break;
+            }
+        }
+    }
+    setFilter("appearances-css", personApp, null, "a-", true);
     dispatch.call("upPie");
 }
 
@@ -231,7 +265,7 @@ function appearancesPie() {
 
     // set the color scale
     var color = d3.scaleOrdinal()
-        .domain([2, 6])
+        .domain([0, 10])
         .range(d3.schemeDark2);
 
     // Compute the position of each group on the pie:
@@ -353,16 +387,7 @@ function appearancesPie() {
 
 
 async function loadTreeMap() {
-    //pieChart = await d3.json(`${currpath()}/pie_chart_persondetails.json`);
-    meanRatings = {
-        "name": "cluster",
-        "children": [
-            { "name": "2", "size": 19 },
-            { "name": "3", "size": 1 },
-            { "name": "4", "size": 7 },
-            { "name": "5", "size": 5 }
-        ]
-    }
+    meanRatings = await d3.json(`${currpath()}/tree_map_persondetails.json`);
     dispatch.call("upTreemap");
 }
 
@@ -371,7 +396,9 @@ function treemap() {
         width = 300 - margin.left - margin.right,
         height = window.innerHeight * (2 / 3) - margin.top - margin.bottom,
         color = d3.scaleOrdinal()
-            .range(d3.schemeDark2);
+        .domain([0, 10])
+        .range(d3.schemeDark2);
+    
 
     var svg = d3.select("#treemap")
         .append("svg")
@@ -381,7 +408,7 @@ function treemap() {
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-    var root = d3.hierarchy(meanRatings).sum(function (d) { return d.size }) // Here the size of each leave is given in the 'value' field in input data
+    var root = d3.hierarchy(meanRatings).sum(function (d) { return Math.pow(d.size, 0.5) }) // Here the size of each leave is given in the 'value' field in input data
 
     // Then d3.treemap computes the position of each element of the hierarchy
     d3.treemap()
@@ -400,7 +427,12 @@ function treemap() {
         .attr('height', function (d) { return d.y1 - d.y0; })
         .attr("stroke", "white")
         .style("stroke-width", "1px")
-        .style("fill", d => color(d.data.name))
+        .style("fill", d => color(parseInt(d.data.name)))
+        .attr("id", d => `r-${d.data.name}`) // we are giving it a css style
+        .attr("class", "rating-css") // we are giving it a css style
+        .on("click", (d) => {
+            setRating(`${d.data.name}`)
+        })
 
     // and to add the text labels
     svg.selectAll("text")
@@ -409,23 +441,14 @@ function treemap() {
         .append("text")
         .attr("x", function (d) { return d.x0 + 5 })    // +10 to adjust position (more right)
         .attr("y", function (d) { return d.y0 + 20 })    // +20 to adjust position (lower)
-        .text(function (d) { return d.data.name })
-        .attr("font-size", "15px")
+        .text(function (d) { return `${d.data.name}.0/10` })
+        //.attr("font-size", "15px")
         .attr("fill", "white")
+        .style("opacity", d => d.data.size ? '1' : '0')
 
     // A function that create / update the plot for a given variable:
     dispatch.on("upTreemap", (d) => { // click event
-
-        meanRatings = {
-            "name": "cluster",
-            "children": [
-                { "name": "2", "size": 1 },
-                { "name": "3", "size": 7 },
-                { "name": "4", "size": 17 },
-                { "name": "5", "size": 20 }
-            ]
-        }
-        root = d3.hierarchy(meanRatings).sum(function (d) { return d.size }) // Here the size of each leave is given in the 'value' field in input data
+        root = d3.hierarchy(meanRatings).sum(function (d) { return Math.pow(d.size, 0.5) }) // Here the size of each leave is given in the 'value' field in input data
 
         // Then d3.treemap computes the position of each element of the hierarchy
         d3.treemap()
@@ -443,7 +466,7 @@ function treemap() {
             .attr('height', function (d) { return d.y1 - d.y0; })
             .attr("stroke", "white")
             .style("stroke-width", "1px")
-            .style("fill", d => color(d.data.name))
+            .style("fill", d => color(parseInt(d.data.name)))
 
         // and to add the text labels
         svg.selectAll("text")
@@ -452,9 +475,8 @@ function treemap() {
             .duration(1500)
             .attr("x", function (d) { return d.x0 + 5 })    // +10 to adjust position (more right)
             .attr("y", function (d) { return d.y0 + 20 })    // +20 to adjust position (lower)
-            .text(function (d) { return d.data.name })
-            .attr("font-size", "15px")
-            .attr("fill", "white")
+            .text(function (d) { return `${d.data.name}.0/10` })
+            .style("opacity", d => d.data.size ? '1' : '0')
     })
 }
 
@@ -838,8 +860,124 @@ var context = canvas.getContext("2d")
 //});
 
 
+function autocomplete(inp, arr) {
+    /*the autocomplete function takes two arguments,
+    the text field element and an array of possible autocompleted values:*/
+    var currentFocus;
+    /*execute a function when someone writes in the text field:*/
+    inp.addEventListener("input", function (e) {
+        var a, b, i, val = this.value;
+        /*close any already open lists of autocompleted values*/
+        closeAllLists();
+        if (!val) { return false; }
+        currentFocus = -1;
+        /*create a DIV element that will contain the items (values):*/
+        a = document.createElement("DIV");
+        a.setAttribute("id", this.id + "autocomplete-list");
+        a.setAttribute("class", "autocomplete-items");
+        /*append the DIV element as a child of the autocomplete container:*/
+        this.parentNode.appendChild(a);
+        /*for each item in the array...*/
+        if (val.length < 3) return;
+        for (i = 0; i < arr.length; i++) {
+            let name = arr[i].name;
+            let pid = arr[i].pid
+            /*check if the item starts with the same letters as the text field value:*/
+            if (name.substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+                /*create a DIV element for each matching element:*/
+                b = document.createElement("DIV");
+                /*make the matching letters bold:*/
+                b.innerHTML = "<strong>" + name.substr(0, val.length) + "</strong>";
+                b.innerHTML += name.substr(val.length);
+                /*insert a input field that will hold the current array item's value:*/
+                b.innerHTML += "<input type='hidden' value='" + name + "' pid='" + pid + "'>";
+                /*execute a function when someone clicks on the item value (DIV element):*/
+                b.addEventListener("click", function (e) {
+                    let id = parseInt(this.getElementsByTagName("input")[0].getAttribute("pid"))
+                    console.log(id)
+                    /*insert the value for the autocomplete text field:*/
+                    personName = this.getElementsByTagName("input")[0].value;
+                    /*close the list of autocompleted values,
+                    (or any other open lists of autocompleted values:*/
+                    closeAllLists();
+                    setPerson(id);
+                    inp.value = "";
+                });
+                a.appendChild(b);
+            }
+        }
+    });
+    document.getElementById("selected-person").addEventListener("click", () => setPerson(null));
+    /*execute a function presses a key on the keyboard:*/
+    inp.addEventListener("keydown", function (e) {
+        var x = document.getElementById(this.id + "autocomplete-list");
+        if (x) x = x.getElementsByTagName("div");
+        if (e.keyCode == 40) {
+            /*If the arrow DOWN key is pressed,
+            increase the currentFocus variable:*/
+            currentFocus++;
+            /*and and make the current item more visible:*/
+            addActive(x);
+        } else if (e.keyCode == 38) { //up
+            /*If the arrow UP key is pressed,
+            decrease the currentFocus variable:*/
+            currentFocus--;
+            /*and and make the current item more visible:*/
+            addActive(x);
+        } else if (e.keyCode == 13) {
+            /*If the ENTER key is pressed, prevent the form from being submitted,*/
+            e.preventDefault();
+            if (currentFocus > -1) {
+                /*and simulate a click on the "active" item:*/
+                if (x) x[currentFocus].click();
+            }
+        }
+    });
+    function addActive(x) {
+        /*a function to classify an item as "active":*/
+        if (!x) return false;
+        /*start by removing the "active" class on all items:*/
+        removeActive(x);
+        if (currentFocus >= x.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = (x.length - 1);
+        /*add class "autocomplete-active":*/
+        x[currentFocus].classList.add("autocomplete-active");
+    }
+    function removeActive(x) {
+        /*a function to remove the "active" class from all autocomplete items:*/
+        for (var i = 0; i < x.length; i++) {
+            x[i].classList.remove("autocomplete-active");
+        }
+    }
+    function closeAllLists(elmnt) {
+        /*close all autocomplete lists in the document,
+        except the one passed as an argument:*/
+        var x = document.getElementsByClassName("autocomplete-items");
+        for (var i = 0; i < x.length; i++) {
+            if (elmnt != x[i] && elmnt != inp) {
+                x[i].parentNode.removeChild(x[i]);
+            }
+        }
+    }
+
+    /*execute a function when someone clicks in the document:*/
+    document.addEventListener("click", function (e) {
+        closeAllLists(e.target);
+    });
+}
+
+async function loadGuests() {
+    peopleDetails = await d3.json(`${root}/person_details.json`);
+    //peopleDetails = await d3.json(`${root}/person_details.json`);
+    //peopleDetails = await d3.json(`${root}/person_details.json`);
+    return peopleDetails.map(a => ({
+        name: a["name"],
+pid: a["id"]}
+))
+}
 
 
+loadGuests().then(people => {autocomplete(document.getElementById("myInput"), people)})
 loadTimeline().then(timeline)
 loadAppearances().then(appearancesPie)
 loadTreeMap().then(treemap)
@@ -849,15 +987,3 @@ function updateVis() {
     loadAppearances()
     loadTreeMap()
 }
-
-function prepareSearch() {
-    var actor_names = []
-    d3.json("../Pipeline/person_details.json").then(function (person_details) {
-        person_details.forEach(function(actor) {
-            actor_names.push(actor["name"]);
-        });
-    })
-    actor_names.sort((a, b) => a.local)
-    console.log(actor_names)
-}
-prepareSearch()
