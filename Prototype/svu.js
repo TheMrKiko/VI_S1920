@@ -582,15 +582,19 @@ var context = canvas.getContext("2d")
         .links(graph.links);
 
         function ticked() {
+          //clear canvas
           context.save();
           context.clearRect(0, 0, width, height);
           context.translate(transform.x, transform.y);
           context.scale(transform.k, transform.k);
+
+          //draw all links
           context.beginPath();
           graph.links.forEach(drawLink);
           context.strokeStyle = "#c6c6c6";
           context.stroke();
-      
+        
+        //draw all nodes
         context.fillStyle = "#4682B4";
           context.beginPath();
           graph.nodes.forEach(drawNode);
@@ -598,7 +602,15 @@ var context = canvas.getContext("2d")
           context.strokeStyle = "#fff";
           context.stroke();
           
+          //if node clicked
           if (selected) {
+          //fade all links
+          context.beginPath();
+          graph.links.forEach(drawLink);
+          context.strokeStyle = "#ffffff";
+          context.stroke();
+
+            //color node selected and his neighbours
             console.log("clsndd", closeNode)
             context.fillStyle = "#ff0000"
             context.beginPath();
@@ -608,11 +620,13 @@ var context = canvas.getContext("2d")
             context.strokeStyle = "#ff0000";
             context.stroke();
             
+            //color links between node selected and neighbours
             context.beginPath();
           linksNeighs.forEach(drawLink);
           context.strokeStyle = "#ff0000";
           context.stroke();
 
+          //fade all other nodes
           context.fillStyle = "rgba(220, 220, 220,1)";
           context.beginPath();
             notNeighs.forEach(drawNode)
