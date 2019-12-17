@@ -1,10 +1,16 @@
 var gender = "all", age = "all", rating = "all", appearances = "all", person = null, personName = "";
 var personApp = null, personRating = null;
 const root = "../Pipeline"
-const currpath = () => {
+const rootN = "../PipelineNetwork"
 
+const currpath = () => {
     console.log(`${gender} ${age} ${appearances} ${rating}`)
     return `${root}/gender_${gender}/age_${age}/${appearances}_apps/${rating}_rating`;
+}
+
+const currpathN = () => {
+    console.log(`${gender} ${age} ${appearances} ${rating}`)
+    return `${rootN}/gender_${gender}/age_${age}/${appearances}_apps/${rating}_rating`;
 }
 
 /* BUTTONS */
@@ -74,16 +80,19 @@ function setPersonFilter(className, value, more) {
     }
 }
 
-var pieChart, groupYear, meanRatings;
+var pieChart, groupYear, meanRatings, network;
 
-var peopleDetails, peopleFreq, peopleRating;
+var peopleDetails, peopleTimeline;
 
-var dispatch = d3.dispatch("upTimeline", "upPie", "upTreemap");
+var dispatch = d3.dispatch("upTimeline", "upPie", "upTreemap", "upNetwork");
 
 /* LOAD DATA */
 async function loadTimeline() {
-    if (!person)
+    if (!person) {
         groupYear = await d3.json(`${currpath()}/stats_freq_rating.json`);
+    } else {
+        groupYear = peopleTimeline[person];
+    }
     dispatch.call("upTimeline");
 }
 
@@ -505,219 +514,223 @@ function treemap() {
 }
 
 
+/* LOAD DATA */
+async function loadRelations() {
+    network = await d3.json(`${currpathN()}/network_chart_persondetails.json`);
+    dispatch.call("upNetwork");
+}
 
+function relations() {
+    var width = window.innerWidth - 10;
+    var height = window.innerHeight - 70;
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
 
+    var canvas = document.getElementsByTagName('canvas')[0]
+    canvas.width = width; canvas.height = height;
+    var context = canvas.getContext("2d")
 
+    var transform = d3.zoomIdentity,
+        currentZoom;
 
-
-var width = window.innerWidth - 10;
-var height = window.innerHeight - 70;
-var color = d3.scaleOrdinal(d3.schemeCategory10);
-
-var canvas = document.getElementsByTagName('canvas')[0]
-canvas.width = width; canvas.height = height;
-var context = canvas.getContext("2d")
-
-var transform = d3.zoomIdentity,
-    currentZoom;
-
-d3.json("network.json").then(function (graph) {
-    var nodes = graph.nodes
-    var nodess = graph.nodes.map(e => parseInt(e.id))
-    var links = graph.links.map(e => {
-        return ({
-            "source": nodess.indexOf(parseInt(e.source)),
-            "target": nodess.indexOf(parseInt(e.target)),
-            "count": 1
-        })
-    }
-    )
-
-    var label = {
-        'nodes': [],
-        'links': []
-    };
-
-    graph.nodes.forEach(function (d, i) {
-        label.nodes.push({ node: d });
-        label.nodes.push({ node: d });
-        label.links.push({
-            source: i * 2,
-            target: i * 2 + 1
-        });
-    });
-
-    var adjlist = [];
-
-    graph.links.forEach(function (d) {
-        //console.log("qq", d, d.source)
-        adjlist[d.source + "-" + d.target] = true;
-        adjlist[d.target + "-" + d.source] = true;
-    });
-    console.log("hh", adjlist)
-
-
-    function neigh(a, b) {
-        return a == b || adjlist[a + "-" + b];
-    }
-
-    var simulation = d3.forceSimulation()
-        .force("link", d3.forceLink().id(function (d) {
-            return d.id;
-        }))
-        .force("charge", d3.forceManyBody())
-        .force("center", d3.forceCenter(width / 2, height / 2));
-
-    simulation
-        .nodes(graph.nodes)
-        .on("tick", ticked);
-
-    simulation.force("link")
-        .links(graph.links);
-
-    function ticked() {
-        //clear canvas
-        context.save();
-        context.clearRect(0, 0, width, height);
-        context.translate(transform.x, transform.y);
-        context.scale(transform.k, transform.k);
-
-        //draw all links
-        context.beginPath();
-        graph.links.forEach(drawLink);
-        context.strokeStyle = "#c6c6c6";
-        context.stroke();
-
-        //draw all nodes
-        context.fillStyle = "#4682B4";
-        context.beginPath();
-        graph.nodes.forEach(drawNode);
-        context.fill();
-        context.strokeStyle = "#fff";
-        context.stroke();
-
-        //if node clicked
-        if (selected) {
-            //fade all links
-            context.beginPath();
-            graph.links.forEach(drawLink);
-            context.strokeStyle = "#ffffff";
-            context.stroke();
-
-            //color node selected and his neighbours
-            console.log("clsndd", closeNode)
-            context.fillStyle = "#ff0000"
-            context.beginPath();
-            drawNode(closeNode)
-            neighs.forEach(drawNode)
-            context.fill();
-            context.strokeStyle = "#ff0000";
-            context.stroke();
-
-            //color links between node selected and neighbours
-            context.beginPath();
-            linksNeighs.forEach(drawLink);
-            context.strokeStyle = "#ff0000";
-            context.stroke();
-
-            //fade all other nodes
-            context.fillStyle = "rgba(220, 220, 220,1)";
-            context.beginPath();
-            notNeighs.forEach(drawNode)
-            context.fill();
-            context.strokeStyle = "rgba(220, 220, 220,1)";
-            context.stroke();
-
-        }
-        context.restore();
-
-    }
-
-
-    var closeNode;
-    var neighs = [];
-    var notNeighs = [];
-    var x = neigh(133047, 3541)
-    var linksNeighs = []
-    var selected = false
-    //debugger
-    d3.select("canvas").on("click", function (d) {
-        var p = d3.mouse(this);
-        currentZoom = transform;
-        /*
-        closeNode = simulation.find(
-            p[0] * currentZoom.k + currentZoom.x,
-          p[1] * currentZoom.k + currentZoom.y
-         );
-         */
-        //console.lncurrentZoom)
-        var zp = transform.invert(p);
-
-        neighs = []
-        linksNeighs = []
-        notNeighs = []
-        selected = false
-        closeNode = simulation.find(zp[0], zp[1])
-        var nodeX = closeNode.x
-        var nodeY = closeNode.y
-        var mouseX = zp[0]
-        var mouseY = zp[1]
-        var delta = 5
-        var diffX = Math.abs(nodeX - mouseX)
-        var diffY = Math.abs(nodeY - mouseY)
-
-        console.log("cN", closeNode)
-        if (diffX < delta && diffY < delta) {
-            //alert('clicked an element');
-            selected = true
-        }
-
-        if (selected) {
-            graph.nodes.forEach(function (n) {
-                if (neigh(closeNode.id, n.id)) {
-                    neighs.push(n)
-                    link = {
-                        "source": closeNode.id,
-                        "target": n.id
-                    }
-                    linksNeighs.push(link)
-                }
-                else {
-                    notNeighs.push(n)
-                }
+    dispatch.on("upNetwork", (d) => {
+        var nodes = network.nodes
+        var nodess = network.nodes.map(e => parseInt(e.id))
+        var links = network.links.map(e => {
+            return ({
+                "source": nodess.indexOf(parseInt(e.source)),
+                "target": nodess.indexOf(parseInt(e.target)),
+                "count": 1
             })
-            //console.log(closeNode);
-            simulation.force("link")
-                .links(linksNeighs);
-            d3.select('#tooltip')
-                .style('opacity', 0.8)
-                .style('top', d3.event.pageY + 5 + 'px')
-                .style('left', d3.event.pageX + 5 + 'px')
-                .html(closeNode.name);
-        } else {
-            d3.select('#tooltip')
-                .style('opacity', 0)
+        }
+        )
+
+        var label = {
+            'nodes': [],
+            'links': []
+        };
+
+        network.nodes.forEach(function (d, i) {
+            label.nodes.push({ node: d });
+            label.nodes.push({ node: d });
+            label.links.push({
+                source: i * 2,
+                target: i * 2 + 1
+            });
+        });
+
+        var adjlist = [];
+
+        network.links.forEach(function (d) {
+            //console.log("qq", d, d.source)
+            adjlist[d.source + "-" + d.target] = true;
+            adjlist[d.target + "-" + d.source] = true;
+        });
+        console.log("hh", adjlist)
+
+
+        function neigh(a, b) {
+            return a == b || adjlist[a + "-" + b];
         }
 
-        ticked();
-    }).call(d3.zoom().scaleExtent([2 / 10, 8]).on("zoom", zoomed));
+        var simulation = d3.forceSimulation()
+            .force("link", d3.forceLink().id(function (d) {
+                return d.id;
+            }))
+            .force("charge", d3.forceManyBody())
+            .force("center", d3.forceCenter(width / 2, height / 2));
 
-    function drawLink(d) {
-        context.moveTo(d.source.x, d.source.y);
-        context.lineTo(d.target.x, d.target.y);
-    }
+        simulation
+            .nodes(network.nodes)
+            .on("tick", ticked);
 
-    function drawNode(d) {
-        context.moveTo(d.x + 3, d.y);
-        context.arc(d.x, d.y, 3, 0, 2 * Math.PI);
-    }
+        simulation.force("link")
+            .links(network.links);
 
-    function zoomed() {
-        transform = d3.event.transform;
-        ticked();
+        function ticked() {
+            //clear canvas
+            context.save();
+            context.clearRect(0, 0, width, height);
+            context.translate(transform.x, transform.y);
+            context.scale(transform.k, transform.k);
 
-    }
-});
+            //draw all links
+            context.beginPath();
+            network.links.forEach(drawLink);
+            context.strokeStyle = "#c6c6c6";
+            context.stroke();
+
+            //draw all nodes
+            context.fillStyle = "#4682B4";
+            context.beginPath();
+            network.nodes.forEach(drawNode);
+            context.fill();
+            context.strokeStyle = "#fff";
+            context.stroke();
+
+            //if node clicked
+            if (selected) {
+                //fade all links
+                context.beginPath();
+                network.links.forEach(drawLink);
+                context.strokeStyle = "#ffffff";
+                context.stroke();
+
+                //color node selected and his neighbours
+                console.log("clsndd", closeNode)
+                context.fillStyle = "#ff0000"
+                context.beginPath();
+                drawNode(closeNode)
+                neighs.forEach(drawNode)
+                context.fill();
+                context.strokeStyle = "#ff0000";
+                context.stroke();
+
+                //color links between node selected and neighbours
+                context.beginPath();
+                linksNeighs.forEach(drawLink);
+                context.strokeStyle = "#ff0000";
+                context.stroke();
+
+                //fade all other nodes
+                context.fillStyle = "rgba(220, 220, 220,1)";
+                context.beginPath();
+                notNeighs.forEach(drawNode)
+                context.fill();
+                context.strokeStyle = "rgba(220, 220, 220,1)";
+                context.stroke();
+
+            }
+            context.restore();
+
+        }
+
+
+        var closeNode;
+        var neighs = [];
+        var notNeighs = [];
+        var x = neigh(133047, 3541)
+        var linksNeighs = []
+        var selected = false
+        //debugger
+        d3.select("canvas").on("click", function (d) {
+            var p = d3.mouse(this);
+            currentZoom = transform;
+            /*
+            closeNode = simulation.find(
+                p[0] * currentZoom.k + currentZoom.x,
+              p[1] * currentZoom.k + currentZoom.y
+             );
+             */
+            //console.lncurrentZoom)
+            var zp = transform.invert(p);
+
+            neighs = []
+            linksNeighs = []
+            notNeighs = []
+            selected = false
+            closeNode = simulation.find(zp[0], zp[1])
+            var nodeX = closeNode.x
+            var nodeY = closeNode.y
+            var mouseX = zp[0]
+            var mouseY = zp[1]
+            var delta = 5
+            var diffX = Math.abs(nodeX - mouseX)
+            var diffY = Math.abs(nodeY - mouseY)
+
+            console.log("cN", closeNode)
+            if (diffX < delta && diffY < delta) {
+                //alert('clicked an element');
+                selected = true
+            }
+
+            if (selected) {
+                network.nodes.forEach(function (n) {
+                    if (neigh(closeNode.id, n.id)) {
+                        neighs.push(n)
+                        link = {
+                            "source": closeNode.id,
+                            "target": n.id
+                        }
+                        linksNeighs.push(link)
+                    }
+                    else {
+                        notNeighs.push(n)
+                    }
+                })
+                //console.log(closeNode);
+                simulation.force("link")
+                    .links(linksNeighs);
+                d3.select('#tooltip')
+                    .style('opacity', 0.8)
+                    .style('top', d3.event.pageY + 5 + 'px')
+                    .style('left', d3.event.pageX + 5 + 'px')
+                    .html(closeNode.name);
+            } else {
+                d3.select('#tooltip')
+                    .style('opacity', 0)
+            }
+
+            ticked();
+        }).call(d3.zoom().scaleExtent([2 / 10, 8]).on("zoom", zoomed));
+
+        function drawLink(d) {
+            context.moveTo(d.source.x, d.source.y);
+            context.lineTo(d.target.x, d.target.y);
+        }
+
+        function drawNode(d) {
+            context.moveTo(d.x + 3, d.y);
+            context.arc(d.x, d.y, 3, 0, 2 * Math.PI);
+        }
+
+        function zoomed() {
+            transform = d3.event.transform;
+            ticked();
+
+        }
+    });
+}
+
 /*var nodes = graph.nodes
     var nodess = graph.nodes.map(e => parseInt(e.id))
     var links = graph.links.map(e => {
@@ -1006,8 +1019,7 @@ function autocomplete(inp, arr) {
 
 async function loadGuests() {
     peopleDetails = await d3.json(`${root}/person_details.json`);
-    //peopleDetails = await d3.json(`${root}/person_details.json`);
-    //peopleDetails = await d3.json(`${root}/person_details.json`);
+    peopleTimeline = await d3.json(`${root}/person_details.json`);
     return peopleDetails.map(a => ({
         name: a["name"],
         pid: a["id"]
@@ -1017,11 +1029,13 @@ async function loadGuests() {
 
 
 loadGuests().then(people => { autocomplete(document.getElementById("myInput"), people) })
+loadRelations().then(relations)
 loadTimeline().then(timeline)
 loadAppearances().then(appearancesPie)
 loadTreeMap().then(treemap)
 
 function updateVis() {
+    loadRelations()
     loadTimeline()
     loadAppearances()
     loadTreeMap()
