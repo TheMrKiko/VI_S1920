@@ -1,6 +1,8 @@
-var gender = "all", age = "all", rating = "all", appearances = "all", person = null;
+var gender = "all", age = "all", rating = "all", appearances = "all", person = null, personName = "";
+var personApp = null;
 const root = "../Pipeline"
 const currpath = () => {
+
     console.log(`${gender} ${age} ${appearances} ${rating}`)
     return `${root}/gender_${gender}/age_${age}/${appearances}_apps/${rating}_rating`;
 }
@@ -33,7 +35,7 @@ function setPerson(newPerson, update = true) {
         document.getElementById("selected-person-txt").innerHTML = "None selected";
         document.getElementById("selected-person").classList.toggle("active", false);
     } else {
-        document.getElementById("selected-person-txt").innerHTML = person;
+        document.getElementById("selected-person-txt").innerHTML = personName;
         document.getElementById("selected-person").classList.toggle("active", true);
         setGender('all', false);
         setAge('all', false);
@@ -58,11 +60,14 @@ function setFilter(className, newV, currV, more = "", inchain = false) {
 
 var pieChart, groupYear, meanRatings;
 
+var peopleDetails, personFreq, personRating;
+
 var dispatch = d3.dispatch("upTimeline", "upPie", "upTreemap");
 
 /* LOAD DATA */
 async function loadTimeline() {
-    groupYear = await d3.json(`${currpath()}/stats_freq_rating.json`);
+    if (!person) 
+        groupYear = await d3.json(`${currpath()}/stats_freq_rating.json`);
     dispatch.call("upTimeline");
 }
 
@@ -70,23 +75,19 @@ function timeline() {
     var w = 600;
     var h = 200;
     var toppadding = 10;
-    var bottompadding = 20;
+    var bottompadding = 35;
     var padding = bottompadding + toppadding;
-    var barwidth = Math.floor((w - padding * 2) / groupYear.length) - 1;
     var maxheight = h - padding;
     var hscale = d3.scaleLinear()
         .domain([0, 100])
         .range([maxheight + toppadding, toppadding]);
     var xscale = d3.scaleLinear()
         .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
-        .range([padding, w - padding]); // we are adding our padding to our width scale
+        .range([60, w - toppadding*2]); // we are adding our padding to our width scale
 
-    var cscale = d3.scaleLinear() // let us create a new scale for color
-        .domain([
-            d3.min(groupYear, d => d.freq),
-            d3.max(groupYear, d => d.freq)
-        ])
-        .range(["yellow", "orange"]);
+    var cscale = d3.scaleOrdinal()
+    .domain([0, 10])
+    .range(d3.schemeDark2);
 
     var svg = d3.select("#timeline")
         .append("svg") // we are appending an svg to the div 'the_chart'
@@ -97,14 +98,14 @@ function timeline() {
         .scale(hscale) // fit to our scale
         .tickFormat(d3.format("d"));
     svg.append("g") // we are creating a 'g' element to match our yaxis
-        .attr("transform", "translate(30, 0)") // 30 is the padding
+        .attr("transform", "translate(" + 40 + ", 0)") // 30 is the padding
         .attr("class", "yaxis") // we are giving it a css style
         .call(yaxis)
         .append("text")
         .attr("transform", "rotate(-90)")
         .style("text-anchor", "end")
         .style("fill", "black")
-        .attr("y", -23)
+        .attr("y", -30)
         .attr("x", -5)
         .text("Work Frequency");
 
@@ -114,7 +115,13 @@ function timeline() {
     svg.append("g") // we are creating a 'g' element to match our x axis
         .attr("transform", "translate(0," + (maxheight + toppadding) + ")")
         .attr("class", "xaxis") // we are giving it a css style
-        .call(xaxis);
+        .style("fill", "white")
+        .call(xaxis)
+        .append("text")
+        .style("text-anchor", "end")
+        .attr("y", 28)
+        .attr("x", 580)
+        .text("Year related to SVU appearance");
     /*
         svg.selectAll("rect")
             .data(groupYear)
@@ -128,9 +135,6 @@ function timeline() {
         svg.selectAll("rect").append("title") // adding a title for each bar
             .data(groupYear)
             .text(d => d.title);
-    
-      
-    
     
             var y = d3.scaleLinear()
             .domain([0, 10])
@@ -156,16 +160,15 @@ function timeline() {
         .attr("class", "lolilines")
 
     // Circles
-    radius = 10
+    radius = 12
     svg.selectAll("mycircle")
         .data(groupYear)
         .enter()
         .append("circle")
         .attr("cx", (d, i) => xscale(d.year))
-        .attr("cy", d => { console.log(hscale(0)); return hscale(d.freq); })
+        .attr("cy", d =>  hscale(d.freq))
         .attr("r", radius)
-        .style("fill", "#69b3a2")
-        .attr("stroke", "black")
+        .style("fill", d => cscale(Math.round(d.freq/10)))
         .attr("class", "lolicircles")
 
     svg.selectAll(".chartLineText")
@@ -173,13 +176,13 @@ function timeline() {
         .enter()
         .append('text')
         .attr("class", "chartLineText")
-        .style("color", "#000")
+        .style("fill", "white")
         .style("text-anchor", "middle")
         //.attr("transform", "translate(" + 30 + ",-2)")
         .attr("x", (d, i) => xscale(d.year))
         .text(function (d) { return Math.round(d.freq) / 10 })
-        .attr("y", function (d) { return hscale(d.freq) + radius / 2; })
-        .style("font-size", radius * 1.2 + "px");
+        .attr("y", function (d) { return hscale(d.freq) + radius / 2 - 1; })
+        .style("font-size", radius * 1.1 + "px");
 
     dispatch.on("upTimeline", (d) => { // click event
         cscale.domain([
@@ -190,22 +193,20 @@ function timeline() {
             .data(groupYear)
             .transition() // add a smooth transition
             .duration(1500)
-            .attr("x1", (d, i) => { console.log("hereee"); return xscale(d.year) })
+            .attr("x1", (d, i) =>  xscale(d.year) )
             .attr("x2", (d, i) => xscale(d.year))
             .attr("y1", d => hscale(d.freq))
             .attr("y2", hscale(0))
             .attr("stroke", "grey");
-        console.log("heree")
 
         svg.selectAll(".lolicircles") // same code, but now we only change values
             .data(groupYear)
             .transition() // add a smooth transition
             .duration(1500)
             .attr("cx", (d, i) => xscale(d.year))
-            .attr("cy", d => { console.log(hscale(0)); return hscale(d.freq); })
+            .attr("cy", d => hscale(d.freq))
             .attr("r", radius)
-            .style("fill", "#69b3a2")
-            .attr("stroke", "black")
+            .style("fill", d => cscale(Math.round(d.freq/10)))
 
         svg.selectAll(".chartLineText")
             .data(groupYear)
@@ -213,7 +214,7 @@ function timeline() {
             .duration(1500)
             .attr("x", (d, i) => xscale(d.year))
             .text(function (d) { return Math.round(d.freq) / 10 })
-            .attr("y", function (d) { return hscale(d.freq) + radius / 2; })
+            .attr("y", function (d) { return hscale(d.freq) + radius / 2 - 1; })
             .style("font-size", radius * 1.2 + "px");
         /*  xaxis.scale(d3.scaleLinear()
               .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
@@ -233,6 +234,16 @@ function timeline() {
 
 async function loadAppearances() {
     pieChart = await d3.json(`${currpath()}/pie_chart_persondetails.json`);
+    if (person) {
+        for (p in peopleDetails) {
+            pdet = peopleDetails[p]
+            if (pdet.id == person) {
+                personApp = pdet["number_of_appearances"];
+                break;
+            }
+        }
+    }
+    console.log(personApp)
     dispatch.call("upPie");
 }
 
@@ -255,7 +266,7 @@ function appearancesPie() {
 
     // set the color scale
     var color = d3.scaleOrdinal()
-        .domain([2, 6])
+        .domain([0, 10])
         .range(d3.schemeDark2);
 
     // Compute the position of each group on the pie:
@@ -388,7 +399,9 @@ function treemap() {
         width = 300 - margin.left - margin.right,
         height = window.innerHeight * (5 / 9) - margin.top - margin.bottom,
         color = d3.scaleOrdinal()
-            .range(d3.schemeDark2);
+        .domain([0, 10])
+        .range(d3.schemeDark2);
+    
 
     var svg = d3.select("#treemap")
         .append("svg")
@@ -417,7 +430,7 @@ function treemap() {
         .attr('height', function (d) { return d.y1 - d.y0; })
         .attr("stroke", "white")
         .style("stroke-width", "1px")
-        .style("fill", d => color(d.data.name))
+        .style("fill", d => color(parseInt(d.data.name)))
         .attr("id", d => `r-${d.data.name}`) // we are giving it a css style
         .attr("class", "rating-css") // we are giving it a css style
         .on("click", (d) => {
@@ -431,7 +444,7 @@ function treemap() {
         .append("text")
         .attr("x", function (d) { return d.x0 + 5 })    // +10 to adjust position (more right)
         .attr("y", function (d) { return d.y0 + 20 })    // +20 to adjust position (lower)
-        .text(function (d) { return d.data.name })
+        .text(function (d) { return `${d.data.name}.0/10` })
         //.attr("font-size", "15px")
         .attr("fill", "white")
         .style("opacity", d => d.data.size ? '1' : '0')
@@ -456,7 +469,7 @@ function treemap() {
             .attr('height', function (d) { return d.y1 - d.y0; })
             .attr("stroke", "white")
             .style("stroke-width", "1px")
-            .style("fill", d => color(d.data.name))
+            .style("fill", d => color(parseInt(d.data.name)))
 
         // and to add the text labels
         svg.selectAll("text")
@@ -465,7 +478,7 @@ function treemap() {
             .duration(1500)
             .attr("x", function (d) { return d.x0 + 5 })    // +10 to adjust position (more right)
             .attr("y", function (d) { return d.y0 + 20 })    // +20 to adjust position (lower)
-            .text(function (d) { return d.data.name })
+            .text(function (d) { return `${d.data.name}.0/10` })
             .style("opacity", d => d.data.size ? '1' : '0')
     })
 }
@@ -965,10 +978,6 @@ function dragended(d) {
 });
 
 
-var countries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Anguilla", "Antigua &amp; Barbuda", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia &amp; Herzegovina", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central Arfrican Republic", "Chad", "Chile", "China", "Colombia", "Congo", "Cook Islands", "Costa Rica", "Cote D Ivoire", "Croatia", "Cuba", "Curacao", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Falkland Islands", "Faroe Islands", "Fiji", "Finland", "France", "French Polynesia", "French West Indies", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece", "Greenland", "Grenada", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea Bissau", "Guyana", "Haiti", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Isle of Man", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauro", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "Norway", "Oman", "Pakistan", "Palau", "Palestine", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romania", "Russia", "Rwanda", "Saint Pierre &amp; Miquelon", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "St Kitts &amp; Nevis", "St Lucia", "St Vincent", "Sudan", "Suriname", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Timor L'Este", "Togo", "Tonga", "Trinidad &amp; Tobago", "Tunisia", "Turkey", "Turkmenistan", "Turks &amp; Caicos", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam", "Virgin Islands (US)", "Yemen", "Zambia", "Zimbabwe"];
-autocomplete(document.getElementById("myInput"), countries);
-
-
 function autocomplete(inp, arr) {
     /*the autocomplete function takes two arguments,
     the text field element and an array of possible autocompleted values:*/
@@ -989,23 +998,27 @@ function autocomplete(inp, arr) {
         /*for each item in the array...*/
         if (val.length < 3) return;
         for (i = 0; i < arr.length; i++) {
+            let name = arr[i].name;
+            let pid = arr[i].pid
             /*check if the item starts with the same letters as the text field value:*/
-            if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+            if (name.substr(0, val.length).toUpperCase() == val.toUpperCase()) {
                 /*create a DIV element for each matching element:*/
                 b = document.createElement("DIV");
                 /*make the matching letters bold:*/
-                b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-                b.innerHTML += arr[i].substr(val.length);
+                b.innerHTML = "<strong>" + name.substr(0, val.length) + "</strong>";
+                b.innerHTML += name.substr(val.length);
                 /*insert a input field that will hold the current array item's value:*/
-                b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                b.innerHTML += "<input type='hidden' value='" + name + "' pid='" + pid + "'>";
                 /*execute a function when someone clicks on the item value (DIV element):*/
                 b.addEventListener("click", function (e) {
+                    let id = parseInt(this.getElementsByTagName("input")[0].getAttribute("pid"))
+                    console.log(id)
                     /*insert the value for the autocomplete text field:*/
-                    inp.value = this.getElementsByTagName("input")[0].value;
+                    personName = this.getElementsByTagName("input")[0].value;
                     /*close the list of autocompleted values,
                     (or any other open lists of autocompleted values:*/
                     closeAllLists();
-                    setPerson(inp.value);
+                    setPerson(id);
                     inp.value = "";
                 });
                 a.appendChild(b);
@@ -1071,9 +1084,18 @@ function autocomplete(inp, arr) {
     });
 }
 
+async function loadGuests() {
+    peopleDetails = await d3.json(`${root}/person_details.json`);
+    //peopleDetails = await d3.json(`${root}/person_details.json`);
+    //peopleDetails = await d3.json(`${root}/person_details.json`);
+    return peopleDetails.map(a => ({
+        name: a["name"],
+pid: a["id"]}
+))
+}
 
 
-
+loadGuests().then(people => {autocomplete(document.getElementById("myInput"), people)})
 loadTimeline().then(timeline)
 loadAppearances().then(appearancesPie)
 loadTreeMap().then(treemap)
@@ -1083,15 +1105,3 @@ function updateVis() {
     loadAppearances()
     loadTreeMap()
 }
-
-function prepareSearch() {
-    var actor_names = []
-    d3.json("../Pipeline/person_details.json").then(function (person_details) {
-        person_details.forEach(function (actor) {
-            actor_names.push(actor["name"]);
-        });
-    })
-    actor_names.sort((a, b) => a.local)
-    console.log(actor_names)
-}
-prepareSearch()
