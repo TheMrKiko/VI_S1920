@@ -520,9 +520,197 @@ var width = window.innerWidth - 10;
 var height = window.innerHeight - 70;
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 
+var canvas = document.getElementsByTagName('canvas')[0]
+canvas.width = width; canvas.height = height;
+var context = canvas.getContext("2d")
 
-d3.json("network.json").then(function (graph) {
-    var nodes = graph.nodes
+    var transform = d3.zoomIdentity,
+    currentZoom;
+
+    d3.json("network.json").then(function (graph) {
+        var nodes = graph.nodes
+        var nodess = graph.nodes.map(e => parseInt(e.id))
+        var links = graph.links.map(e => {
+            return ({
+                    "source": nodess.indexOf(parseInt(e.source)),
+                    "target": nodess.indexOf(parseInt(e.target)),
+                "count": 1
+            })
+        }
+        )
+    
+        var label = {
+            'nodes': [],
+            'links': []
+        };
+    
+        graph.nodes.forEach(function (d, i) {
+            label.nodes.push({ node: d });
+            label.nodes.push({ node: d });
+            label.links.push({
+                source: i * 2,
+                target: i * 2 + 1
+            });
+        });
+        
+        var adjlist = [];
+    
+        graph.links.forEach(function (d) {
+            //console.log("qq", d, d.source)
+            adjlist[d.source + "-" + d.target] = true;
+            adjlist[d.target + "-" + d.source] = true;
+        });
+        console.log("hh", adjlist)
+        
+    
+        function neigh(a, b) {
+            return a == b || adjlist[a + "-" + b];
+        }
+
+        var simulation = d3.forceSimulation()
+                            .force("link", d3.forceLink().id(function(d) {
+                            return d.id;
+                            }))
+                            .force("charge", d3.forceManyBody())
+                            .force("center", d3.forceCenter(width / 2, height / 2));
+
+        simulation
+        .nodes(graph.nodes)
+        .on("tick", ticked);
+    
+        simulation.force("link")
+        .links(graph.links);
+
+        function ticked() {
+          context.save();
+          context.clearRect(0, 0, width, height);
+          context.translate(transform.x, transform.y);
+          context.scale(transform.k, transform.k);
+          context.beginPath();
+          graph.links.forEach(drawLink);
+          context.strokeStyle = "#c6c6c6";
+          context.stroke();
+      
+        context.fillStyle = "#4682B4";
+          context.beginPath();
+          graph.nodes.forEach(drawNode);
+          context.fill();
+          context.strokeStyle = "#fff";
+          context.stroke();
+          
+          if (selected) {
+            console.log("clsndd", closeNode)
+            context.fillStyle = "#ff0000"
+            context.beginPath();
+            drawNode(closeNode)
+            neighs.forEach(drawNode)
+            context.fill();
+            context.strokeStyle = "#ff0000";
+            context.stroke();
+            
+            context.beginPath();
+          linksNeighs.forEach(drawLink);
+          context.strokeStyle = "#ff0000";
+          context.stroke();
+
+          context.fillStyle = "rgba(220, 220, 220,1)";
+          context.beginPath();
+            notNeighs.forEach(drawNode)
+            context.fill();
+            context.strokeStyle = "rgba(220, 220, 220,1)";
+            context.stroke();
+          
+          }
+          context.restore();
+          
+        }
+
+
+  var closeNode;
+  var neighs = [];
+  var notNeighs = [];
+  var x = neigh(133047,3541)
+  var linksNeighs = []
+  var selected = false
+  //debugger
+  d3.select("canvas").on("click", function(d){
+    var p = d3.mouse(this);
+    currentZoom = transform;
+    /*
+    closeNode = simulation.find(
+    	p[0] * currentZoom.k + currentZoom.x,
+      p[1] * currentZoom.k + currentZoom.y
+     );
+     */
+     //console.lncurrentZoom)
+     var zp = transform.invert(p);
+     
+     neighs = []
+     linksNeighs = []
+     notNeighs = []
+     selected = false
+     closeNode = simulation.find(zp[0], zp[1])
+     var nodeX = closeNode.x
+     var nodeY = closeNode.y 
+     var mouseX = zp[0]
+     var mouseY = zp[1]
+     var delta = 5
+    var diffX = Math.abs(nodeX - mouseX)
+    var diffY = Math.abs(nodeY - mouseY)
+    
+     console.log("cN",closeNode)
+     if (diffX < delta && diffY < delta) {
+        //alert('clicked an element');
+        selected = true
+    }
+
+    if (selected){
+        graph.nodes.forEach(function(n) {
+            if (neigh(closeNode.id, n.id)) {
+               neighs.push(n)
+               link = {
+                   "source" : closeNode.id,
+                   "target" : n.id
+               }
+               linksNeighs.push(link)
+           }
+           else {
+               notNeighs.push(n)
+           }
+       })
+        //console.log(closeNode);
+        simulation.force("link")
+        .links(linksNeighs);
+        d3.select('#tooltip')
+            .style('opacity', 0.8)
+            .style('top', d3.event.pageY + 5 + 'px')
+            .style('left', d3.event.pageX + 5 + 'px')
+            .html(closeNode.name);
+    } else {
+        d3.select('#tooltip')
+        .style('opacity', 0)
+    }
+    
+    ticked();
+  }).call(d3.zoom().scaleExtent([2 / 10, 8]).on("zoom", zoomed));
+
+  function drawLink(d) {
+    context.moveTo(d.source.x, d.source.y);
+    context.lineTo(d.target.x, d.target.y);
+  }
+
+  function drawNode(d) {
+    context.moveTo(d.x + 3, d.y);
+    context.arc(d.x, d.y, 3, 0, 2 * Math.PI);
+  }
+  
+  function zoomed() {
+      transform = d3.event.transform;
+      ticked();
+
+  }
+});
+/*var nodes = graph.nodes
     var nodess = graph.nodes.map(e => parseInt(e.id))
     var links = graph.links.map(e => {
         return ({
@@ -698,311 +886,8 @@ d3.json("network.json").then(function (graph) {
         if (!d3.event.active) graphLayout.alphaTarget(0);
         d.fx = null;
         d.fy = null;
-    }
-    /*
-    var groups = netClustering.cluster(nodes, links);
-    debugger
-    console.log(JSON.stringify(groups))
-
-
-
-
-
-
-
-    var width = 960,     // svg width
-    height = 600,     // svg height
-    dr = 4,      // default point radius
-    off = 15,    // cluster hull offset
-    expand = {}, // expanded clusters
-    data, net, force, hullg, hull, linkg, link, nodeg, node;
-
-var curve = d3.line()
-    .curve(d3.curveBasis)
-
-
-var fill = d3.scaleOrdinal().range(d3.schemeCategory10);
-
-function noop() { return false; }
-
-function nodeid(n) {
-  return n.size ? "_g_"+n.cluster : n.name;
-}
-
-function linkid(l) {
-  var u = nodeid(l.source),
-      v = nodeid(l.target);
-  return u<v ? u+"|"+v : v+"|"+u;
-}
-
-function getGroup(n) { return n.cluster; }
-
-// constructs the network to visualize
-function network(data, prev, index, expand) {
-  expand = expand || {};
-  var gm = {},    // group map
-      nm = {},    // node map
-      lm = {},    // link map
-      gn = {},    // previous group nodes
-      gc = {},    // previous group centroids
-      nodes = [], // output nodes
-      links = []; // output links
-
-  // process previous nodes for reuse or centroid calculation
-  if (prev) {
-    prev.nodes.forEach(function(n) {
-      var i = index(n), o;
-      if (n.size > 0) {
-        gn[i] = n;
-        n.size = 0;
-      } else {
-        o = gc[i] || (gc[i] = {x:0,y:0,count:0});
-        o.x += n.x;
-        o.y += n.y;
-        o.count += 1;
-      }
-    });
-  }
-
-  // determine nodes
-  for (var k=0; k<data.nodes.length; ++k) {
-    var n = data.nodes[k],
-        i = index(n),
-        l = gm[i] || (gm[i]=gn[i]) || (gm[i]={cluster:i, size:0, nodes:[]});
-
-    if (expand[i]) {
-      // the node should be directly visible
-      nm[n.name] = nodes.length;
-      nodes.push(n);
-      if (gn[i]) {
-        // place new nodes at cluster location (plus jitter)
-        n.x = gn[i].x + Math.random();
-        n.y = gn[i].y + Math.random();
-      }
-    } else {
-      // the node is part of a collapsed cluster
-      if (l.size == 0) {
-        // if new cluster, add to set and position at centroid of leaf nodes
-        nm[i] = nodes.length;
-        nodes.push(l);
-        if (gc[i]) {
-          l.x = gc[i].x / gc[i].count;
-          l.y = gc[i].y / gc[i].count;
-        }
-      }
-      l.nodes.push(n);
-    }
-  // always count group size as we also use it to tweak the force graph strengths/distances
-    l.size += 1;
-  n.group_data = l;
-  }
-
-  for (i in gm) { gm[i].link_count = 0; }
-
-  // determine links
-  for (k=0; k<data.links.length; ++k) {
-    var e = data.links[k],
-        u = index(e.source),
-        v = index(e.target);
-  if (u != v) {
-    gm[u].link_count++;
-    gm[v].link_count++;
-  }
-    u = expand[u] ? nm[e.source.name] : nm[u];
-    v = expand[v] ? nm[e.target.name] : nm[v];
-    var i = (u<v ? u+"|"+v : v+"|"+u),
-        l = lm[i] || (lm[i] = {source:u, target:v, size:0});
-    l.size += 1;
-  }
-  for (i in lm) { links.push(lm[i]); }
-
-  return {nodes: nodes, links: links};
-}
-
-function convexHulls(nodes, index, offset) {
-  var hulls = {};
-
-  // create point sets
-  for (var k=0; k<nodes.length; ++k) {
-    var n = nodes[k];
-    if (n.size) continue;
-    var i = index(n),
-        l = hulls[i] || (hulls[i] = []);
-    l.push([n.x-offset, n.y-offset]);
-    l.push([n.x-offset, n.y+offset]);
-    l.push([n.x+offset, n.y-offset]);
-    l.push([n.x+offset, n.y+offset]);
-  }
-
-  // create convex hulls
-  var hullset = [];
-  for (i in hulls) {
-    hullset.push({cluster: i, path: d3.geom.hull(hulls[i])});
-  }
-
-  return hullset;
-}
-
-function drawCluster(d) {
-  return curve(d.path); // 0.8
-}
-
-// --------------------------------------------------------
-
-var body = d3.select("#net-container");
-
-var vis = body.append("svg")
-   .attr("width", width)
-   .attr("height", height);
-
-//d3.json("miserables.json", function(json) {
-  //data = json;
-  data = {"links": links, "nodes": nodes};
-  for (var i=0; i<data.links.length; ++i) {
-    o = data.links[i];
-    o.source = data.nodes[o.source];
-    o.target = data.nodes[o.target];
-  }
-
-  hullg = vis.append("g");
-  linkg = vis.append("g");
-  nodeg = vis.append("g");
-
-  init();
-
-  vis.attr("opacity", 1e-6)
-    .transition()
-      .duration(1000)
-      .attr("opacity", 1);
+    }*/
 //});
-
-function init() {
-  if (force) force.stop();
-
-  net = network(data, net, getGroup, expand);
-
-  force = d3.forceSimulation(net.nodes)
-      .force("link", d3.forceLink(net.links).distance(function(l, i) {
-      var n1 = l.source, n2 = l.target;
-    // larger distance for bigger groups:
-    // both between single nodes and _other_ groups (where size of own node group still counts),
-    // and between two group nodes.
-    //
-    // reduce distance for groups with very few outer links,
-    // again both in expanded and grouped form, i.e. between individual nodes of a group and
-    // nodes of another group or other group node or between two group nodes.
-    //
-    // The latter was done to keep the single-link groups ('blue', rose, ...) close.
-    return 30 +
-      Math.min(20 * Math.min((n1.size || (n1.cluster != n2.cluster ? n1.group_data.size : 0)),
-                             (n2.size || (n1.cluster != n2.cluster ? n2.group_data.size : 0))),
-           -30 +
-           30 * Math.min((n1.link_count || (n1.cluster != n2.cluster ? n1.group_data.link_count : 0)),
-                         (n2.link_count || (n1.cluster != n2.cluster ? n2.group_data.link_count : 0))),
-           100);
-      //return 150;
-    }))
-    /*.linkStrength(function(l, i) {
-    return 1;
-    })
-    .gravity(0.05)   // gravity+charge tweaked to ensure good 'grouped' view (e.g. green group not smack between blue&orange, ...
-    .charge(-600)    // ... charge is important to turn single-linked groups to the outside
-    .friction(0.5)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
-      .start();
-
-  hullg.selectAll("path.hull").remove();
-  hull = hullg.selectAll("path.hull")
-      .data(convexHulls(net.nodes, getGroup, off))
-    .enter().append("path")
-      .attr("class", "hull")
-      .attr("d", drawCluster)
-      .style("fill", function(d) { return fill(d.cluster); })
-      .on("click", function(d) {
-console.log("hull click", d, arguments, this, expand[d.cluster]);
-      expand[d.cluster] = false; init();
-    });
-
-  link = linkg.selectAll("line.link").data(net.links, linkid);
-  link.exit().remove();
-  link.enter().append("line")
-      .attr("class", "link")
-      .attr("x1", function(d) { return d.source.x; })
-      .attr("y1", function(d) { return d.source.y; })
-      .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; })
-      .style("stroke-width", function(d) { return d.size || 1; });
-
-  node = nodeg.selectAll("circle.node").data(net.nodes, nodeid);
-  node.exit().remove();
-  node.enter().append("circle")
-      // if (d.size) -- d.size > 0 when d is a group node.
-      .attr("class", function(d) { return "node" + (d.size?"":" leaf"); })
-      .attr("r", function(d) { return d.size ? d.size + dr : dr+1; })
-      .attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; })
-      .style("fill", function(d) { return fill(d.cluster); })
-      .on("click", function(d) {
-console.log("node click", d, arguments, this, expand[d.cluster]);
-        expand[d.cluster] = !expand[d.cluster];
-    init();
-      });
-
-  //node.call(force.drag);
-  node.call(
-    d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended)
-);
-
-function dragstarted(d) {
-    console.log("ds")
-
-    d3.event.sourceEvent.stopPropagation();
-    if (!d3.event.active) force.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
-}
-
-function dragged(d) {
-    console.log("d")
-    d.fx = d3.event.x;
-    d.fy = d3.event.y;
-}
-
-function dragended(d) {
-    console.log("de")
-
-    if (!d3.event.active) force.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
-}
-
-  force.on("tick", function() {
-    if (!hull.empty()) {
-      hull.data(convexHulls(net.nodes, getGroup, off))
-          .attr("d", drawCluster);
-    }
-
-    link.attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
-
-    node.attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
-  });
-}
-
-*/
-
-
-
-
-
-
-
-});
 
 
 function autocomplete(inp, arr) {

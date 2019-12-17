@@ -54,4 +54,7 @@ def freq_and_rating_by_group(person_details_table):
     # out = open("group_stats.json", "w")
     # json.dump(avg,out, indent=1)
     # out.close()
+    if len(avg) == 0:
+        for year in range(-10,11):
+            avg.append({"year": year, "freq": 0, "rating" : 0 })
     return avg

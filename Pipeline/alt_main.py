@@ -80,10 +80,8 @@ def divider():
                     json.dump(tree_map, tree, indent=1) 
                     tree.close()
 
-                    if len(filtered_table) != 0:
-                        stats = freq_and_rating_by_group(filtered_table)
-                    else:
-                        stats = []
+                    stats = freq_and_rating_by_group(filtered_table)
+
                     stats_file = open(destined_path +"/stats_freq_rating.json", "w")
                     json.dump(stats, stats_file, indent=1)
 

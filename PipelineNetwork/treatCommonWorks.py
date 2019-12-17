@@ -8,8 +8,10 @@ pd.close()
 f.close()
 
 filtered_actors = []
+names = {}
 for actor in pds_table:
     filtered_actors.append(actor["id"])
+    names[actor["id"]] = actor["name"]
 print("l",len(filtered_actors))
 
 movies = []
@@ -28,7 +30,7 @@ for m in movies:
     final["nodes"].append(info)
 '''
 for a in actors:
-    info = {"id":a, "group": 2}
+    info = {"id":a, "group": 2, "name": names[a]}
     final["nodes"].append(info)
 
 '''
