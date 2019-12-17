@@ -69,12 +69,14 @@ async function loadTimeline() {
 function timeline() {
     var w = 600;
     var h = 200;
-    var padding = 30;
+    var toppadding = 10;
+    var bottompadding = 20;
+    var padding = bottompadding + toppadding;
     var barwidth = Math.floor((w - padding * 2) / groupYear.length) - 1;
     var maxheight = h - padding;
     var hscale = d3.scaleLinear()
         .domain([0, 100])
-        .range([maxheight - 0, maxheight - maxheight]);
+        .range([maxheight + toppadding, toppadding]);
     var xscale = d3.scaleLinear()
         .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
         .range([padding, w - padding]); // we are adding our padding to our width scale
@@ -95,7 +97,7 @@ function timeline() {
         .scale(hscale) // fit to our scale
         .tickFormat(d3.format("d"));
     svg.append("g") // we are creating a 'g' element to match our yaxis
-        .attr("transform", "translate(30,0)") // 30 is the padding
+        .attr("transform", "translate(30, 0)") // 30 is the padding
         .attr("class", "yaxis") // we are giving it a css style
         .call(yaxis)
         .append("text")
@@ -110,7 +112,7 @@ function timeline() {
         .scale(xscale) // we are adding our padding
         .ticks(groupYear.length);
     svg.append("g") // we are creating a 'g' element to match our x axis
-        .attr("transform", "translate(0," + maxheight + ")")
+        .attr("transform", "translate(0," + (maxheight + toppadding) + ")")
         .attr("class", "xaxis") // we are giving it a css style
         .call(xaxis);
     /*
@@ -377,16 +379,7 @@ function appearancesPie() {
 
 
 async function loadTreeMap() {
-    //pieChart = await d3.json(`${currpath()}/pie_chart_persondetails.json`);
-    meanRatings = {
-        "name": "cluster",
-        "children": [
-            { "name": "2", "size": 19 },
-            { "name": "3", "size": 1 },
-            { "name": "4", "size": 7 },
-            { "name": "5", "size": 5 }
-        ]
-    }
+    meanRatings = await d3.json(`${currpath()}/tree_map_persondetails.json`);
     dispatch.call("upTreemap");
 }
 
@@ -405,7 +398,7 @@ function treemap() {
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-    var root = d3.hierarchy(meanRatings).sum(function (d) { return d.size }) // Here the size of each leave is given in the 'value' field in input data
+    var root = d3.hierarchy(meanRatings).sum(function (d) { return Math.pow(d.size, 0.5) }) // Here the size of each leave is given in the 'value' field in input data
 
     // Then d3.treemap computes the position of each element of the hierarchy
     d3.treemap()
@@ -439,22 +432,13 @@ function treemap() {
         .attr("x", function (d) { return d.x0 + 5 })    // +10 to adjust position (more right)
         .attr("y", function (d) { return d.y0 + 20 })    // +20 to adjust position (lower)
         .text(function (d) { return d.data.name })
-        .attr("font-size", "15px")
+        //.attr("font-size", "15px")
         .attr("fill", "white")
+        .style("opacity", d => d.data.size ? '1' : '0')
 
     // A function that create / update the plot for a given variable:
     dispatch.on("upTreemap", (d) => { // click event
-
-        meanRatings = {
-            "name": "cluster",
-            "children": [
-                { "name": "2", "size": 1 },
-                { "name": "3", "size": 7 },
-                { "name": "4", "size": 17 },
-                { "name": "5", "size": 20 }
-            ]
-        }
-        root = d3.hierarchy(meanRatings).sum(function (d) { return d.size }) // Here the size of each leave is given in the 'value' field in input data
+        root = d3.hierarchy(meanRatings).sum(function (d) { return Math.pow(d.size, 0.5) }) // Here the size of each leave is given in the 'value' field in input data
 
         // Then d3.treemap computes the position of each element of the hierarchy
         d3.treemap()
@@ -482,8 +466,7 @@ function treemap() {
             .attr("x", function (d) { return d.x0 + 5 })    // +10 to adjust position (more right)
             .attr("y", function (d) { return d.y0 + 20 })    // +20 to adjust position (lower)
             .text(function (d) { return d.data.name })
-            .attr("font-size", "15px")
-            .attr("fill", "white")
+            .style("opacity", d => d.data.size ? '1' : '0')
     })
 }
 
