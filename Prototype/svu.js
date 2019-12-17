@@ -1,4 +1,4 @@
-var gender = "all", age = "all", rating = "all", appearances = "all", person = null;
+var gender = "all", age = "all", rating = "all", appearances = "all";
 const root = "../Pipeline"
 const currpath = () => {
     console.log(`${gender} ${age} ${appearances} ${rating}`)
@@ -7,43 +7,22 @@ const currpath = () => {
 
 /* BUTTONS */
 
-function setGender(newGender, update = true) {
-    gender = setFilter("gender", newGender, gender, undefined, !update);
-    if (update) updateVis();
+function setGender(newGender) {
+    gender = setFilter("gender", newGender, gender);
+    updateVis();
 }
 
-function setAge(newAge, update = true) {
-    age = setFilter("age", newAge, age, undefined, !update);
-    if (update) updateVis();
+function setAge(newAge) {
+    age = setFilter("age", newAge, age);
+    updateVis();
 }
 
-function setAppearances(newApp, update = true) {
-    appearances = setFilter("appearances-css", newApp, appearances, "a-", !update);
-    if (update) updateVis();
+function setAppearances(newApp) {
+    appearances = setFilter("appearances-css", newApp, appearances);
+    updateVis();
 }
 
-function setRating(newRating, update = true) {
-    rating = setFilter("rating-css", newRating, rating, "r-", !update);
-    if (update) updateVis();
-}
-
-function setPerson(newPerson, update = true) {
-    person = newPerson;
-    if (!person) {
-        document.getElementById("selected-person-txt").innerHTML = "None selected";
-        document.getElementById("selected-person").classList.toggle("active", false);
-    } else {
-        document.getElementById("selected-person-txt").innerHTML = person;
-        document.getElementById("selected-person").classList.toggle("active", true);
-        setGender('all', false);
-        setAge('all', false);
-        setAppearances('all', false);
-        setRating('all', false);
-    }
-    if (update) updateVis();
-}
-
-function setFilter(className, newV, currV, more = "", inchain = false) {
+function setFilter(className, newV, currV) {
     let value = newV == currV ? "all" : newV;
     let els = document.getElementsByClassName(className);
 
@@ -51,8 +30,7 @@ function setFilter(className, newV, currV, more = "", inchain = false) {
         el.classList.toggle("active", false)
     })
     if (value != "all")
-        document.getElementById(`${more}${value}`).classList.toggle("active", true);
-    if (!inchain) setPerson(null, false);
+        document.getElementById(value).classList.toggle("active", true);
     return value;
 }
 
@@ -113,71 +91,71 @@ function timeline() {
         .attr("transform", "translate(0," + maxheight + ")")
         .attr("class", "xaxis") // we are giving it a css style
         .call(xaxis);
-    /*
-        svg.selectAll("rect")
-            .data(groupYear)
-            .enter().append("rect")
-            .attr("width", Math.floor((w - padding * 2) / groupYear.length) - 1)
-            .attr("height", d => maxheight - hscale(d.rating)) // this was inverted
-            .attr("fill", (d, i) => cscale(d.freq)) // fill chosen by scale
-            .attr("x", (d, i) => xscale(i))
-            .attr("y", d => hscale(d.rating)); // this was inverted
-    
-        svg.selectAll("rect").append("title") // adding a title for each bar
-            .data(groupYear)
-            .text(d => d.title);
-    
-      
-    
-    
-            var y = d3.scaleLinear()
-            .domain([0, 10])
-            .range([ maxheight - 0, maxheight - maxheight]);
-    svg.append("g")
-      .call(d3.axisRight(y))
-      .attr("transform", "translate(" + (w - padding) + ",0)")
-      .append("text")
-      .attr("transform", "rotate(-90)")
-      .style("text-anchor", "end")
-      .style("fill", "black")
-      .text("Work Frequency");*/
-    // Lines
-    svg.selectAll("myline")
+/*
+    svg.selectAll("rect")
         .data(groupYear)
-        .enter()
-        .append("line")
-        .attr("x1", (d, i) => xscale(d.year))
-        .attr("x2", (d, i) => xscale(d.year))
-        .attr("y1", d => hscale(d.freq))
-        .attr("y2", hscale(0))
-        .attr("stroke", "grey")
-        .attr("class", "lolilines")
+        .enter().append("rect")
+        .attr("width", Math.floor((w - padding * 2) / groupYear.length) - 1)
+        .attr("height", d => maxheight - hscale(d.rating)) // this was inverted
+        .attr("fill", (d, i) => cscale(d.freq)) // fill chosen by scale
+        .attr("x", (d, i) => xscale(i))
+        .attr("y", d => hscale(d.rating)); // this was inverted
 
-    // Circles
-    radius = 10
-    svg.selectAll("mycircle")
+    svg.selectAll("rect").append("title") // adding a title for each bar
         .data(groupYear)
-        .enter()
-        .append("circle")
-        .attr("cx", (d, i) => xscale(d.year))
-        .attr("cy", d => { console.log(hscale(0)); return hscale(d.freq); })
-        .attr("r", radius)
-        .style("fill", "#69b3a2")
-        .attr("stroke", "black")
-        .attr("class", "lolicircles")
+        .text(d => d.title);
+
+  
+
+
+        var y = d3.scaleLinear()
+        .domain([0, 10])
+        .range([ maxheight - 0, maxheight - maxheight]);
+svg.append("g")
+  .call(d3.axisRight(y))
+  .attr("transform", "translate(" + (w - padding) + ",0)")
+  .append("text")
+  .attr("transform", "rotate(-90)")
+  .style("text-anchor", "end")
+  .style("fill", "black")
+  .text("Work Frequency");*/
+    // Lines
+svg.selectAll("myline")
+  .data(groupYear)
+  .enter()
+  .append("line")
+    .attr("x1", (d, i) => xscale(d.year))
+    .attr("x2", (d, i) => xscale(d.year))
+    .attr("y1", d => hscale(d.freq))
+    .attr("y2", hscale(0))
+    .attr("stroke", "grey")
+    .attr("class", "lolilines")
+
+// Circles
+radius = 10
+svg.selectAll("mycircle")
+  .data(groupYear)
+  .enter()
+  .append("circle")
+    .attr("cx", (d, i) => xscale(d.year))
+    .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
+    .attr("r", radius)
+    .style("fill", "#69b3a2")
+    .attr("stroke", "black")
+    .attr("class", "lolicircles")
 
     svg.selectAll(".chartLineText")
-        .data(groupYear)
-        .enter()
-        .append('text')
-        .attr("class", "chartLineText")
-        .style("color", "#000")
-        .style("text-anchor", "middle")
-        //.attr("transform", "translate(" + 30 + ",-2)")
-        .attr("x", (d, i) => xscale(d.year))
-        .text(function (d) { return Math.round(d.freq) / 10 })
-        .attr("y", function (d) { return hscale(d.freq) + radius / 2; })
-        .style("font-size", radius * 1.2 + "px");
+    .data(groupYear)
+    .enter()
+    .append('text')
+    .attr("class", "chartLineText")
+    .style("color", "#000")
+    .style("text-anchor", "middle")
+    //.attr("transform", "translate(" + 30 + ",-2)")
+    .attr("x", (d, i) => xscale(d.year))
+    .text(function (d) { return Math.round(d.freq)/10 })
+    .attr("y", function (d) { return hscale(d.freq)+radius/2; })
+    .style("font-size", radius*1.2+"px");
 
     dispatch.on("upTimeline", (d) => { // click event
         cscale.domain([
@@ -185,14 +163,14 @@ function timeline() {
             d3.max(groupYear, d => d.freq)
         ])
         svg.selectAll(".lolilines") // same code, but now we only change values
-            .data(groupYear)
-            .transition() // add a smooth transition
-            .duration(1500)
-            .attr("x1", (d, i) => { console.log("hereee"); return xscale(d.year) })
-            .attr("x2", (d, i) => xscale(d.year))
-            .attr("y1", d => hscale(d.freq))
-            .attr("y2", hscale(0))
-            .attr("stroke", "grey");
+        .data(groupYear)
+        .transition() // add a smooth transition
+        .duration(1500)
+        .attr("x1", (d, i) => {console.log("hereee"); return xscale(d.year)})
+        .attr("x2", (d, i) => xscale(d.year))
+        .attr("y1", d => hscale(d.freq))
+        .attr("y2", hscale(0))
+        .attr("stroke", "grey");
         console.log("heree")
 
         svg.selectAll(".lolicircles") // same code, but now we only change values
@@ -200,25 +178,25 @@ function timeline() {
             .transition() // add a smooth transition
             .duration(1500)
             .attr("cx", (d, i) => xscale(d.year))
-            .attr("cy", d => { console.log(hscale(0)); return hscale(d.freq); })
+            .attr("cy", d =>{console.log( hscale(0)); return hscale(d.freq);})
             .attr("r", radius)
             .style("fill", "#69b3a2")
             .attr("stroke", "black")
 
-        svg.selectAll(".chartLineText")
+            svg.selectAll(".chartLineText")
             .data(groupYear)
             .transition()
             .duration(1500)
             .attr("x", (d, i) => xscale(d.year))
-            .text(function (d) { return Math.round(d.freq) / 10 })
-            .attr("y", function (d) { return hscale(d.freq) + radius / 2; })
-            .style("font-size", radius * 1.2 + "px");
-        /*  xaxis.scale(d3.scaleLinear()
-              .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
-              // values from movies' years
-              .range([padding + barwidth / 2, w - padding - barwidth / 2])) // we are adding our padding
-          d3.select(".xaxis")
-              .call(xaxis);*/
+            .text(function (d) { return Math.round(d.freq)/10 })
+            .attr("y", function (d) { return hscale(d.freq)+radius/2; })
+            .style("font-size", radius*1.2+"px");
+      /*  xaxis.scale(d3.scaleLinear()
+            .domain([groupYear[0].year, groupYear[groupYear.length - 1].year])
+            // values from movies' years
+            .range([padding + barwidth / 2, w - padding - barwidth / 2])) // we are adding our padding
+        d3.select(".xaxis")
+            .call(xaxis);*/
     });
 }
 
@@ -282,7 +260,7 @@ function appearancesPie() {
         .attr('fill', d => color(d.data.key))
         .attr("stroke", "white")
         .style("stroke-width", "2px")
-        .attr("id", d => `a-${d.data.key}`) // we are giving it a css style
+        .attr("id", d => `${d.data.key}`) // we are giving it a css style
         .attr("class", "appearances-css") // we are giving it a css style
         .on("click", (d) => {
             setAppearances(`${d.data.key}`)
@@ -352,7 +330,6 @@ function appearancesPie() {
                 posC[0] = radius * 0.95 * (midangle < Math.PI ? 1 : -1); // multiply by 1 or -1 to put it on the right or on the left
                 return [posA, posB, posC]
             })
-            .style('opacity', d => d.data.value ? 1 : 0)
 
         // Add the polylines between chart and labels:
         svg.selectAll('text')
@@ -365,7 +342,6 @@ function appearancesPie() {
                 pos[0] = radius * 0.99 * (midangle < Math.PI ? 1 : -1);
                 return 'translate(' + pos + ')';
             })
-            .style('opacity', d => d.data.value ? 1 : 0)
             .style('text-anchor', d => {
                 var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2
                 return (midangle < Math.PI ? 'start' : 'end')
@@ -391,9 +367,9 @@ async function loadTreeMap() {
 }
 
 function treemap() {
-    const margin = { top: 10, right: 10, bottom: 10, left: 10 },
+    const margin = { top: 40, right: 10, bottom: 10, left: 10 },
         width = 300 - margin.left - margin.right,
-        height = window.innerHeight * (5 / 9) - margin.top - margin.bottom,
+        height = window.innerHeight * (2 / 3) - margin.top - margin.bottom,
         color = d3.scaleOrdinal()
             .range(d3.schemeDark2);
 
@@ -425,11 +401,6 @@ function treemap() {
         .attr("stroke", "white")
         .style("stroke-width", "1px")
         .style("fill", d => color(d.data.name))
-        .attr("id", d => `r-${d.data.name}`) // we are giving it a css style
-        .attr("class", "rating-css") // we are giving it a css style
-        .on("click", (d) => {
-            setRating(`${d.data.name}`)
-        })
 
     // and to add the text labels
     svg.selectAll("text")
@@ -497,9 +468,197 @@ var width = window.innerWidth - 10;
 var height = window.innerHeight - 70;
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 
+var canvas = document.getElementsByTagName('canvas')[0]
+canvas.width = width; canvas.height = height;
+var context = canvas.getContext("2d")
 
-d3.json("network.json").then(function (graph) {
-    var nodes = graph.nodes
+    var transform = d3.zoomIdentity,
+    currentZoom;
+
+    d3.json("network.json").then(function (graph) {
+        var nodes = graph.nodes
+        var nodess = graph.nodes.map(e => parseInt(e.id))
+        var links = graph.links.map(e => {
+            return ({
+                    "source": nodess.indexOf(parseInt(e.source)),
+                    "target": nodess.indexOf(parseInt(e.target)),
+                "count": 1
+            })
+        }
+        )
+    
+        var label = {
+            'nodes': [],
+            'links': []
+        };
+    
+        graph.nodes.forEach(function (d, i) {
+            label.nodes.push({ node: d });
+            label.nodes.push({ node: d });
+            label.links.push({
+                source: i * 2,
+                target: i * 2 + 1
+            });
+        });
+        
+        var adjlist = [];
+    
+        graph.links.forEach(function (d) {
+            //console.log("qq", d, d.source)
+            adjlist[d.source + "-" + d.target] = true;
+            adjlist[d.target + "-" + d.source] = true;
+        });
+        console.log("hh", adjlist)
+        
+    
+        function neigh(a, b) {
+            return a == b || adjlist[a + "-" + b];
+        }
+
+        var simulation = d3.forceSimulation()
+                            .force("link", d3.forceLink().id(function(d) {
+                            return d.id;
+                            }))
+                            .force("charge", d3.forceManyBody())
+                            .force("center", d3.forceCenter(width / 2, height / 2));
+
+        simulation
+        .nodes(graph.nodes)
+        .on("tick", ticked);
+    
+        simulation.force("link")
+        .links(graph.links);
+
+        function ticked() {
+          context.save();
+          context.clearRect(0, 0, width, height);
+          context.translate(transform.x, transform.y);
+          context.scale(transform.k, transform.k);
+          context.beginPath();
+          graph.links.forEach(drawLink);
+          context.strokeStyle = "#c6c6c6";
+          context.stroke();
+      
+        context.fillStyle = "#4682B4";
+          context.beginPath();
+          graph.nodes.forEach(drawNode);
+          context.fill();
+          context.strokeStyle = "#fff";
+          context.stroke();
+          
+          if (selected) {
+            console.log("clsndd", closeNode)
+            context.fillStyle = "#ff0000"
+            context.beginPath();
+            drawNode(closeNode)
+            neighs.forEach(drawNode)
+            context.fill();
+            context.strokeStyle = "#ff0000";
+            context.stroke();
+            
+            context.beginPath();
+          linksNeighs.forEach(drawLink);
+          context.strokeStyle = "#ff0000";
+          context.stroke();
+
+          context.fillStyle = "rgba(220, 220, 220,1)";
+          context.beginPath();
+            notNeighs.forEach(drawNode)
+            context.fill();
+            context.strokeStyle = "rgba(220, 220, 220,1)";
+            context.stroke();
+          
+          }
+          context.restore();
+          
+        }
+
+
+  var closeNode;
+  var neighs = [];
+  var notNeighs = [];
+  var x = neigh(133047,3541)
+  var linksNeighs = []
+  var selected = false
+  //debugger
+  d3.select("canvas").on("click", function(d){
+    var p = d3.mouse(this);
+    currentZoom = transform;
+    /*
+    closeNode = simulation.find(
+    	p[0] * currentZoom.k + currentZoom.x,
+      p[1] * currentZoom.k + currentZoom.y
+     );
+     */
+     //console.lncurrentZoom)
+     var zp = transform.invert(p);
+     
+     neighs = []
+     linksNeighs = []
+     notNeighs = []
+     selected = false
+     closeNode = simulation.find(zp[0], zp[1])
+     var nodeX = closeNode.x
+     var nodeY = closeNode.y 
+     var mouseX = zp[0]
+     var mouseY = zp[1]
+     var delta = 5
+    var diffX = Math.abs(nodeX - mouseX)
+    var diffY = Math.abs(nodeY - mouseY)
+    
+     console.log("cN",closeNode)
+     if (diffX < delta && diffY < delta) {
+        //alert('clicked an element');
+        selected = true
+    }
+
+    if (selected){
+        graph.nodes.forEach(function(n) {
+            if (neigh(closeNode.id, n.id)) {
+               neighs.push(n)
+               link = {
+                   "source" : closeNode.id,
+                   "target" : n.id
+               }
+               linksNeighs.push(link)
+           }
+           else {
+               notNeighs.push(n)
+           }
+       })
+        //console.log(closeNode);
+        simulation.force("link")
+        .links(linksNeighs);
+        d3.select('#tooltip')
+            .style('opacity', 0.8)
+            .style('top', d3.event.pageY + 5 + 'px')
+            .style('left', d3.event.pageX + 5 + 'px')
+            .html(closeNode.name);
+    } else {
+        d3.select('#tooltip')
+        .style('opacity', 0)
+    }
+    
+    ticked();
+  }).call(d3.zoom().scaleExtent([2 / 10, 8]).on("zoom", zoomed));
+
+  function drawLink(d) {
+    context.moveTo(d.source.x, d.source.y);
+    context.lineTo(d.target.x, d.target.y);
+  }
+
+  function drawNode(d) {
+    context.moveTo(d.x + 3, d.y);
+    context.arc(d.x, d.y, 3, 0, 2 * Math.PI);
+  }
+  
+  function zoomed() {
+      transform = d3.event.transform;
+      ticked();
+
+  }
+});
+/*var nodes = graph.nodes
     var nodess = graph.nodes.map(e => parseInt(e.id))
     var links = graph.links.map(e => {
         return ({
@@ -675,418 +834,8 @@ d3.json("network.json").then(function (graph) {
         if (!d3.event.active) graphLayout.alphaTarget(0);
         d.fx = null;
         d.fy = null;
-    }
-    /*
-    var groups = netClustering.cluster(nodes, links);
-    debugger
-    console.log(JSON.stringify(groups))
-
-
-
-
-
-
-
-    var width = 960,     // svg width
-    height = 600,     // svg height
-    dr = 4,      // default point radius
-    off = 15,    // cluster hull offset
-    expand = {}, // expanded clusters
-    data, net, force, hullg, hull, linkg, link, nodeg, node;
-
-var curve = d3.line()
-    .curve(d3.curveBasis)
-
-
-var fill = d3.scaleOrdinal().range(d3.schemeCategory10);
-
-function noop() { return false; }
-
-function nodeid(n) {
-  return n.size ? "_g_"+n.cluster : n.name;
-}
-
-function linkid(l) {
-  var u = nodeid(l.source),
-      v = nodeid(l.target);
-  return u<v ? u+"|"+v : v+"|"+u;
-}
-
-function getGroup(n) { return n.cluster; }
-
-// constructs the network to visualize
-function network(data, prev, index, expand) {
-  expand = expand || {};
-  var gm = {},    // group map
-      nm = {},    // node map
-      lm = {},    // link map
-      gn = {},    // previous group nodes
-      gc = {},    // previous group centroids
-      nodes = [], // output nodes
-      links = []; // output links
-
-  // process previous nodes for reuse or centroid calculation
-  if (prev) {
-    prev.nodes.forEach(function(n) {
-      var i = index(n), o;
-      if (n.size > 0) {
-        gn[i] = n;
-        n.size = 0;
-      } else {
-        o = gc[i] || (gc[i] = {x:0,y:0,count:0});
-        o.x += n.x;
-        o.y += n.y;
-        o.count += 1;
-      }
-    });
-  }
-
-  // determine nodes
-  for (var k=0; k<data.nodes.length; ++k) {
-    var n = data.nodes[k],
-        i = index(n),
-        l = gm[i] || (gm[i]=gn[i]) || (gm[i]={cluster:i, size:0, nodes:[]});
-
-    if (expand[i]) {
-      // the node should be directly visible
-      nm[n.name] = nodes.length;
-      nodes.push(n);
-      if (gn[i]) {
-        // place new nodes at cluster location (plus jitter)
-        n.x = gn[i].x + Math.random();
-        n.y = gn[i].y + Math.random();
-      }
-    } else {
-      // the node is part of a collapsed cluster
-      if (l.size == 0) {
-        // if new cluster, add to set and position at centroid of leaf nodes
-        nm[i] = nodes.length;
-        nodes.push(l);
-        if (gc[i]) {
-          l.x = gc[i].x / gc[i].count;
-          l.y = gc[i].y / gc[i].count;
-        }
-      }
-      l.nodes.push(n);
-    }
-  // always count group size as we also use it to tweak the force graph strengths/distances
-    l.size += 1;
-  n.group_data = l;
-  }
-
-  for (i in gm) { gm[i].link_count = 0; }
-
-  // determine links
-  for (k=0; k<data.links.length; ++k) {
-    var e = data.links[k],
-        u = index(e.source),
-        v = index(e.target);
-  if (u != v) {
-    gm[u].link_count++;
-    gm[v].link_count++;
-  }
-    u = expand[u] ? nm[e.source.name] : nm[u];
-    v = expand[v] ? nm[e.target.name] : nm[v];
-    var i = (u<v ? u+"|"+v : v+"|"+u),
-        l = lm[i] || (lm[i] = {source:u, target:v, size:0});
-    l.size += 1;
-  }
-  for (i in lm) { links.push(lm[i]); }
-
-  return {nodes: nodes, links: links};
-}
-
-function convexHulls(nodes, index, offset) {
-  var hulls = {};
-
-  // create point sets
-  for (var k=0; k<nodes.length; ++k) {
-    var n = nodes[k];
-    if (n.size) continue;
-    var i = index(n),
-        l = hulls[i] || (hulls[i] = []);
-    l.push([n.x-offset, n.y-offset]);
-    l.push([n.x-offset, n.y+offset]);
-    l.push([n.x+offset, n.y-offset]);
-    l.push([n.x+offset, n.y+offset]);
-  }
-
-  // create convex hulls
-  var hullset = [];
-  for (i in hulls) {
-    hullset.push({cluster: i, path: d3.geom.hull(hulls[i])});
-  }
-
-  return hullset;
-}
-
-function drawCluster(d) {
-  return curve(d.path); // 0.8
-}
-
-// --------------------------------------------------------
-
-var body = d3.select("#net-container");
-
-var vis = body.append("svg")
-   .attr("width", width)
-   .attr("height", height);
-
-//d3.json("miserables.json", function(json) {
-  //data = json;
-  data = {"links": links, "nodes": nodes};
-  for (var i=0; i<data.links.length; ++i) {
-    o = data.links[i];
-    o.source = data.nodes[o.source];
-    o.target = data.nodes[o.target];
-  }
-
-  hullg = vis.append("g");
-  linkg = vis.append("g");
-  nodeg = vis.append("g");
-
-  init();
-
-  vis.attr("opacity", 1e-6)
-    .transition()
-      .duration(1000)
-      .attr("opacity", 1);
+    }*/
 //});
-
-function init() {
-  if (force) force.stop();
-
-  net = network(data, net, getGroup, expand);
-
-  force = d3.forceSimulation(net.nodes)
-      .force("link", d3.forceLink(net.links).distance(function(l, i) {
-      var n1 = l.source, n2 = l.target;
-    // larger distance for bigger groups:
-    // both between single nodes and _other_ groups (where size of own node group still counts),
-    // and between two group nodes.
-    //
-    // reduce distance for groups with very few outer links,
-    // again both in expanded and grouped form, i.e. between individual nodes of a group and
-    // nodes of another group or other group node or between two group nodes.
-    //
-    // The latter was done to keep the single-link groups ('blue', rose, ...) close.
-    return 30 +
-      Math.min(20 * Math.min((n1.size || (n1.cluster != n2.cluster ? n1.group_data.size : 0)),
-                             (n2.size || (n1.cluster != n2.cluster ? n2.group_data.size : 0))),
-           -30 +
-           30 * Math.min((n1.link_count || (n1.cluster != n2.cluster ? n1.group_data.link_count : 0)),
-                         (n2.link_count || (n1.cluster != n2.cluster ? n2.group_data.link_count : 0))),
-           100);
-      //return 150;
-    }))
-    /*.linkStrength(function(l, i) {
-    return 1;
-    })
-    .gravity(0.05)   // gravity+charge tweaked to ensure good 'grouped' view (e.g. green group not smack between blue&orange, ...
-    .charge(-600)    // ... charge is important to turn single-linked groups to the outside
-    .friction(0.5)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
-      .start();
-
-  hullg.selectAll("path.hull").remove();
-  hull = hullg.selectAll("path.hull")
-      .data(convexHulls(net.nodes, getGroup, off))
-    .enter().append("path")
-      .attr("class", "hull")
-      .attr("d", drawCluster)
-      .style("fill", function(d) { return fill(d.cluster); })
-      .on("click", function(d) {
-console.log("hull click", d, arguments, this, expand[d.cluster]);
-      expand[d.cluster] = false; init();
-    });
-
-  link = linkg.selectAll("line.link").data(net.links, linkid);
-  link.exit().remove();
-  link.enter().append("line")
-      .attr("class", "link")
-      .attr("x1", function(d) { return d.source.x; })
-      .attr("y1", function(d) { return d.source.y; })
-      .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; })
-      .style("stroke-width", function(d) { return d.size || 1; });
-
-  node = nodeg.selectAll("circle.node").data(net.nodes, nodeid);
-  node.exit().remove();
-  node.enter().append("circle")
-      // if (d.size) -- d.size > 0 when d is a group node.
-      .attr("class", function(d) { return "node" + (d.size?"":" leaf"); })
-      .attr("r", function(d) { return d.size ? d.size + dr : dr+1; })
-      .attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; })
-      .style("fill", function(d) { return fill(d.cluster); })
-      .on("click", function(d) {
-console.log("node click", d, arguments, this, expand[d.cluster]);
-        expand[d.cluster] = !expand[d.cluster];
-    init();
-      });
-
-  //node.call(force.drag);
-  node.call(
-    d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended)
-);
-
-function dragstarted(d) {
-    console.log("ds")
-
-    d3.event.sourceEvent.stopPropagation();
-    if (!d3.event.active) force.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
-}
-
-function dragged(d) {
-    console.log("d")
-    d.fx = d3.event.x;
-    d.fy = d3.event.y;
-}
-
-function dragended(d) {
-    console.log("de")
-
-    if (!d3.event.active) force.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
-}
-
-  force.on("tick", function() {
-    if (!hull.empty()) {
-      hull.data(convexHulls(net.nodes, getGroup, off))
-          .attr("d", drawCluster);
-    }
-
-    link.attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
-
-    node.attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
-  });
-}
-
-*/
-
-
-
-
-
-
-
-});
-
-
-var countries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Anguilla", "Antigua &amp; Barbuda", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia &amp; Herzegovina", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central Arfrican Republic", "Chad", "Chile", "China", "Colombia", "Congo", "Cook Islands", "Costa Rica", "Cote D Ivoire", "Croatia", "Cuba", "Curacao", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Falkland Islands", "Faroe Islands", "Fiji", "Finland", "France", "French Polynesia", "French West Indies", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece", "Greenland", "Grenada", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea Bissau", "Guyana", "Haiti", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Isle of Man", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauro", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "Norway", "Oman", "Pakistan", "Palau", "Palestine", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romania", "Russia", "Rwanda", "Saint Pierre &amp; Miquelon", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "St Kitts &amp; Nevis", "St Lucia", "St Vincent", "Sudan", "Suriname", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Timor L'Este", "Togo", "Tonga", "Trinidad &amp; Tobago", "Tunisia", "Turkey", "Turkmenistan", "Turks &amp; Caicos", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam", "Virgin Islands (US)", "Yemen", "Zambia", "Zimbabwe"];
-autocomplete(document.getElementById("myInput"), countries);
-
-
-function autocomplete(inp, arr) {
-    /*the autocomplete function takes two arguments,
-    the text field element and an array of possible autocompleted values:*/
-    var currentFocus;
-    /*execute a function when someone writes in the text field:*/
-    inp.addEventListener("input", function (e) {
-        var a, b, i, val = this.value;
-        /*close any already open lists of autocompleted values*/
-        closeAllLists();
-        if (!val) { return false; }
-        currentFocus = -1;
-        /*create a DIV element that will contain the items (values):*/
-        a = document.createElement("DIV");
-        a.setAttribute("id", this.id + "autocomplete-list");
-        a.setAttribute("class", "autocomplete-items");
-        /*append the DIV element as a child of the autocomplete container:*/
-        this.parentNode.appendChild(a);
-        /*for each item in the array...*/
-        if (val.length < 3) return;
-        for (i = 0; i < arr.length; i++) {
-            /*check if the item starts with the same letters as the text field value:*/
-            if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
-                /*create a DIV element for each matching element:*/
-                b = document.createElement("DIV");
-                /*make the matching letters bold:*/
-                b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-                b.innerHTML += arr[i].substr(val.length);
-                /*insert a input field that will hold the current array item's value:*/
-                b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
-                /*execute a function when someone clicks on the item value (DIV element):*/
-                b.addEventListener("click", function (e) {
-                    /*insert the value for the autocomplete text field:*/
-                    inp.value = this.getElementsByTagName("input")[0].value;
-                    /*close the list of autocompleted values,
-                    (or any other open lists of autocompleted values:*/
-                    closeAllLists();
-                    setPerson(inp.value);
-                    inp.value = "";
-                });
-                a.appendChild(b);
-            }
-        }
-    });
-    document.getElementById("selected-person").addEventListener("click", () => setPerson(null));
-    /*execute a function presses a key on the keyboard:*/
-    inp.addEventListener("keydown", function (e) {
-        var x = document.getElementById(this.id + "autocomplete-list");
-        if (x) x = x.getElementsByTagName("div");
-        if (e.keyCode == 40) {
-            /*If the arrow DOWN key is pressed,
-            increase the currentFocus variable:*/
-            currentFocus++;
-            /*and and make the current item more visible:*/
-            addActive(x);
-        } else if (e.keyCode == 38) { //up
-            /*If the arrow UP key is pressed,
-            decrease the currentFocus variable:*/
-            currentFocus--;
-            /*and and make the current item more visible:*/
-            addActive(x);
-        } else if (e.keyCode == 13) {
-            /*If the ENTER key is pressed, prevent the form from being submitted,*/
-            e.preventDefault();
-            if (currentFocus > -1) {
-                /*and simulate a click on the "active" item:*/
-                if (x) x[currentFocus].click();
-            }
-        }
-    });
-    function addActive(x) {
-        /*a function to classify an item as "active":*/
-        if (!x) return false;
-        /*start by removing the "active" class on all items:*/
-        removeActive(x);
-        if (currentFocus >= x.length) currentFocus = 0;
-        if (currentFocus < 0) currentFocus = (x.length - 1);
-        /*add class "autocomplete-active":*/
-        x[currentFocus].classList.add("autocomplete-active");
-    }
-    function removeActive(x) {
-        /*a function to remove the "active" class from all autocomplete items:*/
-        for (var i = 0; i < x.length; i++) {
-            x[i].classList.remove("autocomplete-active");
-        }
-    }
-    function closeAllLists(elmnt) {
-        /*close all autocomplete lists in the document,
-        except the one passed as an argument:*/
-        var x = document.getElementsByClassName("autocomplete-items");
-        for (var i = 0; i < x.length; i++) {
-            if (elmnt != x[i] && elmnt != inp) {
-                x[i].parentNode.removeChild(x[i]);
-            }
-        }
-    }
-
-    /*execute a function when someone clicks in the document:*/
-    document.addEventListener("click", function (e) {
-        closeAllLists(e.target);
-    });
-}
 
 
 
@@ -1104,7 +853,7 @@ function updateVis() {
 function prepareSearch() {
     var actor_names = []
     d3.json("../Pipeline/person_details.json").then(function (person_details) {
-        person_details.forEach(function (actor) {
+        person_details.forEach(function(actor) {
             actor_names.push(actor["name"]);
         });
     })
